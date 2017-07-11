@@ -148,9 +148,24 @@ a.page-anchor {
 
 $ps-height:100vh;
 $ps-width:100vw;
+$ps-transition:1s;
+$ps-transition-style:ease-in;
 
 body {
   overflow:hidden;
+}
+
+.arcade-content {
+  width:$ps-width;
+  height:$ps-height;
+  position:relative;
+  .push-center-center {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+  }
 }
 
 main {
@@ -163,7 +178,9 @@ main {
   background-color:green;
   overflow:visible;
   #active, #left, #right, #bottom, #top {
-    transition:all 1s ease;
+    transition:all $ps-transition $ps-transition-style;
+    margin:0;
+    padding:0;
   }
   #active {
     position:absolute;
@@ -172,6 +189,10 @@ main {
     width:$ps-width;
     height:$ps-height;
     background-color:pink;
+    opacity:1;
+    a, a:visited, a:hover, a:active {
+      color:black !important;
+    }
   }
   #left {
     position:absolute;
@@ -183,6 +204,9 @@ main {
     width:$ps-width;
     height:$ps-height;
     background-color:yellow;
+    a, a:visited, a:hover, a:active {
+      color:black !important;
+    }
     &:target {
       transform:translateX(0);
     }
@@ -192,6 +216,9 @@ main {
     width:$ps-width;
     height:$ps-height;
     background-color:orange;
+    a, a:visited, a:hover, a:active {
+      color:black !important;
+    }
     &:target {
       transform:translateX(0);
     }
@@ -206,6 +233,10 @@ main {
     width:$ps-width;
     height:$ps-height;
     background-color:red;
+    color:white !important;
+    a, a:visited, a:hover, a:active {
+      color:white !important;
+    }
     &:target {
       transform:translateY(0);
     }
@@ -217,6 +248,10 @@ main {
     width:$ps-width;
     height:$ps-height;
     background-color:blue;
+    color:white !important;
+    a, a:visited, a:hover, a:active {
+      color:white !important;
+    }
     &:target {
       top:0;
     }
@@ -232,6 +267,7 @@ main {
       width:$ps-width;
       height:$ps-height;
       background-color:pink;
+      opacity:1;
     }
     #left {
       position:absolute;
@@ -270,4 +306,8 @@ main {
       background-color:blue;
     }
   }
+}
+
+.hidden {
+  opacity:0;
 }

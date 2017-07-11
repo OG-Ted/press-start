@@ -5,19 +5,34 @@ $(document).ready(function() {
     prevUrl = prevPage.attr("href")
 
     function leftArrowPressed() {
-      window.location = '#right'
+      window.location = '#right';
+      $("#active").css({
+        "opacity": "0"
+      });
     }
     function rightArrowPressed() {
-      window.location = '#left'
+      window.location = '#left';
+      $("#active").css({
+        "opacity": "0"
+      });
     }
     function upArrowPressed() {
-      window.location = '#bottom'
+      window.location = '#bottom';
+      $("#active").css({
+        "opacity": "0"
+      });
     }
     function downArrowPressed() {
-      window.location = '#top'
+      window.location = '#top';
+      $("#active").css({
+        "opacity": "0"
+      });
     }
     function spaceBarPressed() {
-      window.location = '#home'
+      window.location = '#home';
+      $("#active").css({
+        "opacity": "1"
+      });
     }
 
     document.onkeydown = function(evt) {
