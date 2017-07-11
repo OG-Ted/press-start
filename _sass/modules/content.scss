@@ -141,3 +141,133 @@ a.page-anchor {
     top: -100px;
     visibility: hidden;
 }
+
+// #####################################
+// arcade display
+// #####################################
+
+$ps-height:100vh;
+$ps-width:100vw;
+
+body {
+  overflow:hidden;
+}
+
+main {
+  width:$ps-width;
+  height:$ps-height;
+  position:fixed;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  background-color:green;
+  overflow:visible;
+  #active, #left, #right, #bottom, #top {
+    transition:all 1s ease;
+  }
+  #active {
+    position:absolute;
+    top:0;
+    left:0;
+    width:$ps-width;
+    height:$ps-height;
+    background-color:pink;
+  }
+  #left {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    transform:translateX(0-($ps-width));
+    width:$ps-width;
+    height:$ps-height;
+    background-color:yellow;
+    &:target {
+      transform:translateX(0);
+    }
+  }
+  #right {
+    transform:translateX($ps-width);
+    width:$ps-width;
+    height:$ps-height;
+    background-color:orange;
+    &:target {
+      transform:translateX(0);
+    }
+  }
+  #bottom {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    transform:translateY($ps-height);
+    width:$ps-width;
+    height:$ps-height;
+    background-color:red;
+    &:target {
+      transform:translateY(0);
+    }
+  }
+  #top {
+    position:absolute;
+    top:0-($ps-height);
+    left:0;
+    width:$ps-width;
+    height:$ps-height;
+    background-color:blue;
+    &:target {
+      top:0;
+    }
+  }
+}
+
+#home {
+  &:target {
+    #active {
+      position:absolute;
+      top:0;
+      left:0;
+      width:$ps-width;
+      height:$ps-height;
+      background-color:pink;
+    }
+    #left {
+      position:absolute;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      transform:translateX(0-($ps-width));
+      width:$ps-width;
+      height:$ps-height;
+      background-color:yellow;
+    }
+    #right {
+      transform:translateX($ps-width);
+      width:$ps-width;
+      height:$ps-height;
+      background-color:orange;
+    }
+    #bottom {
+      position:absolute;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      transform:translateY($ps-height);
+      width:$ps-width;
+      height:$ps-height;
+      background-color:red;
+    }
+    #top {
+      position:absolute;
+      top:0-($ps-height);
+      left:0;
+      width:$ps-width;
+      height:$ps-height;
+      background-color:blue;
+    }
+  }
+}
