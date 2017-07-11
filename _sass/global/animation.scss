@@ -77,3 +77,19 @@
 .marquee {
   animation: marquee 5s linear infinite;
 }
+
+@keyframes nudge {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: salmon;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+.nudge {
+  animation: nudge .5s linear 1;
+}

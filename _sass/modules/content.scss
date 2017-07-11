@@ -311,3 +311,57 @@ main {
 .hidden {
   opacity:0;
 }
+
+.arcade-nav {
+  z-index:999;
+  background-color:black;
+  color:white;
+  line-height:60px;
+  width:60px;
+  height:60px;
+  text-align:center;
+  border-radius:100px;
+  position:absolute;
+  transition:all 1s ease;
+  font-size:30px;
+  &.arcade-nav-left {
+    left:10px;
+    top:50%;
+    transform:translateY(-50%) scale(1);
+    &:hover {
+      transform:translateY(-50%) scale(1.5);
+    }
+  }
+  &.arcade-nav-right {
+    right:10px;
+    top:50%;
+    transform:translateY(-50%) scale(1);
+    &:hover {
+      transform:translateY(-50%) scale(1.5);
+    }
+  }
+  &.arcade-nav-bottom {
+    bottom:10px;
+    left:50%;
+    transform:translateX(-50%) scale(1);
+    &:hover {
+      transform:translateX(-50%) scale(1.5);
+    }
+  }
+  &.arcade-nav-top {
+    top:10px;
+    left:50%;
+    transform:translateX(-50%) scale(1);
+    &:hover {
+      transform:translateX(-50%) scale(1.5);
+    }
+  }
+  &.arcade-nav-home {
+    top:10px;
+    left:10px;
+    transform:scale(1);
+    &:hover {
+      transform:scale(1.5);
+    }
+  }
+}
