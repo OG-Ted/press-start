@@ -1,0 +1,52 @@
+// columns
+
+$col-full:100%;
+$col-half:($col-full)/2;
+$col-third:($col-full)/3;
+$col-quarter:($col-half)/2;
+$col-eighth:($col-quarter)/2;
+
+div[class^="col-"], div[class*=" col-"] {
+  float:left;
+  position:relative;
+  @media (max-width:$base-sm) {
+    float:none;
+    display:block;
+    width:100%;
+  }
+}
+
+.col-full {
+  width:$col-full;
+}
+
+.col-half {
+  width:$col-half;
+}
+
+.col-third {
+  width:$col-third;
+}
+.col-two-third {
+  width:$col-third*2;
+}
+
+.col-quarter {
+  width:$col-quarter;
+}
+.col-three-quarter {
+  width:$col-quarter*3;
+}
+
+.col-eighth {
+  width:$col-eighth;
+}
+.col-three-eighth {
+  width:$col-eighth*3;
+}
+.col-five-eighth {
+  width:$col-eighth*5;
+}
+.col-seven-eighth {
+  width:$col-eighth*7;
+}

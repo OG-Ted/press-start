@@ -1,0 +1,25 @@
+---
+# covered stylesheet
+---
+
+// reset
+@import 'vendor/normalize';
+
+// global variables
+@import 'global/base';
+@import 'global/palette';
+@import 'global/typography';
+@import 'global/mixins';
+@import 'global/animation';
+
+// page structure
+@import 'structure/rows';
+@import 'structure/columns';
+
+// site modules
+@import 'modules/nav';
+@import 'modules/footer';
+@import 'modules/content';
+@import 'modules/hero';
+
+// page specific styling

@@ -1,0 +1,79 @@
+// #####################################
+// slideup
+// #####################################
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@mixin slide-up($duration) {
+  -webkit-animation: slide-up $duration 1;
+  -moz-animation:    slide-up $duration 1;
+  -o-animation:      slide-up $duration 1;
+  animation:         slide-up $duration 1;
+}
+
+.slide-up-1 {
+  @include slide-up(.25s);
+}
+.slide-up-2 {
+  @include slide-up(.5s);
+}
+.slide-up-3 {
+  @include slide-up(1s);
+}
+
+// #####################################
+// fadein
+// #####################################
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@mixin fadein($duration) {
+  -webkit-animation: fadein $duration 1;
+  -moz-animation:    fadein $duration 1;
+  -o-animation:      fadein $duration 1;
+  animation:         fadein $duration 1;
+}
+
+.fadein-1 {
+  @include fadein(.25s);
+}
+.fadein-2 {
+  @include fadein(.5s);
+}
+.fadein-3 {
+  @include fadein(1s);
+}
+
+// #####################################
+// marquee
+// #####################################
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+@mixin marquee($duration) {
+  -webkit-animation: marquee $duration linear infinite;
+  -moz-animation:    marquee $duration linear infinite;
+  -o-animation:      marquee $duration linear infinite;
+  animation:         marquee $duration linear infinite;
+}
+
+.marquee {
+  animation: marquee 5s linear infinite;
+}

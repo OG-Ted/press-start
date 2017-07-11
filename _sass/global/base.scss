@@ -1,0 +1,42 @@
+// measurements
+
+// base measurement
+$base:60px;
+$base-content:0px;
+
+// nav
+$base-nav-size: 60px;
+
+// body
+$base-max-width: 1440px;
+
+body {
+  min-height: 100vh;
+  padding-top: $base-nav-size;
+}
+
+
+// footer
+$base-footer-height: 70vh;
+
+// border radius
+$base-radius: 5px;
+
+// hovers
+$base-lighten: 5%;
+
+// transitions
+$base-transition: .2s;
+.trans, .btn, button, input, .signup-line {
+  -webkit-transition: all $base-transition ease;
+  -moz-transition:    all $base-transition ease;
+  -ms-transition:     all $base-transition ease;
+  -o-transition:      all $base-transition ease;
+  transition:					all $base-transition ease;
+}
+
+// responsive
+
+$base-sm: 676px;
+$base-md: 1024px;
+$base-lg: 1280px;
