@@ -381,9 +381,8 @@ body {
 nav {
   .arcade-nav {
     z-index:900;
-    background-color:black;
+    background-color:rgba(255,255,255,0);
     color:white;
-    line-height:60px;
     width:60px;
     height:60px;
     text-align:center;
@@ -391,6 +390,14 @@ nav {
     position:absolute;
     transition:all 1s ease;
     font-size:30px;
+    img {
+      position:absolute;
+      left:0;
+      right:0;
+      top:0;
+      bottom:0;
+      margin:auto;
+    }
     &.arcade-nav-left {
       left:10px;
       top:50%;
@@ -438,7 +445,7 @@ nav {
 
 .branding {
   position:fixed;
-  top:(100vh - $ps-height-lg)/9;
+  top:(100vh - $ps-height-lg)/7;
   left:50%;
   transform:translateX(-50%);
   display:inline-block;
@@ -468,6 +475,32 @@ nav {
       text-align:left;
     }
     .foot-right {
+      float:right;
+      text-align:right;
+    }
+  }
+}
+
+.ps-guide {
+  position:fixed;
+  top:(100vh - $ps-height-lg)/3;
+  left:0;
+  width:100%;
+  z-index:900;
+  .ps-guide-inner {
+    max-width:$ps-width-lg;
+    width:100%;
+    margin:0 auto;
+    .ps-guide-left,.ps-guide-right {
+      text-transform:uppercase;
+      line-height:0;
+      font-size:9px;
+    }
+    .ps-guide-left {
+      float:left;
+      text-align:left;
+    }
+    .ps-guide-right {
       float:right;
       text-align:right;
     }

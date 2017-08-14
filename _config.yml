@@ -9,8 +9,8 @@
 title: |
   Boost Biomes
 email: pete@laxaltandmciver.co
-baseurl: ""
-url: "http://boostbiomes.com"
+baseurl: "/press-start"
+url: ""
 permalink: pretty
 sass:
   sass_dir: _sass
