@@ -3,20 +3,17 @@ nav {
     z-index:900;
     background-color:rgba(255,255,255,0);
     color:white;
-    width:60px;
-    height:60px;
+    min-width:60px;
+    min-height:60px;
     text-align:center;
     border-radius:100px;
     position:absolute;
     transition:all 1s ease;
-    font-size:30px;
-    img {
-      position:absolute;
-      left:0;
-      right:0;
-      top:0;
-      bottom:0;
-      margin:auto;
+    font-size:10px;
+    text-transform:uppercase;
+    .nav-label {
+      display:block;
+      padding:10px;
     }
     &.arcade-nav-left {
       left:10px;
@@ -43,7 +40,7 @@ nav {
       }
     }
     &.arcade-nav-top {
-      top:10px;
+      top:20px;
       left:50%;
       transform:translateX(-50%) scale(1);
       &:hover {

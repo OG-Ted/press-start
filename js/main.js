@@ -9,6 +9,14 @@ $(document).ready(function() {
       $("#nav-top").removeClass('nudge');
       $("#nav-bottom").removeClass('nudge');
       $("#nav-home").removeClass('nudge');
+
+      // hide + show tap navigation
+      $("#nav-right").removeClass('hidden');
+      $("#nav-left").addClass('hidden');
+      $("#nav-top").removeClass('hidden');
+      $("#nav-bottom").removeClass('hidden');
+      $("#nav-home").removeClass('hidden');
+
     }
     function rightArrowPressed() {
       window.location = '#left';
@@ -20,6 +28,14 @@ $(document).ready(function() {
       $("#nav-top").removeClass('nudge');
       $("#nav-bottom").removeClass('nudge');
       $("#nav-home").removeClass('nudge');
+
+      // hide + show tap navigation
+      $("#nav-left").removeClass('hidden');
+      $("#nav-right").addClass('hidden');
+      $("#nav-top").removeClass('hidden');
+      $("#nav-bottom").removeClass('hidden');
+      $("#nav-home").removeClass('hidden');
+
     }
     function upArrowPressed() {
       window.location = '#bottom';
@@ -31,17 +47,30 @@ $(document).ready(function() {
       $("#nav-right").removeClass('nudge');
       $("#nav-bottom").removeClass('nudge');
       $("#nav-home").removeClass('nudge');
+
+      // hide + show tap navigation
+      $("#nav-bottom").addClass('hidden');
+      $("#nav-top").removeClass('hidden');
+      $("#nav-home").removeClass('hidden');
+      $("#nav-left").removeClass('hidden');
+      $("#nav-right").removeClass('hidden');
     }
     function downArrowPressed() {
       window.location = '#top';
       $("#home").css({
         "opacity": "0"
       });
-      $("#nav-bottom").addClass('nudge');
       $("#nav-left").removeClass('nudge');
       $("#nav-right").removeClass('nudge');
       $("#nav-top").removeClass('nudge');
       $("#nav-home").removeClass('nudge');
+
+      // hide + show tap navigation
+      $("#nav-bottom").removeClass('hidden');
+      $("#nav-top").addClass('hidden');
+      $("#nav-home").removeClass('hidden');
+      $("#nav-left").removeClass('hidden');
+      $("#nav-right").removeClass('hidden');
     }
     function spaceBarPressed() {
       window.location = '#home';
@@ -53,6 +82,13 @@ $(document).ready(function() {
       $("#nav-right").removeClass('nudge');
       $("#nav-top").removeClass('nudge');
       $("#nav-bottom").removeClass('nudge');
+
+      // hide + show tap navigation
+      $("#nav-bottom").removeClass('hidden');
+      $("#nav-top").removeClass('hidden');
+      $("#nav-left").removeClass('hidden');
+      $("#nav-right").removeClass('hidden');
+      $("#nav-home").addClass('hidden');
     }
 
     document.onkeydown = function(evt) {

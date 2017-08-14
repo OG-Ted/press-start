@@ -132,7 +132,37 @@ textarea {
 }
 
 .btn, button {
-  cursor:pointer;
+  text-transform:uppercase;
+  font-size:12px;
+  border-radius:999px;
+}
+
+.btn-white {
+  height:50px;
+  line-height:50px;
+  padding:0 20px;
+  border:3px solid $clr-cream;
+  background-color:rgba($clr-ultra-green,0);
+  transition:all 1s ease;
+  color:$clr-cream;
+  &:hover {
+    border:3px solid $clr-ultra-green;
+    color:$clr-ultra-green !important;
+  }
+}
+
+.btn-group {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  .btn-third {
+    width:30%;
+  }
 }
 
 // #####################################
@@ -507,13 +537,43 @@ body {
   }
 }
 
+#bottom {
+  .btn-group {
+    margin-top:20px;
+  }
+}
+
+@keyframes ps-border-cycle {
+  0% {
+    border-color:$ps-arcade-wrapper-bg-1;
+  }
+  33% {
+    border-color:$ps-arcade-wrapper-bg-2;
+  }
+  66% {
+    border-color:$ps-arcade-wrapper-bg-3;
+  }
+  100% {
+    border-color:$ps-arcade-wrapper-bg-1;
+  }
+}
+
 h1 {
-  &.insert-coin-header {
+  &.display-header {
     text-transform:uppercase;
     border-top:4px solid $clr-ultra-ruby;
     border-bottom:4px solid $clr-ultra-ruby;
     animation: blink 1s infinite;
     padding:20px 0px;
     margin:20px;
+    &.no-blink {
+      animation:none;
+    }
+    &.display-header-green-border {
+      border-top:4px solid $clr-ultra-green;
+      border-bottom:4px solid $clr-ultra-green;
+      transition:all 1s ease;
+      animation: ps-border-cycle 3s infinite;
+    }
   }
 }

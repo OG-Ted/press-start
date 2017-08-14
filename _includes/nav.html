@@ -1,21 +1,33 @@
 <nav>
   <a href="#left" class="arcade-nav arcade-nav-left" id="nav-left">
     <img src="{{site.baseurl}}/assets/icon-arrow.svg" style="transform:rotate(-90deg);transform-origin:center center;"/>
+    <span class="nav-label">
+      Games
+    </span>
   </a>
 
   <a href="#right" class="arcade-nav arcade-nav-right" id="nav-right">
     <img src="{{site.baseurl}}/assets/icon-arrow.svg" style="transform:rotate(90deg);transform-origin:center center;"/>
+    <span class="nav-label">
+      Drinks
+    </span>
   </a>
 
   <a href="#top" class="arcade-nav arcade-nav-top" id="nav-top">
     <img src="{{site.baseurl}}/assets/icon-arrow.svg" />
+    <span class="nav-label">
+      Play
+    </span>
   </a>
 
   <a href="#bottom" class="arcade-nav arcade-nav-bottom" id="nav-bottom">
+    <span class="nav-label">
+      About
+    </span>
     <img src="{{site.baseurl}}/assets/icon-arrow.svg" style="transform:rotate(180deg);transform-origin:center center;"/>
   </a>
 
-  <a href="#home" class="arcade-nav arcade-nav-home" id="nav-home">
+  <a href="#home" onclick="spaceBarPressed();" class="arcade-nav arcade-nav-home hidden" id="nav-home">
     <img src="{{site.baseurl}}/assets/icon-compass.svg" />
   </a>
 </nav>
