@@ -1,9 +1,4 @@
 $(document).ready(function() {
-    var nextPage = $("#next_page_link")
-    var prevPage = $("#previous_page_link")
-    nextUrl = nextPage.attr("href")
-    prevUrl = prevPage.attr("href")
-
     function leftArrowPressed() {
       window.location = '#right';
       $("#home").css({

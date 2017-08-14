@@ -93,3 +93,19 @@
 .nudge {
   animation: nudge .5s linear 1;
 }
+
+// #####################################
+// arcade animations
+// #####################################
+
+@keyframes blink {
+	0% {
+    opacity: 0
+  }
+	49%{
+    opacity: 0
+  }
+	50% {
+    opacity: 1
+  }
+}
