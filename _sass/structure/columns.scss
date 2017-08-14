@@ -7,13 +7,16 @@ $col-quarter:($col-half)/2;
 $col-eighth:($col-quarter)/2;
 
 div[class^="col-"], div[class*=" col-"] {
-  float:left;
   position:relative;
   @media (max-width:$base-sm) {
     float:none;
     display:block;
     width:100%;
   }
+}
+
+.col-center {
+  display:inline-block;
 }
 
 .col-full {

@@ -228,16 +228,11 @@ body {
     max-width:$ps-width-lg;
     max-height:$ps-height-lg;
     width:100%;
-    padding:$ps-width-lg/12;
   }
-  h1 {
-    &.insert-coin-header {
-      text-transform:uppercase;
-      border-top:4px solid $clr-ultra-ruby;
-      border-bottom:4px solid $clr-ultra-ruby;
-      animation: blink 1s infinite;
-      padding:20px 0px;
-      margin:20px;
+  a {
+    color:$fnt-color-default;
+    &:hover, &:visited, &:active {
+      color:$fnt-color-default;
     }
   }
 }
@@ -547,5 +542,33 @@ nav {
     max-height:(100vh - $ps-height-lg)/4.5;
     line-height:0;
     vertical-align:middle;
+  }
+}
+
+// home screen
+
+#home {
+  .coin-box {
+    width:30px;
+    height:100px;
+    border:8px solid $clr-cream;
+    margin: 0 auto;
+  }
+  a {
+    cursor: url(../assets/coin-cursor.cur) 24 25, auto;
+    &:hover, &:visited, &:active {
+      cursor: url(../assets/coin-cursor.cur) 24 25, auto;
+    }
+  }
+}
+
+h1 {
+  &.insert-coin-header {
+    text-transform:uppercase;
+    border-top:4px solid $clr-ultra-ruby;
+    border-bottom:4px solid $clr-ultra-ruby;
+    animation: blink 1s infinite;
+    padding:20px 0px;
+    margin:20px;
   }
 }
