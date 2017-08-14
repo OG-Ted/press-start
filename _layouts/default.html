@@ -2,9 +2,11 @@
 <html>
 {% include head.html %}
 <body id="pageBody">
-  {% include nav.html %}
-  <main id="home">
-  {{ content }}
+  <main class="arcade-wrapper">
+    {% include nav.html %}
+    <div class="arcade-container">
+      {{ content }}
+    </div>
   </main>
   {% include footer.html %}
 </body>

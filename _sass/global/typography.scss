@@ -1,15 +1,14 @@
 // typography
 
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
-$fnt-body: 'Open Sans', 'Helvetica', sans-serif;
-$fnt-header: 'Karla', 'Open Sans', 'Helvetica', sans-serif;
+$fnt-body: 'Press Start 2P', 'Helvetica', sans-serif;
+$fnt-header: 'Press Start 2P', 'Helvetica', sans-serif;
 $fnt-body-size: 20px;
-$fnt-color-default: #000;
+$fnt-color-default: #fff;
 
 body {
-	font-family: $fnt-body;
+	font-family: 'Press Start 2P', 'Helvetica', sans-serif;
 	color:$fnt-color-default;
 }
 

@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     function leftArrowPressed() {
       window.location = '#right';
-      $("#active").css({
+      $("#home").css({
         "opacity": "0"
       });
       $("#nav-left").addClass('nudge');
@@ -17,7 +17,7 @@ $(document).ready(function() {
     }
     function rightArrowPressed() {
       window.location = '#left';
-      $("#active").css({
+      $("#home").css({
         "opacity": "0"
       });
       $("#nav-right").addClass('nudge');
@@ -28,7 +28,7 @@ $(document).ready(function() {
     }
     function upArrowPressed() {
       window.location = '#bottom';
-      $("#active").css({
+      $("#home").css({
         "opacity": "0"
       });
       $("#nav-top").addClass('nudge');
@@ -39,7 +39,7 @@ $(document).ready(function() {
     }
     function downArrowPressed() {
       window.location = '#top';
-      $("#active").css({
+      $("#home").css({
         "opacity": "0"
       });
       $("#nav-bottom").addClass('nudge');
@@ -50,7 +50,7 @@ $(document).ready(function() {
     }
     function spaceBarPressed() {
       window.location = '#home';
-      $("#active").css({
+      $("#home").css({
         "opacity": "1"
       });
       $("#nav-home").addClass('nudge');
