@@ -2,6 +2,27 @@
 <html>
 {% include head.html %}
 <body id="pageBody">
+
+  <div class="branding">
+    <img src="{{site.baseurl}}/assets/logo.svg" />
+  </div>
+
+  <div class="social">
+    <img src="{{site.baseurl}}/assets/icon-fb.svg" />
+    <img src="{{site.baseurl}}/assets/icon-insta.svg" />
+  </div>
+
+  <div class="footer">
+    <div class="footer-inner">
+      <div class="foot-left">
+        © {{ 'now' | date: "%Y" }} Press Start
+      </div>
+      <div class="foot-right">
+        2pm-11pm DAILY
+      </div>
+    </div>
+  </div>
+
   <main class="arcade-wrapper">
     {% include nav.html %}
     <div class="arcade-container">
