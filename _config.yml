@@ -8,7 +8,7 @@
 # Site settings
 title: Press Start
 email: pete@laxaltandmciver.co
-baseurl: ""
+baseurl: "/press-start"
 url: ""
 permalink: pretty
 sass:
