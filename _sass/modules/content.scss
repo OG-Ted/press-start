@@ -194,10 +194,25 @@ $ps-arcade-bg:$clr-black;
   }
 }
 
+@keyframes blink {
+	0% {
+    opacity: 0
+  }
+	49%{
+    opacity: 0
+  }
+	50% {
+    opacity: 1
+  }
+}
+
 body {
   overflow:hidden;
   position:fixed;
   background-color:$ps-arcade-wrapper-bg-1;
+  &.insert-coin {
+    cursor: url(../assets/coin-cursor.cur) 24 25, auto;
+  }
 }
 
 .arcade-content,{
@@ -210,6 +225,20 @@ body {
     top:50%;
     transform:translate(-50%,-50%);
     text-align:center;
+    max-width:$ps-width-lg;
+    max-height:$ps-height-lg;
+    width:100%;
+    padding:$ps-width-lg/12;
+  }
+  h1 {
+    &.insert-coin-header {
+      text-transform:uppercase;
+      border-top:4px solid $clr-ultra-ruby;
+      border-bottom:4px solid $clr-ultra-ruby;
+      animation: blink 1s infinite;
+      padding:20px 0px;
+      margin:20px;
+    }
   }
 }
 
