@@ -2,7 +2,7 @@
   <h1>Select Beer</h1>
 
   <div class="drink-table">
-    <div class="drink-table-head">
+    <div class="row drink-table-head">
       <div class="col-third txt-left">
         Name
       </div>
@@ -15,14 +15,14 @@
     </div>
 
     {% for drink in site.data.drink-list %}
-    <div class="drink-table-row" id="drink-beer">
-      <div class="col-third txt-left" id="drink-beer">
+    <div class="row drink-table-row drink-dat-beer">
+      <div class="col-third txt-left">
         {{drink.name}}
       </div>
-      <div class="col-third txt-center" id="drink-beer">
+      <div class="col-third txt-center">
         {{drink.brewery}}
       </div>
-      <div class="col-third txt-right" id="drink-beer">
+      <div class="col-third txt-right">
         {{drink.abv}}
       </div>
     </div>

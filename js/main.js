@@ -131,7 +131,7 @@ $(document).ready(function() {
 
 // beer game
 
-    $('#drink-beer').on('click', function() {
+    $('.drink-dat-beer').on('click', function() {
          $(".beer-box").addClass('drunk-1');
          $(".drink-overlay").removeClass('show-drink-overlay');
          $(".beer-time-header").html('Have Another?');
