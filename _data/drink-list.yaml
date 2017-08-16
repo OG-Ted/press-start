@@ -1,0 +1,14 @@
+---
+- name: Fresh Squeezed
+  brewery: Deschutes
+  abv: 7.8%
+- name: Hop Sour
+  brewery: Danky Dank
+  abv: 7.8%
+- name: Billigans Island
+  brewery: Sneaky Wave
+  abv: 8%
+- name: Pickle Dicks
+  brewery: Sneaky Wave
+  abv: 15%
+---

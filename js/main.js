@@ -128,4 +128,25 @@ $(document).ready(function() {
          spaceBarPressed();
     });
 
+
+// beer game
+
+    $('#drink-beer').on('click', function() {
+         $(".beer-box").addClass('drunk-1');
+         $(".drink-overlay").removeClass('show-drink-overlay');
+         $(".beer-time-header").html('Have Another?');
+         $(".beer-time-button").html('One more');
+    });
+
+    $('#drink-menu').on('click', function() {
+         $(".beer-box").removeClass('drunk-1');
+         $(".drink-overlay").addClass('show-drink-overlay');
+    });
+
+    $('#drink-menu-close').on('click', function() {
+         $(".drink-overlay").removeClass('show-drink-overlay');
+         $(".beer-time-header").html('Pace Yourself');
+         $(".beer-time-button").html('Maybe one');
+    });
+
 });

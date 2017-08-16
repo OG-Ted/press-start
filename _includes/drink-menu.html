@@ -1,0 +1,39 @@
+<div class="drink-overlay">
+  <h1>Select Beer</h1>
+
+  <div class="drink-table">
+    <div class="drink-table-head">
+      <div class="col-third txt-left">
+        Name
+      </div>
+      <div class="col-third txt-left">
+        Brewery
+      </div>
+      <div class="col-third txt-right">
+        ABV%
+      </div>
+    </div>
+
+    {% for drink in site.data.drink-list %}
+    <div class="drink-table-row" id="drink-beer">
+      <div class="col-third txt-left" id="drink-beer">
+        {{drink.name}}
+      </div>
+      <div class="col-third txt-center" id="drink-beer">
+        {{drink.brewery}}
+      </div>
+      <div class="col-third txt-right" id="drink-beer">
+        {{drink.abv}}
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+
+  <div class="drink-overlay-close">
+    <a href="javascript:void(0)" class="btn btn-white" id="drink-menu-close">
+      Water, please
+    </a>
+  </div>
+
+</div>

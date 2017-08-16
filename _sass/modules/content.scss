@@ -574,7 +574,21 @@ h1 {
   }
 }
 
-// beer slide
+// beer game
+
+@keyframes drunk-wobble {
+  from { transform: none; filter:blur(0px); }
+  15% { transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg); }
+  30% { transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg); }
+  45% { transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg); filter:blur(10px); }
+  60% { transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg); }
+  75% { transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg); }
+  to { transform: none; filter:blur(0px); }
+  }
+
+.drunk-1 {
+  animation:drunk-wobble 8s 1 ease;
+}
 
 #right {
   .push-center-center {
@@ -600,6 +614,82 @@ h1 {
     &:hover {
       color:$clr-black !important;
       background-color:$clr-ultra-yellow;
+      border-color:$clr-ultra-yellow;
+    }
+  }
+}
+
+.drink-overlay {
+  position:fixed;
+  z-index:999;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:$clr-ultra-ruby;
+  color:$clr-cream;
+  text-align:center;
+  display:none;
+  max-height:100vh;
+  overflow:auto;
+  div[class^="col-"], div[class*=" col-"] {
+    float:left;
+    position:relative;
+    @media (max-width:$base-sm) {
+      float:none;
+      display:block;
+      width:100%;
+    }
+  }
+  &.show-drink-overlay {
+    display:block !important;
+  }
+  h1 {
+    margin:20px 0px;
+    text-shadow: 6px 6px 0 $clr-ultra-blue;
+    color:$clr-ultra-yellow;
+    font-size:72px;
+    padding:40px 0px;
+    text-align:center;
+    text-transform:uppercase;
+  }
+  .drink-table {
+    max-width:800px;
+    width:100%;
+    margin:0 auto;
+    text-transform:uppercase;
+    font-size:15px;
+    .drink-table-head {
+      .col-third {
+        border-bottom: 4px solid $clr-cream;
+        padding:15px 0px;
+        margin-bottom:15px;
+      }
+    }
+    .drink-table-row {
+      transition:all 0s ease;
+      .col-third {
+        padding:15px 0px;
+      }
+      &:hover {
+        .col-third {
+          padding:15px 0px;
+          background-color:$clr-cream;
+          color:$clr-ultra-ruby;
+        }
+      }
+    }
+  }
+
+  .drink-overlay-close {
+    display:block;
+    clear:both;
+    padding-top:30px;
+    .btn {
+      max-width:800px;
+      width:100%;
+      margin:0 auto;
+      width:100%;
       border-color:$clr-ultra-yellow;
     }
   }
