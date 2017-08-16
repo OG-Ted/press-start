@@ -143,11 +143,12 @@ textarea {
   padding:0 20px;
   border:3px solid $clr-cream;
   background-color:rgba($clr-ultra-green,0);
-  transition:all 1s ease;
+  transition:all 0s ease;
   color:$clr-cream;
   &:hover {
+    background-color:$clr-ultra-green;
     border:3px solid $clr-ultra-green;
-    color:$clr-ultra-green !important;
+    color:$clr-black !important;
   }
 }
 
@@ -577,9 +578,9 @@ h1 {
 // beer game
 
 @keyframes drunk-wobble {
-  from { transform: none; filter:blur(0px); }
+  from { transform: none; filter:blur(10px); }
   15% { transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg); }
-  30% { transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg); }
+  30% { transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);filter:blur(5px); }
   45% { transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg); filter:blur(10px); }
   60% { transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg); }
   75% { transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg); }
@@ -654,7 +655,7 @@ h1 {
     text-transform:uppercase;
   }
   .drink-table {
-    max-width:800px;
+    max-width:1024px;
     width:100%;
     margin:0 auto;
     text-transform:uppercase;
@@ -662,18 +663,17 @@ h1 {
     .drink-table-head {
       .col-third {
         border-bottom: 4px solid $clr-cream;
-        padding:15px 0px;
+        padding:15px;
         margin-bottom:15px;
       }
     }
     .drink-table-row {
       transition:all 0s ease;
       .col-third {
-        padding:15px 0px;
+        padding:15px;
       }
       &:hover {
         .col-third {
-          padding:15px 0px;
           background-color:$clr-cream;
           color:$clr-ultra-ruby;
         }
@@ -686,11 +686,16 @@ h1 {
     clear:both;
     padding-top:30px;
     .btn {
-      max-width:800px;
+      max-width:1024px;
       width:100%;
       margin:0 auto;
       width:100%;
       border-color:$clr-ultra-yellow;
+      transition:all 0s ease;
+      &:hover {
+        background-color:$clr-ultra-yellow;
+        color:$clr-ultra-ruby !important;
+      }
     }
   }
 }
