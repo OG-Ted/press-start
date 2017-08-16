@@ -111,4 +111,21 @@ $(document).ready(function() {
                 break;
         }
     };
+
+    $('#nav-left').on('click', function() {
+         rightArrowPressed();
+    });
+    $('#nav-right').on('click', function() {
+         leftArrowPressed();
+    });
+    $('#nav-top').on('click', function() {
+         downArrowPressed();
+    });
+    $('#nav-bottom').on('click', function() {
+         upArrowPressed();
+    });
+    $('#nav-home').on('click', function() {
+         spaceBarPressed();
+    });
+
 });
