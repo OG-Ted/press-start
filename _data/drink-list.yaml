@@ -1,4 +1,7 @@
 ---
+- name: Sharkinator
+  brewery: Lost Coast
+  abv: 8.2%
 - name: Fresh Squeezed
   brewery: Deschutes
   abv: 7.8%
@@ -11,4 +14,3 @@
 - name: Pickle Dicks
   brewery: Sneaky Wave
   abv: 15%
----
