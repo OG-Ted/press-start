@@ -98,13 +98,13 @@ $(document).ready(function() {
                 spaceBarPressed();
                 break;
             case 37:
-                leftArrowPressed();
+                rightArrowPressed();
                 break;
             case 38:
                 upArrowPressed();
                 break;
             case 39:
-                rightArrowPressed();
+                leftArrowPressed();
                 break;
             case 40:
                 downArrowPressed();
@@ -113,10 +113,10 @@ $(document).ready(function() {
     };
 
     $('#nav-left').on('click', function() {
-         rightArrowPressed();
+         leftArrowPressed();
     });
     $('#nav-right').on('click', function() {
-         leftArrowPressed();
+         rightArrowPressed();
     });
     $('#nav-top').on('click', function() {
          downArrowPressed();
@@ -136,6 +136,7 @@ $(document).ready(function() {
          $(".drink-overlay").removeClass('show-drink-overlay');
          $(".beer-time-header").html('Have Another?');
          $(".beer-time-button").html('One more');
+         $(".games-button").removeClass('games-button-hide');
     });
 
     $('#drink-menu').on('click', function() {
@@ -147,6 +148,17 @@ $(document).ready(function() {
          $(".drink-overlay").removeClass('show-drink-overlay');
          $(".beer-time-header").html('Pace Yourself');
          $(".beer-time-button").html('Maybe one');
+         $(".games-button").removeClass('games-button-hide');
+    });
+
+  // game overlay
+
+    $('#game-menu').on('click', function() {
+         $(".game-overlay").addClass('show-game-overlay');
+    });
+
+    $('#game-menu-close').on('click', function() {
+         $(".game-overlay").removeClass('show-game-overlay');
     });
 
 });

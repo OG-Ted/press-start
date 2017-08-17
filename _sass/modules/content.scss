@@ -145,6 +145,15 @@ textarea {
   background-color:rgba($clr-ultra-green,0);
   transition:all 0s ease;
   color:$clr-cream;
+  &.btn-fuschia {
+    border:3px solid $clr-ultra-pink;
+    background-color: $clr-black;
+    &:hover {
+      background-color:$clr-ultra-pink;
+      border:3px solid $clr-ultra-pink;
+      color:$clr-black !important;
+    }
+  }
   &:hover {
     background-color:$clr-ultra-green;
     border:3px solid $clr-ultra-green;
@@ -161,8 +170,13 @@ textarea {
   flex-direction: row;
   justify-content: space-around;
   align-items:center;
+  flex-wrap:wrap;
   .btn-third {
     width:30%;
+    @media (max-width:$base-md) {
+      width:80%;
+      margin:20px;
+    }
   }
 }
 
@@ -537,6 +551,12 @@ body {
 #bottom {
   .btn-group {
     margin-top:20px;
+    @media (max-width:$base-md) {
+      .btn {
+        display:block;
+        width:100%;
+      }
+    }
   }
 }
 
@@ -612,6 +632,9 @@ h1 {
     padding-right:20px;
     color:$clr-cream;
     border-color:$clr-ultra-ruby;
+    &.games-button-hide {
+      display:none;
+    }
     &:hover {
       color:$clr-black !important;
       background-color:$clr-ultra-yellow;
@@ -620,82 +643,203 @@ h1 {
   }
 }
 
-.drink-overlay {
-  position:fixed;
-  z-index:999;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  background-color:$clr-ultra-ruby;
-  color:$clr-cream;
-  text-align:center;
-  display:none;
-  max-height:100vh;
-  overflow:auto;
-  div[class^="col-"], div[class*=" col-"] {
-    float:left;
-    position:relative;
-    @media (max-width:$base-sm) {
-      float:none;
-      display:block;
-      width:100%;
-    }
-  }
-  &.show-drink-overlay {
-    display:block !important;
-  }
-  h1 {
-    margin:20px 0px;
-    text-shadow: 6px 6px 0 $clr-ultra-blue;
-    color:$clr-ultra-yellow;
-    font-size:72px;
-    padding:40px 0px;
+.list-overlay {
+  &.drink-overlay {
+    position:fixed;
+    z-index:999;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:$clr-ultra-ruby;
+    color:$clr-cream;
     text-align:center;
-    text-transform:uppercase;
-  }
-  .drink-table {
-    max-width:1024px;
-    width:100%;
-    margin:0 auto;
-    text-transform:uppercase;
-    font-size:15px;
-    .drink-table-head {
-      .col-third {
-        border-bottom: 4px solid $clr-cream;
-        padding:15px;
-        margin-bottom:15px;
+    display:none;
+    max-height:100vh;
+    overflow:auto;
+    div[class^="col-"], div[class*=" col-"] {
+      float:left;
+      position:relative;
+      @media (max-width:$base-sm) {
+        float:none;
+        display:block;
+        width:100%;
       }
     }
-    .drink-table-row {
-      transition:all 0s ease;
-      .col-third {
-        padding:15px;
-      }
-      &:hover {
+    &.show-drink-overlay {
+      display:block !important;
+    }
+    h1 {
+      margin:20px 0px;
+      text-shadow: 6px 6px 0 $clr-ultra-blue;
+      color:$clr-ultra-yellow;
+      font-size:72px;
+      padding:40px 0px;
+      text-align:center;
+      text-transform:uppercase;
+    }
+    .drink-table {
+      max-width:1024px;
+      width:100%;
+      margin:0 auto;
+      text-transform:uppercase;
+      font-size:15px;
+      .drink-table-head {
         .col-third {
-          background-color:$clr-cream;
-          color:$clr-ultra-ruby;
+          border-bottom: 4px solid $clr-cream;
+          padding:15px;
+          margin-bottom:15px;
+        }
+      }
+      .drink-table-row {
+        transition:all 0s ease;
+        .col-third {
+          padding:15px;
+        }
+        &:hover {
+          .col-third {
+            background-color:$clr-cream;
+            color:$clr-ultra-ruby;
+          }
         }
       }
     }
   }
 
-  .drink-overlay-close {
-    display:block;
-    clear:both;
-    padding-top:30px;
-    .btn {
+  &.game-overlay {
+    position:fixed;
+    z-index:999;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:$clr-mega-blue;
+    color:$clr-cream;
+    text-align:center;
+    display:none;
+    max-height:100vh;
+    overflow:auto;
+    div[class^="col-"], div[class*=" col-"] {
+      float:left;
+      position:relative;
+      @media (max-width:$base-sm) {
+        float:none;
+        display:block;
+        width:100%;
+      }
+    }
+    &.show-game-overlay {
+      display:block !important;
+    }
+    h1 {
+      margin:20px 0px 0px 0px;
+      text-shadow: 6px 6px 0 $clr-ultra-ruby;
+      color:$clr-ultra-green;
+      font-size:72px;
+      padding:40px 20px 0px 20px;
+      text-align:center;
+      text-transform:uppercase;
+    }
+    .game-subhead {
+      padding:20px 20px 20px 20px;
+      border-bottom: 4px solid $clr-ultra-green;
+      max-width:1024px;
+      width:90%;
+      margin:0 auto 40px auto;
+    }
+    .game-grid {
       max-width:1024px;
       width:100%;
       margin:0 auto;
-      width:100%;
-      border-color:$clr-ultra-yellow;
-      transition:all 0s ease;
-      &:hover {
-        background-color:$clr-ultra-yellow;
-        color:$clr-ultra-ruby !important;
+      text-transform:uppercase;
+      font-size:15px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items:center;
+      flex-wrap:wrap;
+      padding:20px 20px 200px 20px;
+      &:after {
+        content: ""; // fix last row to flex grid
+        flex: auto;
+      }
+      .game-card {
+        width:190px;
+        min-height:200px;
+        background-color:rgba(lighten($clr-mega-blue,10%),0);
+        padding:10px 10px 30px 10px;
+        transition:all 0s ease;
+        &:hover {
+          background-color:rgba(lighten($clr-mega-blue,10%),1);
+        }
+        .game-cover {
+          display:block;
+        }
+        .game-title {
+          display:block;
+          text-align:left;
+          margin-top:10px;
+          span.game-company {
+            display:block;
+            color:$clr-ultra-green;
+          }
+        }
       }
     }
+  }
+
+  .list-overlay-close {
+    position:fixed;
+    bottom:$base;
+    left:0;
+    right:0;
+    margin:0 auto;
+    &.drink-overlay-close {
+      .btn {
+        max-width:1024px;
+        width:100%;
+        margin:0 auto;
+        width:100%;
+        border-color:$clr-ultra-yellow;
+        transition:all 0s ease;
+        background-color:$clr-ultra-ruby;
+        &:hover {
+          background-color:$clr-ultra-yellow;
+          color:$clr-ultra-ruby !important;
+        }
+      }
+    }
+    &.game-overlay-close {
+      .btn {
+        max-width:1024px;
+        width:100%;
+        margin:0 auto;
+        width:100%;
+        border-color:$clr-ultra-green;
+        transition:all 0s ease;
+        background-color:$clr-mega-blue;
+        &:hover {
+          background-color:$clr-ultra-green;
+          color:$clr-mega-blue !important;
+        }
+      }
+    }
+  }
+}
+
+// game selection
+
+#left {
+  background-image:url('../assets/star-bg.gif');
+  background-repeat:repeat;
+  .push-center-center {
+    animation: ps-border-cycle 3s infinite;
+    padding:$base/2;
+    border:4px solid $clr-cream;
+    max-width:676px;
   }
 }

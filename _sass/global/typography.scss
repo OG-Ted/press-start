@@ -17,14 +17,14 @@ body {
 // #####################################
 
 ::-moz-selection {
-  background: black;
+  background: $clr-ultra-green;
   opacity:100%;
-  color:pink;
+  color:$clr-black;
  }
 ::selection {
   background: black;
   opacity:100%;
-  color:pink;
+  color:$clr-ultra-green;
  }
 
 // #####################################
