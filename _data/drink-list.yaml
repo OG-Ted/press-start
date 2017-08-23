@@ -1,4 +1,7 @@
 ---
+- name: Evan's Favorite Beer
+  brewery: Pete's Dranks
+  abv: 9.4%
 - name: Sharkinator
   brewery: Lost Coast
   abv: 8.2%
