@@ -1,4 +1,40 @@
 ---
+- name: Tetris
+  company: Tengen
+  cover: "/uploads/2017/09/06/PStetris_2.jpg"
+- name: Pacman Battle Royale
+  company: Namco
+  cover: "/uploads/2017/09/06/PS_pacmanbattleroyale_2.jpg"
+- name: Gauntlet
+  company: Atari
+  cover: "/uploads/2017/09/06/PSgauntlet_2.jpg"
+- name: Super Mario
+  company: Nintendo
+  cover: "/uploads/2017/09/06/PSmario_2.jpg"
+- name: Gun Fighters
+  company: Konami
+  cover: "/uploads/2017/09/06/PCgunfighters_2.jpg"
+- name: Ms. Pacman - Galaga Combo
+  company: Namco
+  cover: "/uploads/2017/09/06/PSmspacmangalaga_2.jpg"
+- name: Dig Dug
+  company: Atari
+  cover: "/uploads/2017/09/06/PSdigdug_2.jpg"
+- name: Video Pinball
+  company: Atari
+  cover: "/uploads/2017/09/06/PSvideopinball_2.jpg"
+- name: Come on Baby
+  company: Expotato
+  cover: "/uploads/2017/09/06/PScomeonbaby_2-1.jpg"
+- name: Ice Cold Beer
+  company: Taito
+  cover: "/uploads/2017/09/06/PS_ICB_2.jpg"
+- name: Galaxian
+  company: Midway
+  cover: "/uploads/2017/09/06/PSgalaxian_2.jpg"
+- name: Centipede
+  company: Atari
+  cover: "/uploads/2017/09/06/PScentipede_2-1.jpg"
 - name: Pole Position
   company: Namco
   cover: "/uploads/2017/09/06/PSpoleposition_2.jpg"
