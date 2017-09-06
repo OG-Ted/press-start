@@ -1,4 +1,19 @@
 ---
+- name: Pole Position
+  company: Namco
+  cover: "/uploads/2017/09/06/PSpoleposition_2.jpg"
+- name: Battlezone
+  company: Atari
+  cover: "/uploads/2017/09/06/PSbattlezone_2.jpg"
+- name: Area 51
+  company: Atari
+  cover: "/uploads/2017/09/06/PSarea51_2.jpg"
+- name: Dragon's Lair
+  company: Cinematronics
+  cover: "/uploads/2017/09/06/PSdragonslair_2-1.jpg"
+- name: Ikari Warriors 3
+  company: SNK
+  cover: "/uploads/2017/09/06/PSikari_2.jpg"
 - name: Frogger
   company: Konami
   cover: "/uploads/2017/09/06/PSfrogger_2-1.jpg"
