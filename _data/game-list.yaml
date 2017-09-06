@@ -1,4 +1,31 @@
 ---
+- name: Bronco Pinball
+  company: Gottlieb
+  cover: "/uploads/2017/09/06/PS_bronco_2.jpg"
+- name: The Simpsons Pinball
+  company: Data East
+  cover: "/uploads/2017/09/06/PS_simpson_2.jpg"
+- name: Batman 66
+  company: Stern Pinball
+  cover: "/uploads/2017/09/06/PS_batman66_2-1.jpg"
+- name: Star Wars
+  company: Data East
+  cover: "/uploads/2017/09/06/PS_stawar_2-1.jpg"
+- name: Dialed In
+  company: Jersey Jack Pinball
+  cover: "/uploads/2017/09/06/PS_dialedin_2.png"
+- name: Ghostbusters
+  company: Stern Pinball
+  cover: "/uploads/2017/09/06/PS_ghostb_2.jpg"
+- name: Twilight Zone
+  company: Midway
+  cover: "/uploads/2017/09/06/PS_twizone_2.jpg"
+- name: Pharaoh
+  company: WMS Industries
+  cover: "/uploads/2017/09/06/PS_pharaoh_2.jpg"
+- name: Medival Madness
+  company: WMS Industries
+  cover: "/uploads/2017/09/06/PS_medmad_2.jpg"
 - name: Tetris
   company: Tengen
   cover: "/uploads/2017/09/06/PStetris_2.jpg"
