@@ -1,4 +1,7 @@
 ---
+- name: Firestone Walker
+  brewery: Firestone Walker
+  abv: 8.3%
 - name: TJ'S Bomb Ass Drank
   brewery: TJ's Sweet Sweet Honey
   abv: 15%
