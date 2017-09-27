@@ -1,0 +1,26 @@
+---
+- name: Firestone Walker
+  brewery: Firestone Walker
+  abv: 8.3%
+- name: TJ'S Bomb Ass Drank
+  brewery: TJ's Sweet Sweet Honey
+  abv: 15%
+- name: Evan's Favorite Beer
+  brewery: Pete's Dranks
+  abv: 9.4%
+- name: Sharkinator
+  brewery: Lost Coast
+  abv: 8.2%
+- name: Fresh Squeezed
+  brewery: Deschutes
+  abv: 7.8%
+- name: Hop Sour
+  brewery: Danky Dank
+  abv: 7.8%
+- name: Billigans Island
+  brewery: Sneaky Wave
+  abv: 8%
+- name: Pickle Dicks
+  brewery: Sneaky Wave
+  abv: 15%
+---

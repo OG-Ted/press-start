@@ -1,62 +1,148 @@
 ---
-- name: 'Asteroids'
-  company: 'Atari'
-  cover: '/assets/games/PS-asteroids2.jpg'
-- name: 'Crystal Castles'
-  company: 'Atari'
-  cover: '/assets/games/PS-crystalcastles2.jpg'
-- name: 'Donkey Kong Pauline'
-  company: 'Nintendo'
-  cover: '/assets/games/PS-donkeykongpauline2.jpg'
-- name: 'Double Dragon'
-  company: 'Taito'
-  cover: '/assets/games/PS-doubledragon2.jpg'
-- name: 'Marble Madness'
-  company: 'Atari'
-  cover: '/assets/games/PS-marblemadness2.jpg'
-- name: 'Mortal Kombat II'
-  company: 'Midway'
-  cover: '/assets/games/PS-mk2-2.jpg'
-- name: 'Marvel vs Capcom'
-  company: 'Capcom'
-  cover: '/assets/games/PS-mvc2.jpg'
-- name: 'NBA Jam'
-  company: 'Midway'
-  cover: '/assets/games/PS-nbajam2.jpg'
-- name: 'Teenage Mutant Ninja Turtles'
-  company: 'Konami'
-  cover: '/assets/games/PS-ninjaturtles2.jpg'
-- name: 'Pacman'
-  company: 'Midway'
-  cover: '/assets/games/PS-pacman2.jpg'
-- name: 'Punch-Out!!'
-  company: 'Nintendo'
-  cover: '/assets/games/PS-punchout2.jpg'
-- name: 'Rampage World Tour'
-  company: 'Midway'
-  cover: '/assets/games/PS-rampage2.jpg'
-- name: 'Road Runner'
-  company: 'Atari'
-  cover: '/assets/games/PS-roadrunner2.jpg'
-- name: 'Super Street Fighter II Turbo'
-  company: 'Capcom'
-  cover: '/assets/games/PS-ssf2-2.jpg'
-- name: 'Tempest'
-  company: 'Atari'
-  cover: '/assets/games/PS-tempest2.jpg'
-- name: 'Terminator II: Judgment Day'
-  company: 'Midway'
-  cover: '/assets/games/PS-term2-2.jpg'
-- name: 'The Simpsons'
-  company: 'Konami'
-  cover: '/assets/games/PS-thesimpsons2.jpg'
-- name: 'Toobin'
-  company: 'Unknown'
-  cover: '/assets/games/PS-toobin2.jpg'
-- name: 'WWF: WrestleFest'
-  company: 'Technos'
-  cover: '/assets/games/PS-wrestlefest2.jpg'
-- name: 'X-Men'
-  company: 'Konami'
-  cover: '/assets/games/PS-xmen2.jpg'
----
+- name: Bronco Pinball
+  company: Gottlieb
+  cover: "/uploads/2017/09/06/PS_bronco_2.jpg"
+- name: The Simpsons Pinball
+  company: Data East
+  cover: "/uploads/2017/09/06/PS_simpson_2.jpg"
+- name: Batman 66
+  company: Stern Pinball
+  cover: "/uploads/2017/09/06/PS_batman66_2-1.jpg"
+- name: Star Wars
+  company: Data East
+  cover: "/uploads/2017/09/06/PS_stawar_2-1.jpg"
+- name: Dialed In
+  company: Jersey Jack Pinball
+  cover: "/uploads/2017/09/06/PS_dialedin_2.png"
+- name: Ghostbusters
+  company: Stern Pinball
+  cover: "/uploads/2017/09/06/PS_ghostb_2.jpg"
+- name: Twilight Zone
+  company: Midway
+  cover: "/uploads/2017/09/06/PS_twizone_2.jpg"
+- name: Pharaoh
+  company: WMS Industries
+  cover: "/uploads/2017/09/06/PS_pharaoh_2.jpg"
+- name: Medival Madness
+  company: WMS Industries
+  cover: "/uploads/2017/09/06/PS_medmad_2.jpg"
+- name: Tetris
+  company: Tengen
+  cover: "/uploads/2017/09/06/PStetris_2.jpg"
+- name: Pacman Battle Royale
+  company: Namco
+  cover: "/uploads/2017/09/06/PS_pacmanbattleroyale_2.jpg"
+- name: Gauntlet
+  company: Atari
+  cover: "/uploads/2017/09/06/PSgauntlet_2.jpg"
+- name: Super Mario
+  company: Nintendo
+  cover: "/uploads/2017/09/06/PSmario_2.jpg"
+- name: Gun Fighters
+  company: Konami
+  cover: "/uploads/2017/09/06/PCgunfighters_2.jpg"
+- name: Ms. Pacman - Galaga Combo
+  company: Namco
+  cover: "/uploads/2017/09/06/PSmspacmangalaga_2.jpg"
+- name: Dig Dug
+  company: Atari
+  cover: "/uploads/2017/09/06/PSdigdug_2.jpg"
+- name: Video Pinball
+  company: Atari
+  cover: "/uploads/2017/09/06/PSvideopinball_2.jpg"
+- name: Come on Baby
+  company: Expotato
+  cover: "/uploads/2017/09/06/PScomeonbaby_2-1.jpg"
+- name: Ice Cold Beer
+  company: Taito
+  cover: "/uploads/2017/09/06/PS_ICB_2.jpg"
+- name: Galaxian
+  company: Midway
+  cover: "/uploads/2017/09/06/PSgalaxian_2.jpg"
+- name: Centipede
+  company: Atari
+  cover: "/uploads/2017/09/06/PScentipede_2-1.jpg"
+- name: Pole Position
+  company: Namco
+  cover: "/uploads/2017/09/06/PSpoleposition_2.jpg"
+- name: Battlezone
+  company: Atari
+  cover: "/uploads/2017/09/06/PSbattlezone_2.jpg"
+- name: Area 51
+  company: Atari
+  cover: "/uploads/2017/09/06/PSarea51_2.jpg"
+- name: Dragon's Lair
+  company: Cinematronics
+  cover: "/uploads/2017/09/06/PSdragonslair_2-1.jpg"
+- name: Ikari Warriors 3
+  company: SNK
+  cover: "/uploads/2017/09/06/PSikari_2.jpg"
+- name: Frogger
+  company: Konami
+  cover: "/uploads/2017/09/06/PSfrogger_2-1.jpg"
+- name: Champ Sprint
+  company: Atari
+  cover: "/uploads/2017/09/06/PCchampionshipsprint_2.jpg"
+- name: Joust
+  company: Williams Electronics
+  cover: "/uploads/2017/09/06/PS_joust_2-1.jpg"
+- company: Atari
+  cover: "/assets/games/PS-asteroids2.jpg"
+  name: Asteroids
+- company: Atari
+  cover: "/assets/games/PS-crystalcastles2.jpg"
+  name: Crystal Castles
+- company: Nintendo
+  cover: "/assets/games/PS-donkeykongpauline2.jpg"
+  name: Donkey Kong Pauline
+- company: Taito
+  cover: "/assets/games/PS-doubledragon2.jpg"
+  name: Double Dragon
+- company: Atari
+  cover: "/assets/games/PS-marblemadness2.jpg"
+  name: Marble Madness
+- company: Midway
+  cover: "/assets/games/PS-mk2-2.jpg"
+  name: Mortal Kombat II
+- company: Capcom
+  cover: "/assets/games/PS-mvc2.jpg"
+  name: Marvel vs Capcom
+- company: Midway
+  cover: "/assets/games/PS-nbajam2.jpg"
+  name: NBA Jam
+- company: Konami
+  cover: "/assets/games/PS-ninjaturtles2.jpg"
+  name: Teenage Mutant Ninja Turtles
+- company: Midway
+  cover: "/assets/games/PS-pacman2.jpg"
+  name: Pacman
+- company: Nintendo
+  cover: "/assets/games/PS-punchout2.jpg"
+  name: Punch-Out!!
+- company: Midway
+  cover: "/assets/games/PS-rampage2.jpg"
+  name: Rampage World Tour
+- company: Atari
+  cover: "/assets/games/PS-roadrunner2.jpg"
+  name: Road Runner
+- company: Capcom
+  cover: "/assets/games/PS-ssf2-2.jpg"
+  name: Super Street Fighter II Turbo
+- company: Atari
+  cover: "/assets/games/PS-tempest2.jpg"
+  name: Tempest
+- company: Midway
+  cover: "/assets/games/PS-term2-2.jpg"
+  name: 'Terminator II: Judgment Day'
+- company: Konami
+  cover: "/assets/games/PS-thesimpsons2.jpg"
+  name: The Simpsons
+- company: Unknown
+  cover: "/assets/games/PS-toobin2.jpg"
+  name: Toobin
+- company: Technos
+  cover: "/assets/games/PS-wrestlefest2.jpg"
+  name: 'WWF: WrestleFest'
+- company: Konami
+  cover: "/assets/games/PS-xmen2.jpg"
+  name: X-Men
