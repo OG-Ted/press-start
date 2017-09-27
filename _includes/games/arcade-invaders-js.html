@@ -1,0 +1,36 @@
+
+<script type="text/javascript" src="js/director.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/games/space-invaders/javascripts/Const.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/games/space-invaders/javascripts/SpaceShip.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/games/space-invaders/javascripts/CDetection.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/games/space-invaders/javascripts/Game.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    // create the game object
+    window.game = new SI.Game();
+
+    // Route functions
+    var play = function () {
+      window.game.start();
+      gameKey();
+      $('#gameview').focus();
+    };
+
+    var home = function () {
+      if (window.game.running) {
+        window.game.stop();
+        gameKey();
+      }
+    };
+
+    // Route definitions
+    var routes = {
+      '/': home,
+      '/play': play
+    };
+
+    // Initialize the router
+    var router = Router(routes);
+    router.init('/');
+  });
+</script>

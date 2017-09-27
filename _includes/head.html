@@ -1,21 +1,21 @@
 <head>
   <meta charset="utf-8">
 
-  <!-- optimize mobile/enable mobile web app -->
+  {% comment %} optimize mobile/enable mobile web app {% endcomment %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
 
-  <!-- keywords -->
+  {% comment %} keywords {% endcomment %}
   <meta name="keywords" content="{{site.data.seo.keywords}}">
 
-  <!-- page title -->
+  {% comment %} page title {% endcomment %}
   <title>{{page.title}}</title>
   <meta name="description" content="{{page.description}}">
 
-  <!-- opengraph -->
+  {% comment %} opengraph {% endcomment %}
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{site.baseurl}}/{{page.url}}" />
   <meta property="og:title" content="{{page.title}}" />
@@ -30,13 +30,14 @@
   <meta name="twitter:image" content="{{ site.baseurl }}/assets/og.png" />
   <meta name="twitter:url" value="{{site.baseurl}}/{{page.url}}" />
 
-  <!-- stylesheet -->
+  {% comment %} stylesheet {% endcomment %}
   <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
 
-  <!-- jquery -->
+  {% comment %} jquery {% endcomment %}
   <script type="text/javascript" src="{{site.baseurl}}/js/jquery-3.1.0.min.js"></script>
+
   <script type="text/javascript" src="{{site.baseurl}}/js/main.js"></script>
 
-  <!-- analytics -->
+  {% comment %} analytics {% endcomment %}
 
 </head>

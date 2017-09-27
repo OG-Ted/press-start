@@ -161,4 +161,19 @@ $(document).ready(function() {
          $(".game-overlay").removeClass('show-game-overlay');
     });
 
+  // directions overlay
+
+    $('#directions-menu').on('click', function() {
+         $(".directions-overlay").addClass('show-directions-overlay');
+    });
+
+    $('#directions-overlay-close').on('click', function() {
+         $(".directions-overlay").removeClass('show-directions-overlay');
+    });
+
+
+  // PRESS START ARACADE:
+
+  // 1. arcade overlay: space invaders
+
 });
