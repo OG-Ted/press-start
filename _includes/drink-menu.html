@@ -1,32 +1,72 @@
-<div class="drink-overlay list-overlay">
-  <h1>Select Beer</h1>
+<div class="drink-overlay show-drink-overlay list-overlay">
+  <h1>Select Drink</h1>
 
-  <div class="drink-table">
-    <div class="row drink-table-head">
-      <div class="col-third txt-left">
-        Name
-      </div>
-      <div class="col-third txt-left">
-        Brewery
-      </div>
-      <div class="col-third txt-right">
-        ABV%
-      </div>
+  <div class="drink-list">
+
+    <div class="row drink-category">
+      <h2 class="drink-category-header">
+        On Tap
+      </h2>
+      <h3 class="drink-subhead">
+        {{ site.data.prices.pint-price }} Pints / {{ site.data.prices.pitcher-price }} Pitchers
+      </h3>
+      <ul>
+        {% for drink in site.data.on-tap-list %}
+        <li class="drink-dat-beer">
+          {{ drink.name }}
+        </li>
+        {% endfor %}
+      </ul>
     </div>
 
-    {% for drink in site.data.drink-list %}
-    <div class="row drink-table-row drink-dat-beer">
-      <div class="col-third txt-left">
-        {{drink.name}}
-      </div>
-      <div class="col-third txt-left">
-        {{drink.brewery}}
-      </div>
-      <div class="col-third txt-right">
-        {{drink.abv}}
-      </div>
+    <div class="row drink-category">
+      <h2 class="drink-category-header">
+        Bottles
+      </h2>
+
+      <h3 class="drink-subhead">
+        {{ site.data.prices.domestic-price }} Domestic
+      </h3>
+      <ul>
+        {% for drink in site.data.domestic-bottle-list %}
+        <li class="drink-dat-beer">
+          {{ drink.name }}
+        </li>
+        {% endfor %}
+      </ul>
+
+      <h3 class="drink-subhead">
+        {{ site.data.prices.craft-price }} Craft & Import
+      </h3>
+      <ul>
+        {% for drink in site.data.craft-bottle-list %}
+        <li class="drink-dat-beer">
+          {{ drink.name }}
+        </li>
+        {% endfor %}
+      </ul>
     </div>
-    {% endfor %}
+
+    <div class="row drink-category">
+      <h2 class="drink-category-header">
+        Cocktails
+      </h2>
+      <h3 class="drink-subhead">
+        {{ site.data.prices.cocktail-price }} All Cocktails
+      </h3>
+      <ul>
+        {% for drink in site.data.cocktail-list %}
+        <li class="drink-dat-beer">
+          {{ drink.name }}
+        </li>
+        {% endfor %}
+      </ul>
+
+      <h3 class="drink-subhead">
+        ♥ We offer a full bar of fine spirits 'n' stuff
+      </h3>
+
+    </div>
 
   </div>
 

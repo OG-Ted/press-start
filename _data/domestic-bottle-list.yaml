@@ -1,0 +1,6 @@
+---
+ - name: 'Budweiser'
+ - name: 'Bud Light'
+ - name: 'Miller Light'
+ - name: 'Coors Light'
+---
