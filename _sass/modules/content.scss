@@ -1120,3 +1120,10 @@ h1 {
   width: 100vw;
   height: 100vh;
 }
+
+.sm-img {
+  @media (max-width:$base-sm) {
+    max-width:60px;
+    width:100%;
+  }
+}
