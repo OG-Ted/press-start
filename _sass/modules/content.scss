@@ -1127,3 +1127,9 @@ h1 {
     width:100%;
   }
 }
+
+.about-container {
+  @media (max-width:676px) {
+    padding-bottom:$base*2;
+  }
+}
