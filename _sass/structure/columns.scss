@@ -3,6 +3,7 @@
 $col-full:100%;
 $col-half:($col-full)/2;
 $col-third:($col-full)/3;
+$col-fifth:($col-full)/5;
 $col-quarter:($col-half)/2;
 $col-eighth:($col-quarter)/2;
 
@@ -41,6 +42,10 @@ div[class^="col-"], div[class*=" col-"] {
   width:$col-quarter*3;
 }
 
+.col-fifth {
+  width:$col-fifth;
+}
+
 .col-eighth {
   width:$col-eighth;
 }
@@ -52,4 +57,12 @@ div[class^="col-"], div[class*=" col-"] {
 }
 .col-seven-eighth {
   width:$col-eighth*7;
+}
+
+/* mobile columns */
+
+.sm-col-fifth {
+  position:relative;
+  float:left;
+  width:$col-fifth;
 }

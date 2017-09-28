@@ -1,4 +1,7 @@
 nav.nav-screen {
+  @media (max-width:$base-sm) {
+    display:none;
+  }
   .arcade-nav {
     z-index:900;
     background-color:rgba(255,255,255,0);
@@ -56,6 +59,32 @@ nav.nav-screen {
       &:hover {
         transform:scale(1.5);
       }
+    }
+  }
+}
+
+nav.nav-mobile {
+  position:fixed;
+  z-index:999;
+  bottom:0;
+  left:0;
+  width:100vw;
+  font-size:7px;
+  text-align:center;
+  vertical-align:middle;
+  padding-bottom:1.5vh;
+  a, a:hover, a:visited, a:active {
+    color:$clr-cream;
+    text-decoration:none;
+  }
+  .nav-label {
+    display:block;
+    padding-top:10px;
+    text-transform:uppercase;
+  }
+  .nav-home {
+    img {
+      transform:translateY(-5px) scale(1.2);
     }
   }
 }
