@@ -73,6 +73,10 @@ nav.nav-mobile {
   text-align:center;
   vertical-align:middle;
   padding-bottom:1.5vh;
+  display:none;
+  @media (max-width:676px) {
+    display:block;
+  }
   a, a:hover, a:visited, a:active {
     color:$clr-cream;
     text-decoration:none;
