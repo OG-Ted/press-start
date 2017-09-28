@@ -482,10 +482,20 @@ body {
     max-width:$ps-width-lg;
     width:100%;
     margin:0 auto;
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
     .foot-left,.foot-right {
       text-transform:uppercase;
       line-height:0;
       font-size:9px;
+      &:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
     }
     .foot-left {
       float:left;
