@@ -1,4 +1,4 @@
-nav {
+nav.nav-screen {
   .arcade-nav {
     z-index:900;
     background-color:rgba(255,255,255,0);
@@ -21,6 +21,8 @@ nav {
       transform:translateY(-50%) scale(1);
       &:hover {
         transform:translateY(-50%) scale(1.5);
+      }
+      @media (max-width:$base-sm) {
       }
     }
     &.arcade-nav-right {

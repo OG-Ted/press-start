@@ -55,23 +55,23 @@ $(document).ready(function() {
       $("#nav-left").removeClass('hidden');
       $("#nav-right").removeClass('hidden');
     }
-    function downArrowPressed() {
-      window.location = '#top';
-      $("#home").css({
-        "opacity": "0"
-      });
-      $("#nav-left").removeClass('nudge');
-      $("#nav-right").removeClass('nudge');
-      $("#nav-top").removeClass('nudge');
-      $("#nav-home").removeClass('nudge');
-
-      // hide + show tap navigation
-      $("#nav-bottom").removeClass('hidden');
-      $("#nav-top").addClass('hidden');
-      $("#nav-home").removeClass('hidden');
-      $("#nav-left").removeClass('hidden');
-      $("#nav-right").removeClass('hidden');
-    }
+    // function downArrowPressed() {
+    //   window.location = '#top';
+    //   $("#home").css({
+    //     "opacity": "0"
+    //   });
+    //   $("#nav-left").removeClass('nudge');
+    //   $("#nav-right").removeClass('nudge');
+    //   $("#nav-top").removeClass('nudge');
+    //   $("#nav-home").removeClass('nudge');
+    //
+    //   // hide + show tap navigation
+    //   $("#nav-bottom").removeClass('hidden');
+    //   $("#nav-top").addClass('hidden');
+    //   $("#nav-home").removeClass('hidden');
+    //   $("#nav-left").removeClass('hidden');
+    //   $("#nav-right").removeClass('hidden');
+    // }
     function spaceBarPressed() {
       window.location = '#home';
       $("#home").css({
@@ -106,9 +106,9 @@ $(document).ready(function() {
             case 39:
                 leftArrowPressed();
                 break;
-            case 40:
-                downArrowPressed();
-                break;
+            // case 40:
+            //     downArrowPressed();
+            //     break;
         }
     };
 
@@ -118,9 +118,9 @@ $(document).ready(function() {
     $('#nav-right').on('click', function() {
          rightArrowPressed();
     });
-    $('#nav-top').on('click', function() {
-         downArrowPressed();
-    });
+    // $('#nav-top').on('click', function() {
+    //      downArrowPressed();
+    // });
     $('#nav-bottom').on('click', function() {
          upArrowPressed();
     });
@@ -163,8 +163,9 @@ $(document).ready(function() {
 
   // directions overlay
 
-    $('#directions-menu').on('click', function() {
+    $('.directions-menu').on('click', function() {
          $(".directions-overlay").addClass('show-directions-overlay');
+         $(".game-overlay").removeClass('show-game-overlay');
     });
 
     $('#directions-overlay-close').on('click', function() {
