@@ -257,7 +257,7 @@ body {
       transform:none;
       .col-center {
         padding-bottom:$base;
-        padding-top:6vh;
+        padding-top:$base/2;
       }
     }
   }
