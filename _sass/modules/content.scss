@@ -939,6 +939,16 @@ h1 {
            font-size: 16px;
            letter-spacing: 3.47px;
          }
+         &.directions-content-sm {
+           font-size:16px;
+           letter-spacing:3.47px;
+           line-height:1.5;
+           @media (max-width:$base-sm) {
+             font-size:8px;
+             letter-spacing:1.47px;
+             text-shadow: 1px 2px 0 $clr-black;
+           }
+         }
        }
        .link-focus {
          color:$clr-ultra-yellow;
