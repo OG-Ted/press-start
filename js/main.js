@@ -55,23 +55,23 @@ $(document).ready(function() {
       $("#nav-left").removeClass('hidden');
       $("#nav-right").removeClass('hidden');
     }
-    // function downArrowPressed() {
-    //   window.location = '#top';
-    //   $("#home").css({
-    //     "opacity": "0"
-    //   });
-    //   $("#nav-left").removeClass('nudge');
-    //   $("#nav-right").removeClass('nudge');
-    //   $("#nav-top").removeClass('nudge');
-    //   $("#nav-home").removeClass('nudge');
-    //
-    //   // hide + show tap navigation
-    //   $("#nav-bottom").removeClass('hidden');
-    //   $("#nav-top").addClass('hidden');
-    //   $("#nav-home").removeClass('hidden');
-    //   $("#nav-left").removeClass('hidden');
-    //   $("#nav-right").removeClass('hidden');
-    // }
+    function downArrowPressed() {
+      window.location = '#top';
+      $("#home").css({
+        "opacity": "0"
+      });
+      $("#nav-left").removeClass('nudge');
+      $("#nav-right").removeClass('nudge');
+      $("#nav-top").removeClass('nudge');
+      $("#nav-home").removeClass('nudge');
+
+      // hide + show tap navigation
+      $("#nav-bottom").removeClass('hidden');
+      $("#nav-top").addClass('hidden');
+      $("#nav-home").removeClass('hidden');
+      $("#nav-left").removeClass('hidden');
+      $("#nav-right").removeClass('hidden');
+    }
     function spaceBarPressed() {
       window.location = '#home';
       $("#home").css({

@@ -1171,3 +1171,15 @@ h1 {
     display:inline-block;
   }
 }
+
+/* game */
+
+.game-container {
+  position:fixed;
+  z-index:990;
+  background-color:$clr-ultra-purple;
+  left:0;
+  top:0;
+  width:100vw;
+  height:100vh;
+}

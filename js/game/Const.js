@@ -1,12 +1,10 @@
 var SI = {};
-windowWidth = $(window).width();
-windowHeight = $(window).height() / 1.2;
 /*
  * Sizes for drawing and computing
  */
 SI.Sizes = {
-	width: windowWidth,
-	height: windowHeight,
+	width: $(window).width(),
+	height: $(window).height(),
 
 	lineWidth: 1,
 	maxRockets: 8,
@@ -63,22 +61,22 @@ SI.Images = {};
 
 
 SI.Images.playerImg = new Image();
-SI.Images.playerImg.src = 'assets/game_player.png';
+SI.Images.playerImg.src = 'assets/arcade/player.png';
 SI.Images.playerImg.phases = 1 - 1;
 SI.Images.playerImg.width = 40;
 SI.Images.playerImg.height = 20;
 
 SI.Images.enemyImg = new Image();
-SI.Images.enemyImg.src = 'assets/game_enemy.png';
+SI.Images.enemyImg.src = 'assets/arcade/enemy.png';
 SI.Images.enemyImg.phases = 2 - 1;
 SI.Images.enemyImg.width = 40;
 SI.Images.enemyImg.height = 30;
 
 SI.Images.rocketImg = new Image();
-SI.Images.rocketImg.src = 'assets/game_rocket.png';
+SI.Images.rocketImg.src = 'assets/arcade/rocket.png';
 
 SI.Images.explosionImg = new Image();
-SI.Images.explosionImg.src = 'assets/game_explosion.png';
+SI.Images.explosionImg.src = 'assets/arcade/explosion.png';
 SI.Images.explosionImg.phases = 7 - 1;
 SI.Images.explosionImg.width = 40;
 SI.Images.explosionImg.height = 40;
@@ -87,9 +85,9 @@ SI.Images.explosionImg.height = 40;
  * Colors for fillStyle and strokeStyle
  */
 SI.Colors = {
-	rocket: '#8CE1CB',
-	ground: '#8CE1CB',
-	text: '#FFFDF1',
+	rocket: '#07f',
+	ground: 'green',
+	text: 'white',
 }
 /*
  * Directions for rockets and spaceships
