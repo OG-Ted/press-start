@@ -1120,25 +1120,18 @@ h1 {
 }
 
 .game-container {
-  z-index:990;
+  z-index:999;
   position:fixed;
   top:0;
   left:0;
   bottom:0;
   right:0;
-  .close-overlay {
-    cursor:pointer;
-  }
-  .close-game {
-    z-index:999;
-  }
   .close-x {
     width:$base;
     height:$base;
     position:relative;
     background-color:$clr-ultra-ruby;
-
-    cursor:pointer;
+    z-index:9999;
     &:after, &:before {
       content:'';
       position:absolute;
