@@ -62,22 +62,21 @@ SI.Game.prototype.initializeCanvas = function () {
 
 SI.Game.prototype.attachKeyboardEvents = function() {
 	var self = this;
-
-	$('#gameview').keydown(function (e) {
+	$(document).keydown(function (e) {
 		self.onKeyDown(e);
 	});
 
-	$('#gameview').keyup(function (e) {
+	$(document).keyup(function (e) {
 		self.onKeyUp(e);
 	});
 
-	$('#gameview').bind('touchmove', function (e) {
+	$(document).bind('touchmove', function (e) {
 		var touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0];
 		e.preventDefault();
 		self.playerShip.setLocation(touch.pageX - self.ctx.canvas.offsetLeft);
 	});
 
-	$('#gameview').bind('touchstart', function (e) {
+	$(document).bind('touchstart', function (e) {
 
 		var touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0];
 		e.preventDefault();
@@ -86,10 +85,10 @@ SI.Game.prototype.attachKeyboardEvents = function() {
 }
 
 SI.Game.prototype.unbindKeyboardEvents = function() {
-	$('#gameview').unbind('keydown');
-	$('#gameview').unbind('keyup');
-	$('#gameview').unbind('touchmove');
-	$('#gameview').unbind('touchstart');
+	$(document).unbind('keydown');
+	$(document).unbind('keyup');
+	$(document).unbind('touchmove');
+	$(document).unbind('touchstart');
 }
 
 /*
