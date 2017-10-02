@@ -703,6 +703,40 @@ h1 {
   }
 }
 
+.game-box {
+  border:4px solid $clr-ultra-purple;
+  text-transform:uppercase;
+  padding:20px;
+  display:inline-block;
+  @media (max-width:$base-sm) {
+    border:none;
+    padding:0;
+  }
+  h1 {
+    margin:20px 0px;
+    text-shadow: 2px 2px 0 $clr-ultra-purple;
+    color:$clr-cream;
+    @media (max-width:$base-sm) {
+      font-size:29px;
+      line-height:1.3;
+    }
+  }
+  .btn {
+    padding-left:20px;
+    padding-right:20px;
+    color:$clr-cream;
+    border-color:$clr-ultra-purple;
+    &.games-button-hide {
+      display:none;
+    }
+    &:hover {
+      color:$clr-black !important;
+      background-color:$clr-ultra-green;
+      border-color:$clr-ultra-green;
+    }
+  }
+}
+
 .list-overlay {
   &.drink-overlay {
     position:fixed;

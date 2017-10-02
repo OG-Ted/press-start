@@ -441,12 +441,6 @@ SI.Game.prototype.drawGround = function () {
 SI.Game.prototype.drawStatus = function () {
 	this.ctx.fillStyle  = SI.Colors.text;
 	this.ctx.lineWidth = SI.Sizes.lineWidth;
-
-	var output = 'Points: ' + this.points;
-	this.ctx.fillText(output, SI.Sizes.leftMargin, SI.Sizes.textMargin);
-
-	output = 'Lives left: ' + this.lives;
-	this.ctx.fillText(output, SI.Sizes.textRightMargin, SI.Sizes.textMargin);
 }
 
 SI.Game.prototype.newGamePrompt = function (message) {

@@ -16,7 +16,7 @@ SI.Sizes = {
 	MSPF: 1000 / 30,
 
 	turnUntilFire: 25,
-	waitSprite: 5, 
+	waitSprite: 5,
 }
 	SI.Sizes.modifier = 1;
 	if(SI.Sizes.width <= 360 || SI.Sizes.height <= 640) {
@@ -88,7 +88,7 @@ SI.Images.explosionImg.height = 40;
  */
 SI.Colors = {
 	rocket: '#07f',
-	ground: 'green',
+	ground: 'black',
 	text: 'white',
 }
 /*
@@ -97,7 +97,7 @@ SI.Colors = {
 SI.Directions = {
 	Down: 1,
 	Up: -1,
-	
+
 	Right: 1,
 	Left: -1
 }
@@ -111,4 +111,3 @@ SI.Keys = {
 	Up: 38,
 	Space: 32
 }
-
