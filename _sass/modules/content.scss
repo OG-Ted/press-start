@@ -1126,12 +1126,16 @@ h1 {
   left:0;
   bottom:0;
   right:0;
+  .close-overlay {
+    cursor:pointer;
+  }
   .close-x {
     width:$base;
     height:$base;
     position:relative;
     background-color:$clr-ultra-ruby;
     z-index:9999;
+    cursor:pointer;
     &:after, &:before {
       content:'';
       position:absolute;
