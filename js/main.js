@@ -1,116 +1,157 @@
+function leftArrowPressed() {
+  window.location = '#right';
+  $("#home").css({
+    "opacity": "0"
+  });
+  $("#nav-left").addClass('nudge');
+  $("#nav-right").removeClass('nudge');
+  $("#nav-top").removeClass('nudge');
+  $("#nav-bottom").removeClass('nudge');
+  $("#nav-home").removeClass('nudge');
+
+  // hide + show tap navigation
+  $("#nav-right").removeClass('hidden');
+  $("#nav-left").addClass('hidden');
+  $("#nav-top").removeClass('hidden');
+  $("#nav-bottom").removeClass('hidden');
+  $("#nav-home").removeClass('hidden');
+
+}
+function rightArrowPressed() {
+  window.location = '#left';
+  $("#home").css({
+    "opacity": "0"
+  });
+  $("#nav-right").addClass('nudge');
+  $("#nav-left").removeClass('nudge');
+  $("#nav-top").removeClass('nudge');
+  $("#nav-bottom").removeClass('nudge');
+  $("#nav-home").removeClass('nudge');
+
+  // hide + show tap navigation
+  $("#nav-left").removeClass('hidden');
+  $("#nav-right").addClass('hidden');
+  $("#nav-top").removeClass('hidden');
+  $("#nav-bottom").removeClass('hidden');
+  $("#nav-home").removeClass('hidden');
+
+}
+function upArrowPressed() {
+  window.location = '#top';
+  $("#home").css({
+    "opacity": "0"
+  });
+  $("#nav-top").addClass('nudge');
+  $("#nav-left").removeClass('nudge');
+  $("#nav-right").removeClass('nudge');
+  $("#nav-bottom").removeClass('nudge');
+  $("#nav-home").removeClass('nudge');
+
+  // hide + show tap navigation
+  $("#nav-bottom").addClass('hidden');
+  $("#nav-top").removeClass('hidden');
+  $("#nav-home").removeClass('hidden');
+  $("#nav-left").removeClass('hidden');
+  $("#nav-right").removeClass('hidden');
+}
+function downArrowPressed() {
+  window.location = '#bottom';
+  $("#home").css({
+    "opacity": "0"
+  });
+  $("#nav-left").removeClass('nudge');
+  $("#nav-right").removeClass('nudge');
+  $("#nav-top").removeClass('nudge');
+  $("#nav-home").removeClass('nudge');
+
+  // hide + show tap navigation
+  $("#nav-bottom").removeClass('hidden');
+  $("#nav-top").addClass('hidden');
+  $("#nav-home").removeClass('hidden');
+  $("#nav-left").removeClass('hidden');
+  $("#nav-right").removeClass('hidden');
+}
+function spaceBarPressed() {
+  window.location = '#home';
+  $("#home").css({
+    "opacity": "1"
+  });
+  $("#nav-home").addClass('nudge');
+  $("#nav-left").removeClass('nudge');
+  $("#nav-right").removeClass('nudge');
+  $("#nav-top").removeClass('nudge');
+  $("#nav-bottom").removeClass('nudge');
+
+  // hide + show tap navigation
+  $("#nav-bottom").removeClass('hidden');
+  $("#nav-top").removeClass('hidden');
+  $("#nav-left").removeClass('hidden');
+  $("#nav-right").removeClass('hidden');
+  $("#nav-home").addClass('hidden');
+}
+
+function navigationKeyHandler(evt) {
+    evt = evt || window.event;
+    switch (evt.keyCode) {
+        case 32:
+            spaceBarPressed();
+            break;
+        case 37:
+            rightArrowPressed();
+            break;
+        case 38:
+            upArrowPressed();
+            break;
+        case 39:
+            leftArrowPressed();
+            break;
+        case 40:
+            downArrowPressed();
+            break;
+    }
+};
+
+function gameInit () {
+  $(document).unbind('keydown');
+  $(document).keydown(function(event) {
+    if (event.which == 27) {
+      window.game.stop();
+      $(".game-container").addClass('hidden');
+    }
+  });
+  window.game.start();
+  $(".game-container").removeClass('hidden');
+}
+
+function exitGame () {
+  window.game.stop();
+  $(document).keydown(navigationKeyHandler);
+  $(".game-container").addClass('hidden');
+}
+
 $(document).ready(function() {
-    function leftArrowPressed() {
-      window.location = '#right';
-      $("#home").css({
-        "opacity": "0"
-      });
-      $("#nav-left").addClass('nudge');
-      $("#nav-right").removeClass('nudge');
-      $("#nav-top").removeClass('nudge');
-      $("#nav-bottom").removeClass('nudge');
-      $("#nav-home").removeClass('nudge');
 
-      // hide + show tap navigation
-      $("#nav-right").removeClass('hidden');
-      $("#nav-left").addClass('hidden');
-      $("#nav-top").removeClass('hidden');
-      $("#nav-bottom").removeClass('hidden');
-      $("#nav-home").removeClass('hidden');
+    $(document).keydown(navigationKeyHandler);
 
-    }
-    function rightArrowPressed() {
-      window.location = '#left';
-      $("#home").css({
-        "opacity": "0"
-      });
-      $("#nav-right").addClass('nudge');
-      $("#nav-left").removeClass('nudge');
-      $("#nav-top").removeClass('nudge');
-      $("#nav-bottom").removeClass('nudge');
-      $("#nav-home").removeClass('nudge');
-
-      // hide + show tap navigation
-      $("#nav-left").removeClass('hidden');
-      $("#nav-right").addClass('hidden');
-      $("#nav-top").removeClass('hidden');
-      $("#nav-bottom").removeClass('hidden');
-      $("#nav-home").removeClass('hidden');
-
-    }
-    function upArrowPressed() {
-      window.location = '#bottom';
-      $("#home").css({
-        "opacity": "0"
-      });
-      $("#nav-top").addClass('nudge');
-      $("#nav-left").removeClass('nudge');
-      $("#nav-right").removeClass('nudge');
-      $("#nav-bottom").removeClass('nudge');
-      $("#nav-home").removeClass('nudge');
-
-      // hide + show tap navigation
-      $("#nav-bottom").addClass('hidden');
-      $("#nav-top").removeClass('hidden');
-      $("#nav-home").removeClass('hidden');
-      $("#nav-left").removeClass('hidden');
-      $("#nav-right").removeClass('hidden');
-    }
-    function downArrowPressed() {
-      window.location = '#top';
-      $("#home").css({
-        "opacity": "0"
-      });
-      $("#nav-left").removeClass('nudge');
-      $("#nav-right").removeClass('nudge');
-      $("#nav-top").removeClass('nudge');
-      $("#nav-home").removeClass('nudge');
-
-      // hide + show tap navigation
-      $("#nav-bottom").removeClass('hidden');
-      $("#nav-top").addClass('hidden');
-      $("#nav-home").removeClass('hidden');
-      $("#nav-left").removeClass('hidden');
-      $("#nav-right").removeClass('hidden');
-    }
-    function spaceBarPressed() {
-      window.location = '#home';
-      $("#home").css({
-        "opacity": "1"
-      });
-      $("#nav-home").addClass('nudge');
-      $("#nav-left").removeClass('nudge');
-      $("#nav-right").removeClass('nudge');
-      $("#nav-top").removeClass('nudge');
-      $("#nav-bottom").removeClass('nudge');
-
-      // hide + show tap navigation
-      $("#nav-bottom").removeClass('hidden');
-      $("#nav-top").removeClass('hidden');
-      $("#nav-left").removeClass('hidden');
-      $("#nav-right").removeClass('hidden');
-      $("#nav-home").addClass('hidden');
+    // if user hits page directly, correct the arrow displays
+    if (location.hash) {
+      switch(location.hash) {
+        case '#top':
+          $("#nav-top").addClass('hidden');
+          break;
+        case '#bottom':
+          $("#nav-bottom").addClass('hidden');
+          break;
+        case '#left':
+          $("#nav-left").addClass('hidden');
+          break;
+        case '#right':
+          $("#nav-right").addClass('hidden');
+          break;
+      }
     }
 
-    document.onkeydown = function(evt) {
-        evt = evt || window.event;
-        switch (evt.keyCode) {
-            case 32:
-                spaceBarPressed();
-                break;
-            case 37:
-                rightArrowPressed();
-                break;
-            case 38:
-                upArrowPressed();
-                break;
-            case 39:
-                leftArrowPressed();
-                break;
-            // case 40:
-            //     downArrowPressed();
-            //     break;
-        }
-    };
+    $(".game-container").addClass('hidden');
 
     $('#nav-left').on('click', function() {
          leftArrowPressed();
@@ -118,9 +159,9 @@ $(document).ready(function() {
     $('#nav-right').on('click', function() {
          rightArrowPressed();
     });
-    // $('#nav-top').on('click', function() {
-    //      downArrowPressed();
-    // });
+    $('#nav-top').on('click', function() {
+          downArrowPressed();
+    });
     $('#nav-bottom').on('click', function() {
          upArrowPressed();
     });
@@ -173,8 +214,61 @@ $(document).ready(function() {
     });
 
 
-  // PRESS START ARACADE:
+    // PRESS START ARACADE:
 
-  // 1. arcade overlay: space invaders
+    // 1. arcade overlay: space invaders
+    // create the game object
+    window.game = new SI.Game();
+
+    window.onhashchange = function () {
+      if (location.hash != '#top') {
+
+        window.game.stop();
+        $(".game-container").addClass('hidden');
+
+        // rebind navigation keys if they aren't bound already
+        if (! document.keydown) {
+          $(document).keydown(navigationKeyHandler);
+        }
+      }
+
+      switch(location.hash) {
+        case '#top':
+          $("#nav-top").addClass('hidden');
+          $("#nav-bottom").removeClass('hidden');
+          $("#nav-left").removeClass('hidden');
+          $("#nav-right").removeClass('hidden');
+          $("#nav-home").removeClass('hidden');
+          break;
+        case '#bottom':
+          $("#nav-bottom").addClass('hidden');
+          $("#nav-top").removeClass('hidden');
+          $("#nav-left").removeClass('hidden');
+          $("#nav-right").removeClass('hidden');
+          $("#nav-home").removeClass('hidden');
+          break;
+        case '#left':
+          $("#nav-left").addClass('hidden');
+          $("#nav-bottom").removeClass('hidden');
+          $("#nav-top").removeClass('hidden');
+          $("#nav-right").removeClass('hidden');
+          $("#nav-home").removeClass('hidden');
+          break;
+        case '#right':
+          $("#nav-right").addClass('hidden');
+          $("#nav-bottom").removeClass('hidden');
+          $("#nav-left").removeClass('hidden');
+          $("#nav-top").removeClass('hidden');
+          $("#nav-home").removeClass('hidden');
+          break;
+        case '#home':
+          $("#nav-home").addClass('hidden');
+          $("#nav-bottom").removeClass('hidden');
+          $("#nav-left").removeClass('hidden');
+          $("#nav-top").removeClass('hidden');
+          $("#nav-right").removeClass('hidden');
+          break;
+      }
+  }
 
 });
