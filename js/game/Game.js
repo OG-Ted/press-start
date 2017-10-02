@@ -21,7 +21,8 @@ SI.Game = function() {
 	// clearance to fire again (enemies)
 	this.turnToFire = 0;
 
-
+	// Active game flag
+	this.running = false;
 }
 
 SI.Game.prototype.start = function () {
@@ -29,8 +30,16 @@ SI.Game.prototype.start = function () {
 	this.attachKeyboardEvents();
 	this.initializeGame();
 	this.drawAllElements();
+	this.running = true;
 }
 
+SI.Game.prototype.stop = function () {
+	if (this.running) {
+		this.clock = clearTimeout(this.clock);
+		this.unbindKeyboardEvents();
+		this.running = false;
+	}
+}
 
 /*
  *	Intializes the canvas element
@@ -39,7 +48,7 @@ SI.Game.prototype.start = function () {
  */
 SI.Game.prototype.initializeCanvas = function () {
 	var $canvas = $('#gameview');
-	
+
 	var $bgimg = $('#background');
 	$bgimg.css('display', 'block');
 	$bgimg.attr('width', SI.Sizes.width + 'px');
@@ -53,23 +62,34 @@ SI.Game.prototype.initializeCanvas = function () {
 
 SI.Game.prototype.attachKeyboardEvents = function() {
 	var self = this;
-	$(document).keydown(function (e) {
+
+	$('#gameview').keydown(function (e) {
 		self.onKeyDown(e);
 	});
-	$(document).keyup(function (e) {
+
+	$('#gameview').keyup(function (e) {
 		self.onKeyUp(e);
 	});
 
-	$(document).bind('touchmove', function (e) {
+	$('#gameview').bind('touchmove', function (e) {
 		var touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0];
 		e.preventDefault();
 		self.playerShip.setLocation(touch.pageX - self.ctx.canvas.offsetLeft);
 	});
-	$(document).bind('touchstart', function (e) {
+
+	$('#gameview').bind('touchstart', function (e) {
+
 		var touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0];
 		e.preventDefault();
 		self.launchPlayerRocket();
 	});
+}
+
+SI.Game.prototype.unbindKeyboardEvents = function() {
+	$('#gameview').unbind('keydown');
+	$('#gameview').unbind('keyup');
+	$('#gameview').unbind('touchmove');
+	$('#gameview').unbind('touchstart');
 }
 
 /*
@@ -103,18 +123,19 @@ SI.Game.prototype.initializeGame = function () {
 	this.enemySpeed = SI.Sizes.enemyStepHort;
 
 	var self = this;
-	this.clock = setInterval(function () {	
-		self.moveAllElements();
-		self.deleteExplodedRockets();
-		self.deleteExplodedEnemyShips();
-		self.deleteDoneExplosions();
-		self.checkPlayerStatus();
-		self.drawAllElements();
-		self.launchEnemyRocket();
-		self.freeRocketLauncher();
-		self.checkEndGame();
-	}, SI.Sizes.MSPF);
-
+	if (!this.running) {
+		this.clock = setInterval(function () {
+			self.moveAllElements();
+			self.deleteExplodedRockets();
+			self.deleteExplodedEnemyShips();
+			self.deleteDoneExplosions();
+			self.checkPlayerStatus();
+			self.drawAllElements();
+			self.launchEnemyRocket();
+			self.freeRocketLauncher();
+			self.checkEndGame();
+		}, SI.Sizes.MSPF);
+	}
 }
 
 SI.Game.prototype.checkEndGame = function () {
@@ -269,7 +290,7 @@ SI.Game.prototype.onKeyDown = function (e) {
 		this.moveRight = true;
 	else if(e.which == SI.Keys.Left)
 		this.moveLeft = true;
-	else if(e.which == SI.Keys.Up) {
+	else if(e.which == SI.Keys.Up || SI.Keys.Space) {
 		this.launchPlayerRocket();
 	}
 }
@@ -423,10 +444,10 @@ SI.Game.prototype.drawStatus = function () {
 	this.ctx.lineWidth = SI.Sizes.lineWidth;
 
 	var output = 'Points: ' + this.points;
-	this.ctx.fillText(output, SI.Sizes.leftMargin, SI.Sizes.textMargin); 
+	this.ctx.fillText(output, SI.Sizes.leftMargin, SI.Sizes.textMargin);
 
 	output = 'Lives left: ' + this.lives;
-	this.ctx.fillText(output, SI.Sizes.textRightMargin, SI.Sizes.textMargin); 
+	this.ctx.fillText(output, SI.Sizes.textRightMargin, SI.Sizes.textMargin);
 }
 
 SI.Game.prototype.newGamePrompt = function (message) {

@@ -2,12 +2,13 @@
 <html>
 {% include head.html %}
 <body id="pageBody">
-  {% include game-container.html %}
   {% include nav-mobile.html %}
   {% include outer.html %}
   {% include frame.html %}
+  {% include game-container.html %}
   <main class="arcade-wrapper">
     {% include nav.html %}
+
     <div class="arcade-container">
       {{ content }}
     </div>
@@ -24,7 +25,5 @@
   <script type="text/javascript" src="{{ site.baseurl }}/js/game/SpaceShip.js"></script>
   <script type="text/javascript" src="{{ site.baseurl }}/js/game/CDetection.js"></script>
   <script type="text/javascript" src="{{ site.baseurl }}/js/game/Game.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/js/game/Main.js"></script>
-
 </body>
 </html>

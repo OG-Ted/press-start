@@ -1,10 +1,12 @@
 var SI = {};
+windowWidth = $(window).width();
+windowHeight = $(window).height() / 1.2;
 /*
  * Sizes for drawing and computing
  */
 SI.Sizes = {
-	width: $(window).width(),
-	height: $(window).height(),
+	width: windowWidth,
+	height: windowHeight,
 
 	lineWidth: 1,
 	maxRockets: 8,
@@ -14,7 +16,7 @@ SI.Sizes = {
 	MSPF: 1000 / 30,
 
 	turnUntilFire: 25,
-	waitSprite: 5,
+	waitSprite: 5, 
 }
 	SI.Sizes.modifier = 1;
 	if(SI.Sizes.width <= 360 || SI.Sizes.height <= 640) {
@@ -61,22 +63,22 @@ SI.Images = {};
 
 
 SI.Images.playerImg = new Image();
-SI.Images.playerImg.src = 'assets/arcade/player.png';
+SI.Images.playerImg.src = 'images/player.png';
 SI.Images.playerImg.phases = 1 - 1;
 SI.Images.playerImg.width = 40;
 SI.Images.playerImg.height = 20;
 
 SI.Images.enemyImg = new Image();
-SI.Images.enemyImg.src = 'assets/arcade/enemy.png';
+SI.Images.enemyImg.src = 'images/enemy.png';
 SI.Images.enemyImg.phases = 2 - 1;
 SI.Images.enemyImg.width = 40;
 SI.Images.enemyImg.height = 30;
 
 SI.Images.rocketImg = new Image();
-SI.Images.rocketImg.src = 'assets/arcade/rocket.png';
+SI.Images.rocketImg.src = 'images/rocket.png';
 
 SI.Images.explosionImg = new Image();
-SI.Images.explosionImg.src = 'assets/arcade/explosion.png';
+SI.Images.explosionImg.src = 'images/explosion.png';
 SI.Images.explosionImg.phases = 7 - 1;
 SI.Images.explosionImg.width = 40;
 SI.Images.explosionImg.height = 40;
@@ -95,7 +97,7 @@ SI.Colors = {
 SI.Directions = {
 	Down: 1,
 	Up: -1,
-
+	
 	Right: 1,
 	Left: -1
 }
@@ -106,5 +108,7 @@ SI.Directions = {
 SI.Keys = {
 	Left: 37,
 	Right: 39,
-	Up: 38
+	Up: 38,
+	Space: 32
 }
+
