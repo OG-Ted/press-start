@@ -37,7 +37,7 @@ function rightArrowPressed() {
 
 }
 function upArrowPressed() {
-  window.location = '#top';
+  window.location = '#bottom';
   $("#home").css({
     "opacity": "0"
   });
@@ -55,7 +55,7 @@ function upArrowPressed() {
   $("#nav-right").removeClass('hidden');
 }
 function downArrowPressed() {
-  window.location = '#bottom';
+  window.location = '#top';
   $("#home").css({
     "opacity": "0"
   });
@@ -100,13 +100,13 @@ function navigationKeyHandler(evt) {
             rightArrowPressed();
             break;
         case 38:
-            upArrowPressed();
+            downArrowPressed();
             break;
         case 39:
             leftArrowPressed();
             break;
         case 40:
-            downArrowPressed();
+            upArrowPressed();
             break;
     }
 };
