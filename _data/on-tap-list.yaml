@@ -1,10 +1,9 @@
 ---
- - name: "Pabst Blue Ribbon"
- - name: "Great Basin 'Icky' IPA"
- - name: "Stella Artois"
- - name: "Brewer's Cabinet Dirty Wookie"
- - name: "Deschute's 'Fresh Squeezed' IPA"
- - name: "Ballast Point 'Sculpin'"
- - name: "Scott's Choice"
- - name: "Brewer's Cabinet Dirty Wookie"
----
+- name: Pabst Blue Ribbon
+- name: Great Basin 'Icky' IPA
+- name: Stella Artois
+- name: Brewer's Cabinet Dirty Wookie
+- name: Deschute's 'Fresh Squeezed' IPA
+- name: Ninkasi "Dawn of the Red"
+- name: Scott's Choice
+- name: Brewer's Cabinet Dirty Wookie
