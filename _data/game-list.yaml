@@ -5,7 +5,7 @@
 - company: Stern Pinball
   cover: "/uploads/2017/10/05/Wlaking-Dead.jpg"
   name: Walking Dead Premium
-- company: Atari Games
+- company: Atari
   cover: "/uploads/2017/10/05/Paperboy_Arcade_Marquee_1024x1024.jpg"
   name: Paperboy
 - company: Stern Pinball
@@ -29,13 +29,13 @@
 - company: Atari Games
   cover: "/uploads/2017/09/06/PStetris_2.jpg"
   name: Tetris
-- company: Atari
-  cover: "/uploads/2017/09/06/PSgauntlet_2.jpg"
-  name: Gauntlet
+- company: Atari Games
+  cover: "/uploads/2017/10/05/gaunlet-legends.jpg"
+  name: Gauntlet Legends
 - company: Namco
   cover: "/uploads/2017/09/06/PSmspacmangalaga_2.jpg"
   name: Ms. Pacman - Galaga Combo
-- company: Atari
+- company: 'Atari '
   cover: "/uploads/2017/09/06/PSdigdug_2.jpg"
   name: Dig Dug
 - company: Atari
@@ -56,7 +56,7 @@
 - company: Atari
   cover: "/uploads/2017/09/06/PSbattlezone_2.jpg"
   name: Battlezone
-- company: Atari
+- company: Atari Games
   cover: "/uploads/2017/09/06/PSarea51_2.jpg"
   name: Area 51
 - company: Cinematronics
