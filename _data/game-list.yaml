@@ -1,9 +1,18 @@
 ---
+- company: Bally
+  cover: "/uploads/2017/10/05/Eight-ball-deluxe-1.jpg"
+  name: Eight Ball Deluxe
 - company: Stern Pinball
-  cover: "/uploads/2017/09/06/PS_batman66_2-1.jpg"
+  cover: "/uploads/2017/10/05/Wlaking-Dead.jpg"
+  name: Walking Dead Premium
+- company: Atari Games
+  cover: "/uploads/2017/10/05/Paperboy_Arcade_Marquee_1024x1024.jpg"
+  name: Paperboy
+- company: Stern Pinball
+  cover: "/uploads/2017/10/05/Batman-Pinball.jpg"
   name: Batman 66
 - company: Stern Pinball
-  cover: "/uploads/2017/09/06/PS_stawar_2-1.jpg"
+  cover: "/uploads/2017/10/05/star-wars-pinball-stern-logo-600x338.jpg"
   name: Star Wars Premium
 - company: Jersey Jack Pinball
   cover: "/uploads/2017/09/06/PS_dialedin_2.png"
@@ -23,9 +32,6 @@
 - company: Atari
   cover: "/uploads/2017/09/06/PSgauntlet_2.jpg"
   name: Gauntlet
-- company: Nintendo
-  cover: "/uploads/2017/09/06/PSmario_2.jpg"
-  name: Super Mario
 - company: Namco
   cover: "/uploads/2017/09/06/PSmspacmangalaga_2.jpg"
   name: Ms. Pacman - Galaga Combo
@@ -89,18 +95,9 @@
 - company: Nintendo
   cover: "/assets/games/PS-punchout2.jpg"
   name: Punch-Out!!
-- company: Midway
-  cover: "/assets/games/PS-rampage2.jpg"
-  name: Rampage World Tour
-- company: Capcom
-  cover: "/assets/games/PS-ssf2-2.jpg"
-  name: Super Street Fighter II Turbo
 - company: Atari
   cover: "/assets/games/PS-tempest2.jpg"
   name: Tempest
-- company: Midway
-  cover: "/assets/games/PS-term2-2.jpg"
-  name: 'Terminator II: Judgment Day'
 - company: Konami
   cover: "/assets/games/PS-thesimpsons2.jpg"
   name: The Simpsons
