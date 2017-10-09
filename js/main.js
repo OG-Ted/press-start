@@ -91,7 +91,6 @@ function spaceBarPressed() {
 }
 
 function navigationKeyHandler(evt) {
-    evt = evt || window.event;
     switch (evt.keyCode) {
         case 32:
             spaceBarPressed();
@@ -112,11 +111,11 @@ function navigationKeyHandler(evt) {
 };
 
 function gameInit () {
-  $(document).unbind('keydown');
-  $(document).keydown(function(event) {
+  $('#pageBody').unbind('keydown');
+  $('.game-container').focus();
+  $('#pageBody').keydown(function(event) {
     if (event.which == 27) {
-      window.game.stop();
-      $(".game-container").addClass('hidden');
+      exitGame();
     }
   });
   window.game.start();
@@ -125,13 +124,14 @@ function gameInit () {
 
 function exitGame () {
   window.game.stop();
-  $(document).keydown(navigationKeyHandler);
+  $('#pageBody').keydown(navigationKeyHandler);
+  $('#pageBody').focus();
   $(".game-container").addClass('hidden');
 }
 
 $(document).ready(function() {
 
-    $(document).keydown(navigationKeyHandler);
+    $('#pageBody').keydown(navigationKeyHandler);
 
     // if user hits page directly, correct the arrow displays
     if (location.hash) {
@@ -228,7 +228,8 @@ $(document).ready(function() {
 
         // rebind navigation keys if they aren't bound already
         if (! document.keydown) {
-          $(document).keydown(navigationKeyHandler);
+          console.log('rebinding');
+          $('#pageBody').keydown(navigationKeyHandler);
         }
       }
 
