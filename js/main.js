@@ -228,7 +228,6 @@ $(document).ready(function() {
 
         // rebind navigation keys if they aren't bound already
         if (! document.keydown) {
-          console.log('rebinding');
           $('#pageBody').keydown(navigationKeyHandler);
         }
       }
