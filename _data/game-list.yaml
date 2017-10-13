@@ -1,4 +1,10 @@
 ---
+- company: Williams
+  cover: "/uploads/2017/10/13/Stargate.jpg"
+  name: Stargate
+- company: Planetary Pinball
+  cover: "/uploads/2017/10/13/afm_3d_mop1.gif"
+  name: Attack from Mars Remake
 - company: Bally
   cover: "/uploads/2017/10/05/Eight-ball-deluxe-1.jpg"
   name: Eight Ball Deluxe
@@ -29,21 +35,12 @@
 - company: Atari Games
   cover: "/uploads/2017/09/06/PStetris_2.jpg"
   name: Tetris
-- company: Atari Games
-  cover: "/uploads/2017/10/05/gaunlet-legends.jpg"
-  name: Gauntlet Legends
 - company: Namco
   cover: "/uploads/2017/09/06/PSmspacmangalaga_2.jpg"
   name: Ms. Pacman - Galaga Combo
 - company: 'Atari '
   cover: "/uploads/2017/09/06/PSdigdug_2.jpg"
   name: Dig Dug
-- company: Atari
-  cover: "/uploads/2017/09/06/PSvideopinball_2.jpg"
-  name: Video Pinball
-- company: Expotato
-  cover: "/uploads/2017/09/06/PScomeonbaby_2-1.jpg"
-  name: Come on Baby
 - company: Taito
   cover: "/uploads/2017/09/06/PS_ICB_2.jpg"
   name: Ice Cold Beer
@@ -53,9 +50,6 @@
 - company: Atari
   cover: "/uploads/2017/09/06/PScentipede_2-1.jpg"
   name: Centipede
-- company: Atari
-  cover: "/uploads/2017/09/06/PSbattlezone_2.jpg"
-  name: Battlezone
 - company: Atari Games
   cover: "/uploads/2017/09/06/PSarea51_2.jpg"
   name: Area 51
@@ -68,9 +62,6 @@
 - company: Williams Electronics
   cover: "/uploads/2017/09/06/PS_joust_2-1.jpg"
   name: Joust
-- company: Atari
-  cover: "/assets/games/PS-asteroids2.jpg"
-  name: Asteroids
 - company: Atari
   cover: "/assets/games/PS-crystalcastles2.jpg"
   name: Crystal Castles
