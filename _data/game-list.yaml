@@ -1,4 +1,7 @@
 ---
+- company: Raw Thrills
+  cover: "/uploads/2017/10/19/walking-dead-arcade-game-header.jpg"
+  name: Walking Dead
 - company: Williams
   cover: "/uploads/2017/10/13/Stargate.jpg"
   name: Stargate
@@ -41,9 +44,9 @@
 - company: 'Atari '
   cover: "/uploads/2017/09/06/PSdigdug_2.jpg"
   name: Dig Dug
-- company: Taito
-  cover: "/uploads/2017/09/06/PS_ICB_2.jpg"
-  name: Ice Cold Beer
+- company: Atari
+  cover: "/assets/games/PS-asteroids2.jpg"
+  name: Asteroids
 - company: Midway
   cover: "/uploads/2017/09/06/PSgalaxian_2.jpg"
   name: Galaxian
