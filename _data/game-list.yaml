@@ -1,4 +1,7 @@
 ---
+- company: 'Midway '
+  cover: "/assets/games/PS-rampage2.jpg"
+  name: Rampage World Tour
 - company: Raw Thrills
   cover: "/uploads/2017/10/19/walking-dead-arcade-game-header.jpg"
   name: Walking Dead
@@ -65,9 +68,9 @@
 - company: Williams Electronics
   cover: "/uploads/2017/09/06/PS_joust_2-1.jpg"
   name: Joust
-- company: Atari
-  cover: "/assets/games/PS-crystalcastles2.jpg"
-  name: Crystal Castles
+- company: Atari Games
+  cover: "/uploads/2017/10/27/gauntlet dark legacy.jpg"
+  name: Gauntlet Dark Legacy
 - company: Nintendo
   cover: "/assets/games/PS-donkeykongpauline2.jpg"
   name: Donkey Kong Pauline
