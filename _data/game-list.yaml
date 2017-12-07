@@ -4,7 +4,7 @@
   name: 1997 Midway
 - company: Walking Dead
   cover: "/uploads/2017/10/19/walking-dead-arcade-game-header.jpg"
-  name: 2016 Raw Thrills
+  name: 2017 Raw Thrills
 - company: Super Sprint
   cover: "/uploads/2017/12/07/super-sprint.jpg"
   name: '1986 Atari '
@@ -14,12 +14,12 @@
 - company: Eight Ball Deluxe
   cover: "/uploads/2017/10/05/Eight-ball-deluxe-1.jpg"
   name: '1981 Bally '
-- company: Stern Pinball
+- company: Walking Dead Premium
   cover: "/uploads/2017/10/05/Wlaking-Dead.jpg"
-  name: Walking Dead Premium
-- company: Atari
-  cover: "/uploads/2017/10/05/Paperboy_Arcade_Marquee_1024x1024.jpg"
-  name: Paperboy
+  name: 2014 - Stern Pinball
+- company: Paperboy
+  cover: "/uploads/2017/12/07/Paperboy.jpg"
+  name: 1984 Atari
 - company: Stern Pinball
   cover: "/uploads/2017/10/05/Batman-Pinball.jpg"
   name: Batman 66
