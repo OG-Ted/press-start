@@ -1,19 +1,19 @@
 ---
 - company: Rampage World Tour
   cover: "/assets/games/PS-rampage2.jpg"
-  name: Midway
+  name: 1997 Midway
 - company: Walking Dead
   cover: "/uploads/2017/10/19/walking-dead-arcade-game-header.jpg"
-  name: 2016 - Raw Thrills
+  name: 2016 Raw Thrills
 - company: Super Sprint
   cover: "/uploads/2017/12/07/super-sprint.jpg"
-  name: Atari - 1986
-- company: Attack From Mars - Remake
+  name: '1986 Atari '
+- company: Attack From Mars
   cover: "/uploads/2017/10/13/afm_3d_mop1.gif"
-  name: Planetary Pinball - 2017
+  name: '2017 Planetary Pinball '
 - company: Eight Ball Deluxe
   cover: "/uploads/2017/10/05/Eight-ball-deluxe-1.jpg"
-  name: Bally - 1981
+  name: '1981 Bally '
 - company: Stern Pinball
   cover: "/uploads/2017/10/05/Wlaking-Dead.jpg"
   name: Walking Dead Premium
