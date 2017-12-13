@@ -47,9 +47,9 @@
 - company: 'Twilight Zone '
   cover: "/uploads/2017/10/05/twlight-zone.jpg"
   name: Bally
-- company: Atari
-  cover: "/assets/games/PS-asteroids2.jpg"
-  name: Asteroids
+- company: Medeval Madness
+  cover: "/uploads/2017/10/05/medevil-madness.jpg"
+  name: 'Planetary Pinball '
 - company: Midway
   cover: "/uploads/2017/09/06/PSgalaxian_2.jpg"
   name: Galaxian
