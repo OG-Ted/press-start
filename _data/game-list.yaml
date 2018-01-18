@@ -1,109 +1,109 @@
 ---
 - company: 'Star Wars Pinball                                                  '
   cover: "/uploads/2017/12/07/Star-Wars-Pinball.jpg"
-  name: '2017 Stern Pinball                     '
+  name: 2018-01-06 00:28:59 +0000
 - company: 'Walking Dead '
   cover: "/uploads/2017/12/07/Wlaking-Dead-Video.jpg"
-  name: 2017 Raw Thrills
+  name: 2018-01-06 00:28:59 +0000
 - company: Ghostbuster Pinball
   cover: "/uploads/2017/12/07/Ghostbusters.jpg"
-  name: '2016 Stern Pinball '
+  name: 2018-01-06 00:28:59 +0000
 - company: Attack From Mars
   cover: "/uploads/2017/12/07/Attack From Mars.gif"
-  name: Planetary Pinball
+  name: 2018-01-06 00:28:59 +0000
 - company: 'Walking Dead '
   cover: "/uploads/2017/12/07/Wlaking-Dead-Pinball.jpg"
-  name: 2014 Stern Pinball
+  name: 2018-01-06 00:28:59 +0000
 - company: Rampage World Tour
   cover: "/uploads/2017/12/07/Rampage-world-tour.jpg"
-  name: 1997  Midway
+  name: 2018-01-06 00:28:59 +0000
 - company: Super Sprint
   cover: "/uploads/2017/12/07/super-sprint-1.jpg"
-  name: 1986 Atari
+  name: 2018-01-06 00:28:59 +0000
 - company: Batman 66
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
-  name: 2016 Stern Pinball
+  name: 2018-01-06 00:28:59 +0000
 - company: Eight Ball Deluxe
   cover: "/uploads/2017/12/07/eight-ball-deluxe.jpg"
-  name: 1981 Bally
+  name: 2018-01-06 00:28:59 +0000
 - company: 'Dialed In '
   cover: "/uploads/2017/12/07/Dialed-In.jpg"
-  name: 2017 Jersey Jack
+  name: 2018-01-06 00:28:59 +0000
 - company: Paperboy
   cover: "/uploads/2017/12/07/Paperboy-1.jpg"
-  name: 1984 Atari
+  name: 2018-01-06 00:28:59 +0000
 - company: Dig Dug
   cover: "/uploads/2017/12/13/Dig-Dug-1.jpg"
-  name: 1982 Atari
+  name: 2018-01-06 00:28:59 +0000
 - company: Asteroids
   cover: "/uploads/2017/12/13/Asteroids.jpg"
-  name: 1979 Atari
-- company: Atari Games
-  cover: "/uploads/2017/09/06/PStetris_2.jpg"
-  name: Tetris
+  name: 2018-01-06 00:28:59 +0000
+- company: Tetris
+  cover: "/uploads/2018/01/18/tetris-2.jpg"
+  name: Atari Games
 - company: Namco
   cover: "/uploads/2017/09/06/PSmspacmangalaga_2.jpg"
-  name: Ms. Pacman - Galaga Combo
+  name: 2018-01-06 00:28:59 +0000
 - company: 'Twilight Zone '
   cover: "/uploads/2017/10/05/twlight-zone.jpg"
-  name: Bally
+  name: 2018-01-06 00:28:59 +0000
 - company: Medeval Madness
   cover: "/uploads/2017/10/05/medevil-madness.jpg"
-  name: 'Planetary Pinball '
+  name: 2018-01-06 00:28:59 +0000
 - company: Midway
   cover: "/uploads/2017/09/06/PSgalaxian_2.jpg"
-  name: Galaxian
+  name: 2018-01-06 00:28:59 +0000
 - company: Atari
   cover: "/uploads/2017/09/06/PScentipede_2-1.jpg"
-  name: Centipede
+  name: 2018-01-06 00:28:59 +0000
 - company: Atari Games
   cover: "/uploads/2017/09/06/PSarea51_2.jpg"
   name: Area 51
 - company: Cinematronics
   cover: "/uploads/2017/09/06/PSdragonslair_2-1.jpg"
-  name: Dragon's Lair
+  name: 2018-01-06 00:28:59 +0000
 - company: Konami
   cover: "/uploads/2017/09/06/PSfrogger_2-1.jpg"
-  name: Frogger
+  name: 2018-01-06 00:28:59 +0000
 - company: Williams Electronics
   cover: "/uploads/2017/09/06/PS_joust_2-1.jpg"
-  name: Joust
+  name: 2018-01-06 00:28:59 +0000
 - company: Atari Games
   cover: "/uploads/2017/10/27/gauntlet dark legacy.jpg"
-  name: Gauntlet Dark Legacy
+  name: 2018-01-06 00:28:59 +0000
 - company: Nintendo
   cover: "/assets/games/PS-donkeykongpauline2.jpg"
-  name: Donkey Kong Pauline
+  name: 2018-01-06 00:28:59 +0000
 - company: Taito
   cover: "/assets/games/PS-doubledragon2.jpg"
-  name: Double Dragon
+  name: 2018-01-06 00:28:59 +0000
 - company: Atari
   cover: "/assets/games/PS-marblemadness2.jpg"
-  name: Marble Madness
+  name: 2018-03-01 00:00:00 +0000
 - company: Midway
   cover: "/assets/games/PS-mk2-2.jpg"
-  name: Mortal Kombat II
+  name: 2018-01-06 00:28:59 +0000
 - company: Midway
   cover: "/assets/games/PS-nbajam2.jpg"
-  name: NBA Jam
+  name: 2018-01-06 00:28:59 +0000
 - company: Konami
   cover: "/assets/games/PS-ninjaturtles2.jpg"
-  name: Teenage Mutant Ninja Turtles
+  name: 2018-01-06 00:28:59 +0000
 - company: Nintendo
   cover: "/assets/games/PS-punchout2.jpg"
-  name: Punch-Out!!
+  name: 2018-01-06 00:28:59 +0000
 - company: Atari
   cover: "/assets/games/PS-tempest2.jpg"
-  name: Tempest
+  name: 2018-01-06 00:28:59 +0000
 - company: Konami
   cover: "/assets/games/PS-thesimpsons2.jpg"
-  name: The Simpsons
+  name: 2018-01-06 00:28:59 +0000
 - company: Atari
   cover: "/assets/games/PS-toobin2.jpg"
-  name: Toobin
+  name: 2018-01-06 00:28:59 +0000
 - company: Technos
   cover: "/assets/games/PS-wrestlefest2.jpg"
-  name: 'WWF: WrestleFest'
+  name: 2018-01-06 00:28:59 +0000
 - company: Konami
   cover: "/assets/games/PS-xmen2.jpg"
-  name: X-Men 6 Player
+  name: 2018-01-06 00:28:59 +0000
