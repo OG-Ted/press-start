@@ -46,10 +46,10 @@
   name: Namco
 - company: 'Twilight Zone '
   cover: "/uploads/2017/10/05/twlight-zone.jpg"
-  name: 2018-01-06 00:28:59 +0000
+  name: Bally Pinball
 - company: Medeval Madness
   cover: "/uploads/2017/10/05/medevil-madness.jpg"
-  name: 2018-01-06 00:28:59 +0000
+  name: Planetary Pinball
 - company: Midway
   cover: "/uploads/2017/09/06/PSgalaxian_2.jpg"
   name: 2018-01-06 00:28:59 +0000
@@ -103,7 +103,7 @@
   name: 2018-01-06 00:28:59 +0000
 - company: Q*Bert
   cover: "/uploads/2018/01/19/qbert.jpg"
-  name: 2018-01-06 00:28:59 +0000
+  name: Gottlieb
 - company: Konami
   cover: "/assets/games/PS-xmen2.jpg"
   name: 2018-01-06 00:28:59 +0000
