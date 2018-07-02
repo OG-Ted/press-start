@@ -101,9 +101,9 @@
 - company: The Simpsons
   cover: "/assets/games/PS-thesimpsons2.jpg"
   name: Konami
-- company: Toobin
-  cover: "/assets/games/PS-toobin2.jpg"
-  name: Atari
+- company: Madden Football
+  cover: "/uploads/2018/07/02/madden.jpg"
+  name: Global VR
 - company: Q*Bert
   cover: "/uploads/2018/01/19/qbert.jpg"
   name: Gottlieb
