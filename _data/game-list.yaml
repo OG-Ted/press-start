@@ -92,9 +92,9 @@
 - company: Ninja Turtles TMNT
   cover: "/assets/games/PS-ninjaturtles2.jpg"
   name: Konami
-- company: Punch Out
-  cover: "/assets/games/PS-punchout2.jpg"
-  name: Nintendo
+- company: Defender
+  cover: "/uploads/2018/07/02/defender.jpg"
+  name: 'Williams '
 - company: Tempest
   cover: "/uploads/2018/01/23/Tempest.jpg"
   name: Atari
