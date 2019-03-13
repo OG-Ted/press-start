@@ -5,6 +5,18 @@ admin_path: manage/
 webhook_url: 
 sections:
 - type: document
+  path: _data/prices.yaml
+  label: Drink Prices
+  match: "**/*"
+- type: document
+  path: _data/on-tap-list.yaml
+  label: On Tap List
+  match: "**/*"
+- type: document
+  path: _data/cocktail-list.yaml
+  label: Cocktail List
+  match: "**/*"
+- type: document
   path: _data/craft-bottle-list.yaml
   label: Craft Bottle List
   match: "**/*"
