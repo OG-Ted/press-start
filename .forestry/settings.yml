@@ -4,36 +4,36 @@ auto_deploy: false
 admin_path: manage/
 webhook_url: 
 sections:
+- type: heading
+  label: Drinks
 - type: document
   path: _data/prices.yaml
   label: Drink Prices
-  match: "**/*"
 - type: document
   path: _data/on-tap-list.yaml
   label: On Tap List
-  match: "**/*"
 - type: document
   path: _data/cocktail-list.yaml
   label: Cocktail List
-  match: "**/*"
 - type: document
   path: _data/craft-bottle-list.yaml
   label: Craft Bottle List
-  match: "**/*"
 - type: document
   path: _data/domestic-bottle-list.yaml
   label: Domestic Bottle List
-  match: "**/*"
 - type: document
   path: _data/game-list.yaml
   label: Game List
+- type: heading
+  label: Core
+- type: document
+  path: _data/social.yaml
+  label: Social Media
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
-  create: all
-- type: jekyll-pages
-  label: Pages
-  create: all
+- type: document
+  path: _data/seo.yaml
+  label: SEO
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
