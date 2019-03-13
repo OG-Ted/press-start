@@ -5,6 +5,10 @@ admin_path: manage/
 webhook_url: 
 sections:
 - type: document
+  path: _data/craft-bottle-list.yaml
+  label: Craft Bottle List
+  match: "**/*"
+- type: document
   path: _data/domestic-bottle-list.yaml
   label: Domestic Bottle List
   match: "**/*"
