@@ -18,7 +18,7 @@
   cover: "/uploads/2017/10/05/medevil-madness.jpg"
   name: Planetary Pinball
 - company: Revenge from Mars Pinball
-  cover: ''
+  cover: "/uploads/rmars.jpg"
   name: ''
 - company: 'Star Wars Pinball                                                  '
   cover: "/uploads/2017/12/07/Star-Wars-Pinball.jpg"
@@ -84,11 +84,8 @@
   cover: "/uploads/2018/07/02/madden.jpg"
   name: Global VR
 - company: Teenage Mutant Ninja Turtles
-  cover: "/uploads/2018/07/03/ninja-turtles.jpg"
+  cover: "/uploads/tmnt_1987_grande.jpg"
   name: Konami
-- company: NBA Jam
-  cover: "/uploads/2018/01/23/NBA Jam.jpg"
-  name: Midway Games
 - company: Rampage World Tour
   cover: "/uploads/2017/12/07/Rampage-world-tour.jpg"
   name: Midway Games
