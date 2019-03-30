@@ -49,7 +49,7 @@
   name: Atari
 - company: Daytona
   cover: "/uploads/6465DAYTONA_logo.jpg"
-  name: ''
+  name: Sega
 - company: Donkey Kong / Donkey Kong Jr / Mario Bros Combo
   cover: "/uploads/2018/07/02/Donkey-Kong-Trio.jpg"
   name: Nintendo / Namco
@@ -85,7 +85,7 @@
   name: Namco
 - company: NFL Blitz 2000 / NBA Showtime 2000 Combo
   cover: "/uploads/2018/07/02/madden.jpg"
-  name: Global VR
+  name: Midway Games
 - company: Teenage Mutant Ninja Turtles
   cover: "/uploads/tmnt_1987_grande.jpg"
   name: Konami
