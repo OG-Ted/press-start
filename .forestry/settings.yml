@@ -29,11 +29,9 @@ sections:
 - type: document
   path: _data/social.yaml
   label: Social Media
-  match: "**/*"
 - type: document
   path: _data/seo.yaml
   label: SEO
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
