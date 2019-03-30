@@ -23,6 +23,9 @@
 - company: 'Star Wars Pinball                                                  '
   cover: "/uploads/2017/12/07/Star-Wars-Pinball.jpg"
   name: Stern Pinball
+- company: 'Star Wars: Episode 1 Pinball'
+  cover: "/uploads/2017/10/05/star-wars-pinball-stern-logo-600x338.jpg"
+  name: ''
 - company: 'The Simpsons Pinball '
   cover: "/uploads/2018/07/02/Simpsons-Pinball.jpg"
   name: Stern Pinball
