@@ -1,118 +1,112 @@
 ---
-- company: Revolution X
-  cover: "/uploads/2018/07/10/Revolution-X.jpg"
-  name: Midway Games
-- company: Michael Jacksons Moonwalker
-  cover: "/uploads/2018/07/09/Moonwalker.jpg"
-  name: Sega
-- company: Video Pinball
-  cover: "/uploads/2018/07/02/Video-Pinball.jpg"
-  name: Atari
-- company: 'Star Wars Pinball                                                  '
-  cover: "/uploads/2017/12/07/Star-Wars-Pinball.jpg"
+- company: Attack From Mars Pinball
+  cover: "/uploads/2017/12/07/Attack From Mars.gif"
+  name: Planetary Pinball
+- company: Batman 66 Pinball
+  cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
   name: Stern Pinball
-- company: 'Walking Dead '
-  cover: "/uploads/2017/12/07/Wlaking-Dead-Video.jpg"
-  name: Raw Thrills
+- company: Eight Ball Deluxe Pinball
+  cover: "/uploads/2017/12/07/eight-ball-deluxe.jpg"
+  name: Bally Pinball
 - company: Ghostbuster Pinball
   cover: "/uploads/2017/12/07/Ghostbusters.jpg"
   name: Stern Pinball
-- company: Attack From Mars
-  cover: "/uploads/2017/12/07/Attack From Mars.gif"
-  name: Planetary Pinball
-- company: Guardians of the Galaxy
+- company: Guardians of the Galaxy Pinball
   cover: "/uploads/2018/01/22/Guardians Pinball.jpg"
   name: Stern Pinball
+- company: Medeval Madness Pinball
+  cover: "/uploads/2017/10/05/medevil-madness.jpg"
+  name: Planetary Pinball
+- company: Revenge from Mars Pinball
+  cover: ''
+  name: ''
+- company: 'Star Wars Pinball                                                  '
+  cover: "/uploads/2017/12/07/Star-Wars-Pinball.jpg"
+  name: Stern Pinball
+- company: 'The Simpsons Pinball '
+  cover: "/uploads/2018/07/02/Simpsons-Pinball.jpg"
+  name: Stern Pinball
+- company: Twilight Zone Pinball
+  cover: "/uploads/2017/10/05/twlight-zone.jpg"
+  name: Bally Pinball
+- company: The Walking Dead Pinball
+  cover: "/uploads/2017/10/05/Wlaking-Dead.jpg"
+  name: ''
+- company: Area 51
+  cover: "/uploads/2018/01/22/Area 51.jpg"
+  name: Atari Games
+- company: Asteroids
+  cover: "/uploads/2017/12/13/Asteroids.jpg"
+  name: Atari
+- company: Baby Pacman
+  cover: "/uploads/2018/07/02/Baby-Pacman.jpg"
+  name: Bally
+- company: Centipede
+  cover: "/uploads/2018/01/23/Centipede.jpg"
+  name: Atari
+- company: Donkey Kong / Donkey Kong Jr / Mario Bros Combo
+  cover: "/uploads/2018/07/02/Donkey-Kong-Trio.jpg"
+  name: Nintendo / Namco
+- company: Defender
+  cover: "/uploads/2018/07/02/defender.jpg"
+  name: 'Williams '
+- company: Dig Dug
+  cover: "/uploads/2017/12/13/Dig-Dug-1.jpg"
+  name: Atari
+- company: Frogger
+  cover: "/uploads/2018/01/23/Frogger.jpg"
+  name: Sega Gremlin
+- company: Galaxan
+  cover: "/uploads/2018/01/22/Galaxian.jpg"
+  name: Midway Games
+- company: Gauntlet Dark Legacy
+  cover: "/uploads/2018/01/23/Gauntlet Dark Legacy.jpg"
+  name: Atari Games
+- company: Ice Cold Beer
+  cover: "/uploads/2018/07/03/ice-cold-beer.jpg"
+  name: Taito
+- company: Joust
+  cover: "/uploads/2018/01/22/Joust.jpg"
+  name: Williams Electronics
+- company: Pole Position
+  cover: "/uploads/2018/01/22/pole position.jpg"
+  name: Atari
+- company: Mortal Kombat 2
+  cover: "/uploads/2018/01/23/Mortal Kombat 2.jpg"
+  name: Midway Games
+- company: Ms Pacman / Galaga Combo
+  cover: "/uploads/2018/01/19/mspac-galaga.jpg"
+  name: Namco
+- company: NFL Blitz 2000 / NBA Showtime 2000 Combo
+  cover: "/uploads/2018/07/02/madden.jpg"
+  name: Global VR
+- company: Teenage Mutant Ninja Turtles
+  cover: "/uploads/2018/07/03/ninja-turtles.jpg"
+  name: Konami
+- company: NBA Jam
+  cover: "/uploads/2018/01/23/NBA Jam.jpg"
+  name: Midway Games
 - company: Rampage World Tour
   cover: "/uploads/2017/12/07/Rampage-world-tour.jpg"
+  name: Midway Games
+- company: The Simpsons
+  cover: "/uploads/2018/07/02/The-Simpsons-1.jpg"
+  name: Konami
+- company: Street Fighter II
+  cover: "/uploads/SF2.jpg"
   name: Midway Games
 - company: Super Sprint
   cover: "/uploads/2017/12/07/super-sprint-1.jpg"
   name: Atari
-- company: Batman 66
-  cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
-  name: Stern Pinball
-- company: Eight Ball Deluxe
-  cover: "/uploads/2017/12/07/eight-ball-deluxe.jpg"
-  name: Bally Pinball
-- company: 'The Simpsons Pinball '
-  cover: "/uploads/2018/07/02/Simpsons-Pinball.jpg"
-  name: Stern Pinball
-- company: Paperboy
-  cover: "/uploads/2017/12/07/Paperboy-1.jpg"
-  name: Atari Games
-- company: Dig Dug
-  cover: "/uploads/2017/12/13/Dig-Dug-1.jpg"
-  name: Atari
-- company: Asteroids
-  cover: "/uploads/2017/12/13/Asteroids.jpg"
+- company: Tempest
+  cover: "/uploads/2018/01/23/Tempest.jpg"
   name: Atari
 - company: Tetris
   cover: "/uploads/2018/01/18/tetris-2.jpg"
   name: Atari Games
-- company: Ms Pacman / Galaga Combo
-  cover: "/uploads/2018/01/19/mspac-galaga.jpg"
-  name: Namco
-- company: 'Twilight Zone '
-  cover: "/uploads/2017/10/05/twlight-zone.jpg"
-  name: Bally Pinball
-- company: Medeval Madness
-  cover: "/uploads/2017/10/05/medevil-madness.jpg"
-  name: Planetary Pinball
-- company: Galaxan
-  cover: "/uploads/2018/01/22/Galaxian.jpg"
-  name: Midway Games
-- company: Centipede
-  cover: "/uploads/2018/01/23/Centipede.jpg"
-  name: Atari
-- company: Area 51
-  cover: "/uploads/2018/01/22/Area 51.jpg"
-  name: Atari Games
-- company: Baby Pacman
-  cover: "/uploads/2018/07/02/Baby-Pacman.jpg"
-  name: Bally
-- company: Frogger
-  cover: "/uploads/2018/01/23/Frogger.jpg"
-  name: Sega Gremlin
-- company: Joust
-  cover: "/uploads/2018/01/22/Joust.jpg"
-  name: Williams Electronics
-- company: Gauntlet Dark Legacy
-  cover: "/uploads/2018/01/23/Gauntlet Dark Legacy.jpg"
-  name: Atari Games
-- company: Donkey Kong Trio
-  cover: "/uploads/2018/07/02/Donkey-Kong-Trio.jpg"
-  name: Nintendo / Namco
-- company: Pole Position
-  cover: "/uploads/2018/01/22/pole position.jpg"
-  name: Atari
-- company: Ice Cold Beer
-  cover: "/uploads/2018/07/03/ice-cold-beer.jpg"
-  name: Taito
-- company: Mortal Kombat 2
-  cover: "/uploads/2018/01/23/Mortal Kombat 2.jpg"
-  name: Midway Games
-- company: NBA Jam
-  cover: "/uploads/2018/01/23/NBA Jam.jpg"
-  name: Midway Games
-- company: Ninja Turtles TMNT
-  cover: "/uploads/2018/07/03/ninja-turtles.jpg"
-  name: Konami
-- company: Defender
-  cover: "/uploads/2018/07/02/defender.jpg"
-  name: 'Williams '
-- company: Tempest
-  cover: "/uploads/2018/01/23/Tempest.jpg"
-  name: Atari
-- company: The Simpsons
-  cover: "/uploads/2018/07/02/The-Simpsons-1.jpg"
-  name: Konami
-- company: Madden Football
-  cover: "/uploads/2018/07/02/madden.jpg"
-  name: Global VR
-- company: Mario Kart
-  cover: "/uploads/2018/07/02/mario-kart.jpg"
-  name: Nintendo
+- company: 'The Walking Dead '
+  cover: "/uploads/2017/12/07/Wlaking-Dead-Video.jpg"
+  name: Raw Thrills
 - company: X-Men
   cover: "/uploads/2018/07/02/Xmen.jpg"
   name: Konami
