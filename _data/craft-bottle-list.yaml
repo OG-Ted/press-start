@@ -1,14 +1,28 @@
 ---
+- name: Sierra Nevada Pale Ale
 - name: Great Basin Icky IPA
+- name: Rogue Dead Guy Ale
+- name: Stone IPA
+- name: Widmer Brothers Hefeweizen
+- name: 'Schofferhofer Hefeweizen Grapefruit '
+- name: Kona Longboard Lager
+- name: Daura Damm Lager
+- name: Samuel Adams Boston Lager
+- name: Deschutes Black Butte Porter
 - name: Deschutes Obsidian Stout
 - name: Montucky Cold Snacks
 - name: Belching Beaver Peanut Butter Milk Stout
+- name: Lead Dog Gnar Gnar Double IPA
+- name: Lead Dog Peanut Butter Stout
 - name: Lead Dog Razzle Dazzle Milkshake IPA
 - name: Dogfish Head SeaQuench Ale
+- name: Blue Moon Belgian White Ale
+- name: Sessions Lager
+- name: Modelo Especial
 - name: Modelo Negro
-- name: Sierra Nevada Pale Ale
-- name: Sessions
 - name: Guinness
 - name: Corona
+- name: Strongbow Cider
 - name: Angry Orchard Cider
-- name: Blue Moon
+- name: Stella Artois Cidre
+- name: St. Pauli Non-Alcoholic Beer
