@@ -1,7 +1,4 @@
 ---
-- company: JuBeat
-  cover: "/uploads/images.jpg"
-  name: Konami
 - company: Attack From Mars Pinball
   cover: "/uploads/2017/12/07/Attack From Mars.gif"
   name: Planetary Pinball
@@ -77,6 +74,9 @@
 - company: Joust
   cover: "/uploads/2018/01/22/Joust.jpg"
   name: Williams Electronics
+- company: JuBeat
+  cover: "/uploads/images.jpg"
+  name: Konami
 - company: Pole Position
   cover: "/uploads/2018/01/22/pole position.jpg"
   name: Atari
