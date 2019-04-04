@@ -1,7 +1,4 @@
 ---
-- company: Gorgar Pinball
-  cover: "/uploads/gorgar-backglass_594.jpg"
-  name: Williams
 - company: Attack From Mars Pinball
   cover: "/uploads/2017/12/07/Attack From Mars.gif"
   name: Planetary Pinball
@@ -14,12 +11,21 @@
 - company: Ghostbuster Pinball
   cover: "/uploads/2017/12/07/Ghostbusters.jpg"
   name: Stern Pinball
+- company: Gorgar Pinball
+  cover: "/uploads/gorgar-backglass_594.jpg"
+  name: Williams
 - company: Guardians of the Galaxy Pinball
   cover: "/uploads/2018/01/22/Guardians Pinball.jpg"
   name: Stern Pinball
 - company: Medeval Madness Pinball
   cover: "/uploads/2017/10/05/medevil-madness.jpg"
   name: Planetary Pinball
+- company: Monster Bash Pinball
+  cover: "/uploads/220px-Monster_Bash_Promotional_Flyer.png"
+  name: Williams
+- company: Radical Pinball
+  cover: "/uploads/4345647181e8eebfe1aa3c5edd3470240bc8a830.jpg"
+  name: Bally
 - company: Revenge from Mars Pinball
   cover: "/uploads/rmars.jpg"
   name: Williams
