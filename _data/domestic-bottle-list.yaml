@@ -1,6 +1,7 @@
 ---
- - name: 'Budweiser'
- - name: 'Bud Light'
- - name: 'Miller Light'
- - name: 'Coors Light'
----
+- name: Michelob Ultra
+- name: Coors Light
+- name: Budweiser
+- name: Bud Light
+- name: Miller Light
+- name: Coors Banquet
