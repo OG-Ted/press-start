@@ -1,7 +1,7 @@
 ---
-- company: Q*Bert
-  cover: "/uploads/qbert_swears.jpg"
-  name: Gottlieb
+- company: JuBeat
+  cover: "/uploads/images.jpg"
+  name: Konami
 - company: Attack From Mars Pinball
   cover: "/uploads/2017/12/07/Attack From Mars.gif"
   name: Planetary Pinball
@@ -89,6 +89,9 @@
 - company: NFL Blitz 2000 / NBA Showtime Combo
   cover: "/uploads/blitzshowtime_sideart.jpg"
   name: Midway Games
+- company: Q*Bert
+  cover: "/uploads/qbert_swears.jpg"
+  name: Gottlieb
 - company: Teenage Mutant Ninja Turtles
   cover: "/uploads/tmnt_1987_grande.jpg"
   name: Konami
