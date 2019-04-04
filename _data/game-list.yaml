@@ -1,7 +1,4 @@
 ---
-- company: Gofers Pinball
-  cover: "/uploads/250px-No_Good_Gofers_(pinball).jpg"
-  name: Williams
 - company: Attack From Mars Pinball
   cover: "/uploads/2017/12/07/Attack From Mars.gif"
   name: Planetary Pinball
@@ -14,6 +11,9 @@
 - company: Ghostbuster Pinball
   cover: "/uploads/2017/12/07/Ghostbusters.jpg"
   name: Stern Pinball
+- company: Gofers Pinball
+  cover: "/uploads/250px-No_Good_Gofers_(pinball).jpg"
+  name: Williams
 - company: Gorgar Pinball
   cover: "/uploads/gorgar-backglass_594.jpg"
   name: Williams
