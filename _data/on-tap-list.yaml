@@ -1,8 +1,9 @@
 ---
+- name: Elysian Brewing Spacedust IPA
 - name: Firestone Walker Mind Haze IPA
-- name: Stella Artois
 - name: Deschute's Fresh Squeezed IPA
-- name: Blue Moon
 - name: Firestone Walker 805
+- name: Blue Moon Belgian White Ale
+- name: Stella Artois
 - name: Modelo Especial
 - name: Pabst Blue Ribbon
