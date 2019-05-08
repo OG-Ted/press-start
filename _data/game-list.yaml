@@ -1,13 +1,16 @@
 ---
-- company: Centaur Pinball
-  cover: "/uploads/2019/05/08/centaur-backglass_8518.jpg"
-  name: Bally
+- company: Haunted House Pinball
+  cover: "/uploads/2019/05/08/250px-Haunted_House_(pinball).jpg"
+  name: Gottliebs
 - company: Attack From Mars Pinball
   cover: "/uploads/2017/12/07/Attack From Mars.gif"
   name: Planetary Pinball
 - company: Batman 66 Pinball
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
   name: Stern Pinball
+- company: Centaur Pinball
+  cover: "/uploads/2019/05/08/centaur-backglass_8518.jpg"
+  name: Bally
 - company: Deadpool Pinball
   cover: "/uploads/2019/05/08/images.jpg"
   name: Stern Pinball
