@@ -1,13 +1,16 @@
 ---
-- company: Haunted House Pinball
-  cover: "/uploads/2019/05/08/250px-Haunted_House_(pinball).jpg"
-  name: Gottliebs
+- company: Pharaoh Pinball
+  cover: "/uploads/2019/05/08/9c93ab974133952fbbfdfdff7a2b991ee3d09aa1.jpg"
+  name: Williams
 - company: Attack From Mars Pinball
   cover: "/uploads/2017/12/07/Attack From Mars.gif"
   name: Planetary Pinball
 - company: Batman 66 Pinball
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
   name: Stern Pinball
+- company: Bronco Pinball
+  cover: "/uploads/2019/05/08/broncobackglass.jpg"
+  name: Gottliebs
 - company: Centaur Pinball
   cover: "/uploads/2019/05/08/centaur-backglass_8518.jpg"
   name: Bally
@@ -17,15 +20,15 @@
 - company: Eight Ball Deluxe Pinball
   cover: "/uploads/2017/12/07/eight-ball-deluxe.jpg"
   name: Bally Pinball
-- company: Bronco Pinball
-  cover: "/uploads/2019/05/08/broncobackglass.jpg"
-  name: Gottliebs
 - company: Gorgar Pinball
   cover: "/uploads/gorgar-backglass_594.jpg"
   name: Williams
 - company: Guardians of the Galaxy Pinball
   cover: "/uploads/2018/01/22/Guardians Pinball.jpg"
   name: Stern Pinball
+- company: Haunted House Pinball
+  cover: "/uploads/2019/05/08/250px-Haunted_House_(pinball).jpg"
+  name: Gottliebs
 - company: Medeval Madness Pinball
   cover: "/uploads/2017/10/05/medevil-madness.jpg"
   name: Planetary Pinball
