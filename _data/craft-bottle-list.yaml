@@ -1,5 +1,6 @@
 ---
 - name: Sierra Nevada Pale Ale
+- name: Sierra Nevada Otra Vez
 - name: Great Basin Icky IPA
 - name: Rogue Dead Guy Ale
 - name: Stone IPA
@@ -15,8 +16,10 @@
 - name: Lead Dog Gnar Gnar Double IPA
 - name: Lead Dog Peanut Butter Stout
 - name: Lead Dog Razzle Dazzle Milkshake IPA
+- name: Prairie Blueberry Boyfriend Ale
 - name: Dogfish Head SeaQuench Ale
 - name: Blue Moon Belgian White Ale
+- name: Truly Colima Lime
 - name: Sessions Lager
 - name: Modelo Especial
 - name: Modelo Negro
@@ -26,3 +29,4 @@
 - name: Angry Orchard Cider
 - name: Stella Artois Cidre
 - name: St. Pauli Non-Alcoholic Beer
+- name: Pink Elephant Kombucha
