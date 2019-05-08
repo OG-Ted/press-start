@@ -1,7 +1,4 @@
 ---
-- company: Pharaoh Pinball
-  cover: "/uploads/2019/05/08/9c93ab974133952fbbfdfdff7a2b991ee3d09aa1.jpg"
-  name: Williams
 - company: Attack From Mars Pinball
   cover: "/uploads/2017/12/07/Attack From Mars.gif"
   name: Planetary Pinball
@@ -34,6 +31,9 @@
   name: Planetary Pinball
 - company: Monster Bash Pinball
   cover: "/uploads/220px-Monster_Bash_Promotional_Flyer.png"
+  name: Williams
+- company: Pharaoh Pinball
+  cover: "/uploads/2019/05/08/9c93ab974133952fbbfdfdff7a2b991ee3d09aa1.jpg"
   name: Williams
 - company: Radical Pinball
   cover: "/uploads/4345647181e8eebfe1aa3c5edd3470240bc8a830.jpg"
