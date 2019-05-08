@@ -1,7 +1,4 @@
 ---
-- company: Battlezone
-  cover: "/uploads/2019/05/08/61JFGdo v4L._UL1000_.jpg"
-  name: Atari
 - company: Attack From Mars Pinball
   cover: "/uploads/2017/12/07/Attack From Mars.gif"
   name: Planetary Pinball
@@ -14,9 +11,9 @@
 - company: Eight Ball Deluxe Pinball
   cover: "/uploads/2017/12/07/eight-ball-deluxe.jpg"
   name: Bally Pinball
-- company: Gofers Pinball
-  cover: "/uploads/250px-No_Good_Gofers_(pinball).jpg"
-  name: Williams
+- company: Bronco Pinball
+  cover: "/uploads/2019/05/08/broncobackglass.jpg"
+  name: Gottliebs
 - company: Gorgar Pinball
   cover: "/uploads/gorgar-backglass_594.jpg"
   name: Williams
@@ -53,6 +50,9 @@
 - company: Baby Pacman
   cover: "/uploads/2018/07/02/Baby-Pacman.jpg"
   name: Bally
+- company: Battlezone
+  cover: "/uploads/2019/05/08/61JFGdo v4L._UL1000_.jpg"
+  name: Atari
 - company: Centipede
   cover: "/uploads/2018/01/23/Centipede.jpg"
   name: Atari
