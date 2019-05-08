@@ -2,11 +2,11 @@
 - company: Attack From Mars Pinball
   cover: "/uploads/2017/12/07/Attack From Mars.gif"
   name: Planetary Pinball
-- company: Deadpool Pinball
-  cover: "/uploads/2019/05/08/images.jpg"
-  name: Stern Pinball
 - company: Batman 66 Pinball
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
+  name: Stern Pinball
+- company: Deadpool Pinball
+  cover: "/uploads/2019/05/08/images.jpg"
   name: Stern Pinball
 - company: Eight Ball Deluxe Pinball
   cover: "/uploads/2017/12/07/eight-ball-deluxe.jpg"
@@ -47,9 +47,6 @@
 - company: Area 51
   cover: "/uploads/2018/01/22/Area 51.jpg"
   name: Atari Games
-- company: Asteroids
-  cover: "/uploads/2017/12/13/Asteroids.jpg"
-  name: Atari
 - company: Baby Pacman
   cover: "/uploads/2018/07/02/Baby-Pacman.jpg"
   name: Bally
@@ -83,9 +80,9 @@
 - company: Joust
   cover: "/uploads/2018/01/22/Joust.jpg"
   name: Williams Electronics
-- company: JuBeat
-  cover: "/uploads/images.jpg"
-  name: Konami
+- company: Groove Coaster
+  cover: "/uploads/2019/05/08/groove-coaster-bg.jpg"
+  name: Taito
 - company: Pole Position
   cover: "/uploads/2018/01/22/pole position.jpg"
   name: Atari
