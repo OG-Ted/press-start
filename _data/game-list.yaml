@@ -56,7 +56,7 @@
 - company: Daytona
   cover: "/uploads/6465DAYTONA_logo.jpg"
   name: Sega
-- company: Donkey Kong / Donkey Kong Jr / Mario Bros Combo
+- company: Donkey Kong / Donkey Kong Jr / Mario Bros
   cover: "/uploads/2018/07/02/Donkey-Kong-Trio.jpg"
   name: Nintendo / Namco
 - company: 'Defender / Joust / Splat / Bubbles / Stargate / Robotron: 2084'
@@ -92,7 +92,7 @@
 - company: Ms Pacman / Galaga Combo
   cover: "/uploads/2018/01/19/mspac-galaga.jpg"
   name: Namco
-- company: NFL Blitz 2000 / NBA Showtime Combo
+- company: NFL Blitz 2000 / NBA Showtime
   cover: "/uploads/blitzshowtime_sideart.jpg"
   name: Midway Games
 - company: Q*Bert
