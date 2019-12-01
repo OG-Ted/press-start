@@ -1,4 +1,7 @@
 ---
+- company: Addams Family Pinball
+  cover: "/uploads/2019/12/01/addamsfamily.jpg"
+  name: Midway
 - company: Attack From Mars Pinball
   cover: "/uploads/2017/12/07/Attack From Mars.gif"
   name: Planetary Pinball
@@ -14,25 +17,25 @@
 - company: Centaur Pinball
   cover: "/uploads/2019/05/08/centaur-backglass_8518.jpg"
   name: Bally
-- company: Cirqus Voltaire
+- company: Cirqus Voltaire Pinball
   cover: "/uploads/2019/05/08/77e684c4604fc557854da580a7ae35a4bf8366e3.jpg"
   name: Bally
 - company: Deadpool Pinball
   cover: "/uploads/2019/05/08/images.jpg"
   name: Stern Pinball
+- company: Dialed In Pinball
+  cover: "/uploads/2019/12/01/c72f1fabeb0bc2138fa936a6c95638aaaacf5b2a.jpg"
+  name: Jersey Jack Pinball
 - company: Eight Ball Deluxe Pinball
   cover: "/uploads/2017/12/07/eight-ball-deluxe.jpg"
   name: Bally Pinball
-- company: Gorgar Pinball
-  cover: "/uploads/gorgar-backglass_594.jpg"
-  name: Williams
 - company: Guardians of the Galaxy Pinball
   cover: "/uploads/2018/01/22/Guardians Pinball.jpg"
   name: Stern Pinball
 - company: Haunted House Pinball
   cover: "/uploads/2019/05/08/250px-Haunted_House_(pinball).jpg"
   name: Gottliebs
-- company: Medeval Madness Pinball
+- company: Medieval Madness Pinball
   cover: "/uploads/2017/10/05/medevil-madness.jpg"
   name: Planetary Pinball
 - company: Monster Bash Pinball
@@ -41,24 +44,21 @@
 - company: Pharaoh Pinball
   cover: "/uploads/2019/05/08/9c93ab974133952fbbfdfdff7a2b991ee3d09aa1.jpg"
   name: Williams
-- company: Radical Pinball
-  cover: "/uploads/4345647181e8eebfe1aa3c5edd3470240bc8a830.jpg"
-  name: Bally
 - company: Revenge from Mars Pinball
   cover: "/uploads/rmars.jpg"
   name: Williams
+- company: Scared Stiff with Elvira Pinball
+  cover: "/uploads/2019/12/01/Scared-Stiff-flyer-front.jpg"
+  name: Bally
 - company: 'Star Wars Pinball                                                  '
   cover: "/uploads/2017/12/07/Star-Wars-Pinball.jpg"
   name: Stern Pinball
-- company: 'The Simpsons Pinball '
-  cover: "/uploads/2018/07/02/Simpsons-Pinball.jpg"
-  name: Stern Pinball
+- company: 'Superman Pinball '
+  cover: "/uploads/2019/12/01/9d764528fcc18ac1e737449576b424d55b8303fb.jpg"
+  name: Atari
 - company: Twilight Zone Pinball
   cover: "/uploads/2017/10/05/twlight-zone.jpg"
   name: Bally Pinball
-- company: The Walking Dead Pinball
-  cover: "/uploads/2017/10/05/Wlaking-Dead.jpg"
-  name: Stern Pinball
 - company: Area 51
   cover: "/uploads/2018/01/22/Area 51.jpg"
   name: Atari Games
