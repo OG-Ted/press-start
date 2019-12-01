@@ -92,12 +92,18 @@
 - company: Groove Coaster
   cover: "/uploads/2019/05/08/groove-coaster-bg.jpg"
   name: Taito
+- company: Guitar Hero Arcade
+  cover: "/uploads/2019/12/01/Ghheader.jpg"
+  name: Raw Thrills / Konami / Activision
 - company: Ice Cold Beer
   cover: "/uploads/2018/07/03/ice-cold-beer.jpg"
   name: Taito
 - company: Pole Position
   cover: "/uploads/2018/01/22/pole position.jpg"
   name: Atari
+- company: Metal Slug 3 / Samurai Showdown
+  cover: "/uploads/2019/12/01/neogeo.jpg"
+  name: Neo Geo
 - company: Mortal Kombat 2
   cover: "/uploads/2018/01/23/Mortal Kombat 2.jpg"
   name: Midway Games
@@ -119,15 +125,12 @@
 - company: The Simpsons
   cover: "/uploads/2018/07/02/The-Simpsons-1.jpg"
   name: Konami
-- company: Street Fighter II
+- company: Street Fighter II Champion Edition
   cover: "/uploads/SF2.jpg"
   name: Capcom
 - company: Super Sprint
   cover: "/uploads/2017/12/07/super-sprint-1.jpg"
   name: Atari
-- company: Tapper
-  cover: "/uploads/tapper-classicgaming-735x735.jpg"
-  name: Bally Midway
 - company: Tempest
   cover: "/uploads/2018/01/23/Tempest.jpg"
   name: Atari
