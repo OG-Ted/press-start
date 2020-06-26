@@ -2,20 +2,18 @@
   <h1>Find Us</h1>
   <div class="directions-content">
     <img src="{{site.baseurl}}/assets/PS_building-animate.gif" width="304px" height="357px" />
-    <span>
-      1413 South Virginia Street
-    </span>
-    <span>
-      Reno, Nevada
-    </span>
+    {% for line in site.data.hours-location.address %}
+      <span>
+        {{ line.line }}
+      </span>
+    {% endfor %}
   </div>
   <hr />
   <div class="directions-content">
     <span class="directions-content-sm">
-      Mon - Thurs:  3pm to 11pm<br />
-      Fri: 3pm to 2am<br />
-      Sat: 11am to 2am<br />
-      Sun: 11am to 10pm<br />
+      {% for line in site.data.hours-location.hours %}
+        {{ line.line }}<br />
+    {% endfor %}
     </span>
   </div>
   <hr />

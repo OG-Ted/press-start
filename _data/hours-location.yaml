@@ -1,0 +1,10 @@
+---
+address:
+- line: 1413 SOUTH VIRGINIA STREET
+- line: RENO, NEVADA
+hours:
+- line: 'MON - THURS: 3PM TO 11PM'
+- line: 'FRI: 3PM TO 2AM'
+- line: 'SAT: 11AM TO 2AM'
+- line: 'SUN: 11AM TO 10PM'
+---

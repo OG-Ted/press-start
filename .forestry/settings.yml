@@ -30,6 +30,9 @@ sections:
   path: _data/social.yaml
   label: Social Media
 - type: document
+  path: _data/hours-location.yaml
+  label: Hours and Location
+- type: document
   path: _data/seo.yaml
   label: SEO
 upload_dir: uploads
