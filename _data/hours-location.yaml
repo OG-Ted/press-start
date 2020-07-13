@@ -3,7 +3,10 @@ address:
 - line: 1413 SOUTH VIRGINIA STREET
 - line: RENO, NEVADA
 hours:
+- line: Monday 11am-7pm
+- line: Tuesday 11am-7pm
+- line: Wednesday 11am-7pm
 - line: Thursday 11am-7pm
-- line: Friday 3pm to 12am
-- line: Saturday 3pm-12am
-- line: Sunday 3pm to 10pm
+- line: Friday 11am-10pm
+- line: Saturday 11am-10pm
+- line: Sunday 11am-7pm
