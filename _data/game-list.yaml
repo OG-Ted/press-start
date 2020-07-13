@@ -1,55 +1,16 @@
 ---
-- company: Addams Family Pinball
-  cover: "/uploads/2019/12/01/addamsfamily.jpg"
-  name: Midway
-- company: Attack From Mars Pinball
-  cover: "/uploads/2017/12/07/Attack From Mars.gif"
-  name: Planetary Pinball
-- company: Banzai Run Pinball
-  cover: "/uploads/2019/05/08/5cd4cc7a5091c7713aad201197e093f1f3e19848.jpg"
-  name: Williams
 - company: Batman 66 Pinball
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
-  name: Stern Pinball
-- company: Bronco Pinball
-  cover: "/uploads/2019/05/08/broncobackglass.jpg"
-  name: Gottliebs
-- company: Centaur Pinball
-  cover: "/uploads/2019/05/08/centaur-backglass_8518.jpg"
-  name: Bally
-- company: Cirqus Voltaire Pinball
-  cover: "/uploads/2019/05/08/77e684c4604fc557854da580a7ae35a4bf8366e3.jpg"
-  name: Bally
-- company: Deadpool Pinball
-  cover: "/uploads/2019/05/08/images.jpg"
   name: Stern Pinball
 - company: Dialed In Pinball
   cover: "/uploads/2019/12/01/c72f1fabeb0bc2138fa936a6c95638aaaacf5b2a.jpg"
   name: Jersey Jack Pinball
-- company: Eight Ball Deluxe Pinball
-  cover: "/uploads/2017/12/07/eight-ball-deluxe.jpg"
-  name: Bally Pinball
 - company: Guardians of the Galaxy Pinball
   cover: "/uploads/2018/01/22/Guardians Pinball.jpg"
   name: Stern Pinball
-- company: Haunted House Pinball
-  cover: "/uploads/2019/05/08/250px-Haunted_House_(pinball).jpg"
-  name: Gottliebs
 - company: Medieval Madness Pinball
   cover: "/uploads/2017/10/05/medevil-madness.jpg"
   name: Planetary Pinball
-- company: Monster Bash Pinball
-  cover: "/uploads/220px-Monster_Bash_Promotional_Flyer.png"
-  name: Williams
-- company: Pharaoh Pinball
-  cover: "/uploads/2019/05/08/9c93ab974133952fbbfdfdff7a2b991ee3d09aa1.jpg"
-  name: Williams
-- company: Revenge from Mars Pinball
-  cover: "/uploads/rmars.jpg"
-  name: Williams
-- company: Scared Stiff with Elvira Pinball
-  cover: "/uploads/2019/12/01/Scared-Stiff-flyer-front.jpg"
-  name: Bally
 - company: 'Star Wars Pinball                                                  '
   cover: "/uploads/2017/12/07/Star-Wars-Pinball.jpg"
   name: Stern Pinball
@@ -62,30 +23,15 @@
 - company: Area 51
   cover: "/uploads/2018/01/22/Area 51.jpg"
   name: Atari Games
-- company: Baby Pacman
-  cover: "/uploads/2018/07/02/Baby-Pacman.jpg"
-  name: Bally
-- company: Battlezone
-  cover: "/uploads/2019/05/08/61JFGdo v4L._UL1000_.jpg"
-  name: Atari
 - company: Centipede
   cover: "/uploads/2018/01/23/Centipede.jpg"
   name: Atari
 - company: Daytona
   cover: "/uploads/6465DAYTONA_logo.jpg"
   name: Sega
-- company: Donkey Kong / Donkey Kong Jr / Mario Bros
-  cover: "/uploads/2018/07/02/Donkey-Kong-Trio.jpg"
-  name: Nintendo / Namco
 - company: 'Defender / Joust / Splat / Bubbles / Stargate / Robotron: 2084'
   cover: "/uploads/2019/05/08/WILLIAMSMULTIFLYER.jpg"
   name: 'Williams '
-- company: Dig Dug
-  cover: "/uploads/2017/12/13/Dig-Dug-1.jpg"
-  name: Atari
-- company: Frogger
-  cover: "/uploads/2018/01/23/Frogger.jpg"
-  name: Sega Gremlin
 - company: Gauntlet Dark Legacy
   cover: "/uploads/2018/01/23/Gauntlet Dark Legacy.jpg"
   name: Atari Games
@@ -98,9 +44,6 @@
 - company: Ice Cold Beer
   cover: "/uploads/2018/07/03/ice-cold-beer.jpg"
   name: Taito
-- company: Pole Position
-  cover: "/uploads/2018/01/22/pole position.jpg"
-  name: Atari
 - company: Metal Slug 3 / Samurai Showdown
   cover: "/uploads/2019/12/01/neogeo.jpg"
   name: Neo Geo
@@ -113,9 +56,6 @@
 - company: NFL Blitz 2000 / NBA Showtime
   cover: "/uploads/blitzshowtime_sideart.jpg"
   name: Midway Games
-- company: Q*Bert
-  cover: "/uploads/qbert_swears.jpg"
-  name: Gottlieb
 - company: Teenage Mutant Ninja Turtles
   cover: "/uploads/tmnt_1987_grande.jpg"
   name: Konami
@@ -130,9 +70,6 @@
   name: Capcom
 - company: Super Sprint
   cover: "/uploads/2017/12/07/super-sprint-1.jpg"
-  name: Atari
-- company: Tempest
-  cover: "/uploads/2018/01/23/Tempest.jpg"
   name: Atari
 - company: Tetris
   cover: "/uploads/2018/01/18/tetris-2.jpg"
