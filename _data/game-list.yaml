@@ -1,7 +1,4 @@
 ---
-- company: 'Terminator 2 '
-  cover: "/uploads/2020/08/30/terminator2arcade.jpg"
-  name: Midway
 - company: Mystic Pinball
   cover: ''
   name: Bally
@@ -65,6 +62,9 @@
 - company: Teenage Mutant Ninja Turtles
   cover: "/uploads/tmnt_1987_grande.jpg"
   name: Konami
+- company: 'Terminator 2 '
+  cover: "/uploads/2020/08/30/terminator2arcade.jpg"
+  name: Midway
 - company: Rampage World Tour
   cover: "/uploads/2017/12/07/Rampage-world-tour.jpg"
   name: Midway Games
