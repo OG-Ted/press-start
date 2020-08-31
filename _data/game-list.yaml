@@ -1,7 +1,4 @@
 ---
-- company: Ikari Warriors
-  cover: "/uploads/2020/08/31/ikari-warriors-watermark.jpg"
-  name: Tradewest
 - company: Batman 66 Pinball
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
   name: Stern Pinball
@@ -56,6 +53,9 @@
 - company: Ice Cold Beer
   cover: "/uploads/2018/07/03/ice-cold-beer.jpg"
   name: Taito
+- company: Ikari Warriors
+  cover: "/uploads/2020/08/31/ikari-warriors-watermark.jpg"
+  name: Tradewest
 - company: Metal Slug 3 / Samurai Showdown
   cover: "/uploads/2019/12/01/neogeo.jpg"
   name: Neo Geo
