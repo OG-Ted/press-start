@@ -1,7 +1,4 @@
 ---
-- company: Marvel vs Capcom 2
-  cover: "/uploads/2020/08/31/marvel_vs_capcom_2_arcade_game.jpg"
-  name: Capcom
 - company: Batman 66 Pinball
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
   name: Stern Pinball
@@ -59,6 +56,9 @@
 - company: Ikari Warriors
   cover: "/uploads/2020/08/31/ikari-warriors-watermark.jpg"
   name: Tradewest
+- company: Marvel vs Capcom 2
+  cover: "/uploads/2020/08/31/marvel_vs_capcom_2_arcade_game.jpg"
+  name: Capcom
 - company: Metal Slug 3 / Samurai Showdown
   cover: "/uploads/2019/12/01/neogeo.jpg"
   name: Neo Geo
