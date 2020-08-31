@@ -1,7 +1,4 @@
 ---
-- company: Donkey Kong Pauline Edition
-  cover: "/uploads/2020/08/31/pauline.png"
-  name: Nintendo
 - company: Batman 66 Pinball
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
   name: Stern Pinball
@@ -38,6 +35,9 @@
 - company: 'Defender / Joust / Splat / Bubbles / Stargate / Robotron: 2084'
   cover: "/uploads/2019/05/08/WILLIAMSMULTIFLYER.jpg"
   name: 'Williams '
+- company: Donkey Kong Pauline Edition
+  cover: "/uploads/2020/08/31/pauline.png"
+  name: Nintendo
 - company: 'Dungeons and Dragons: Tower of Doom'
   cover: "/uploads/2020/08/31/towerofdoom.jpg"
   name: Capcom
