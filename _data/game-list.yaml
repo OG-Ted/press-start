@@ -1,7 +1,4 @@
 ---
-- company: Toobin
-  cover: "/uploads/2020/08/31/2596971-0000.png"
-  name: Atari
 - company: Batman 66 Pinball
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
   name: Stern Pinball
@@ -83,6 +80,9 @@
 - company: 'Terminator 2 '
   cover: "/uploads/2020/08/30/terminator2arcade.jpg"
   name: Midway
+- company: Toobin
+  cover: "/uploads/2020/08/31/2596971-0000.png"
+  name: Atari
 - company: Rampage World Tour
   cover: "/uploads/2017/12/07/Rampage-world-tour.jpg"
   name: Midway Games
