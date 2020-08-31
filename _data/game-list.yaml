@@ -1,7 +1,7 @@
 ---
-- company: Mystic Pinball
-  cover: "/uploads/2020/08/31/mystic.png"
-  name: Bally
+- company: Donkey Kong Pauline Edition
+  cover: ''
+  name: Nintendo
 - company: Batman 66 Pinball
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
   name: Stern Pinball
@@ -14,6 +14,9 @@
 - company: Medieval Madness Pinball
   cover: "/uploads/2017/10/05/medevil-madness.jpg"
   name: Planetary Pinball
+- company: Mystic Pinball
+  cover: "/uploads/2020/08/31/mystic.png"
+  name: Bally
 - company: 'Star Wars Pinball                                                  '
   cover: "/uploads/2017/12/07/Star-Wars-Pinball.jpg"
   name: Stern Pinball
