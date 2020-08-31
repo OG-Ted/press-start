@@ -1,7 +1,4 @@
 ---
-- company: 'Dungeons and Dragons: Tower of Doom'
-  cover: "/uploads/2020/08/31/towerofdoom.jpg"
-  name: Capcom
 - company: Mystic Pinball
   cover: ''
   name: Bally
@@ -38,6 +35,9 @@
 - company: 'Defender / Joust / Splat / Bubbles / Stargate / Robotron: 2084'
   cover: "/uploads/2019/05/08/WILLIAMSMULTIFLYER.jpg"
   name: 'Williams '
+- company: 'Dungeons and Dragons: Tower of Doom'
+  cover: "/uploads/2020/08/31/towerofdoom.jpg"
+  name: Capcom
 - company: Gauntlet Dark Legacy
   cover: "/uploads/2018/01/23/Gauntlet Dark Legacy.jpg"
   name: Atari Games
