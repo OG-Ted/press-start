@@ -1,7 +1,4 @@
 ---
-- company: C'mon Baby
-  cover: "/uploads/2020/09/06/cmon-baby.png"
-  name: ExPotato Co
 - company: Batman 66 Pinball
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
   name: Stern Pinball
@@ -35,6 +32,9 @@
 - company: Centipede
   cover: "/uploads/2018/01/23/Centipede.jpg"
   name: Atari
+- company: C'mon Baby
+  cover: "/uploads/2020/09/06/cmon-baby.png"
+  name: ExPotato Co
 - company: Daytona
   cover: "/uploads/6465DAYTONA_logo.jpg"
   name: Sega
