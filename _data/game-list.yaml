@@ -77,8 +77,20 @@
 - company: NFL Blitz 2000 / NBA Showtime
   cover: "/uploads/blitzshowtime_sideart.jpg"
   name: Midway Games
+- company: Rampage World Tour
+  cover: "/uploads/2017/12/07/Rampage-world-tour.jpg"
+  name: Midway Games
+- company: The Simpsons
+  cover: "/uploads/2018/07/02/The-Simpsons-1.jpg"
+  name: Konami
 - company: Star Wars/Empire Strikes Back
   cover: "/uploads/2020/09/06/ataristarwars.jpg"
+  name: Atari
+- company: Street Fighter II Champion Edition
+  cover: "/uploads/SF2.jpg"
+  name: Capcom
+- company: Super Sprint
+  cover: "/uploads/2017/12/07/super-sprint-1.jpg"
   name: Atari
 - company: Teenage Mutant Ninja Turtles
   cover: "/uploads/tmnt_1987_grande.jpg"
@@ -86,24 +98,12 @@
 - company: 'Terminator 2 '
   cover: "/uploads/2020/08/30/terminator2arcade.jpg"
   name: Midway
-- company: Toobin
-  cover: "/uploads/2020/08/31/2596971-0000.png"
-  name: Atari
-- company: Rampage World Tour
-  cover: "/uploads/2017/12/07/Rampage-world-tour.jpg"
-  name: Midway Games
-- company: The Simpsons
-  cover: "/uploads/2018/07/02/The-Simpsons-1.jpg"
-  name: Konami
-- company: Street Fighter II Champion Edition
-  cover: "/uploads/SF2.jpg"
-  name: Capcom
-- company: Super Sprint
-  cover: "/uploads/2017/12/07/super-sprint-1.jpg"
-  name: Atari
 - company: Tetris
   cover: "/uploads/2018/01/18/tetris-2.jpg"
   name: Atari Games
+- company: Toobin
+  cover: "/uploads/2020/08/31/2596971-0000.png"
+  name: Atari
 - company: 'The Walking Dead '
   cover: "/uploads/2017/12/07/Wlaking-Dead-Video.jpg"
   name: Raw Thrills
