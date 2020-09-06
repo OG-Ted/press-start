@@ -1,7 +1,4 @@
 ---
-- company: Stranger Things Premium Pinball
-  cover: "/uploads/2020/9/06/stranger-things-premium-flyer-front_232x300.jpg"
-  name: Stern
 - company: Batman 66 Pinball
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
   name: Stern Pinball
@@ -20,6 +17,9 @@
 - company: 'Star Wars Pinball                                                  '
   cover: "/uploads/2017/12/07/Star-Wars-Pinball.jpg"
   name: Stern Pinball
+- company: Stranger Things Premium Pinball
+  cover: "/uploads/2020/9/06/stranger-things-premium-flyer-front_232x300.jpg"
+  name: Stern
 - company: 'Superman Pinball '
   cover: "/uploads/2019/12/01/9d764528fcc18ac1e737449576b424d55b8303fb.jpg"
   name: Atari
