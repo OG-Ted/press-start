@@ -1,7 +1,4 @@
 ---
-- company: Dig Dug
-  cover: "/uploads/2020/09/06/dig-dug.png"
-  name: Atari
 - company: Batman 66 Pinball
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
   name: Stern Pinball
@@ -50,6 +47,9 @@
 - company: 'Defender / Joust / Splat / Bubbles / Stargate / Robotron: 2084'
   cover: "/uploads/2019/05/08/WILLIAMSMULTIFLYER.jpg"
   name: 'Williams '
+- company: Dig Dug
+  cover: "/uploads/2020/09/06/dig-dug.png"
+  name: Atari
 - company: Donkey Kong Pauline Edition
   cover: "/uploads/2020/08/31/pauline.png"
   name: Nintendo
