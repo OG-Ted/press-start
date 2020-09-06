@@ -1,7 +1,4 @@
 ---
-- company: Fast Draw Showdown
-  cover: "/uploads/2020/08/31/fast-draw.jpg"
-  name: ALG
 - company: Batman 66 Pinball
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
   name: Stern Pinball
@@ -47,6 +44,9 @@
 - company: 'Dungeons and Dragons: Tower of Doom'
   cover: "/uploads/2020/08/31/towerofdoom.jpg"
   name: Capcom
+- company: Fast Draw Showdown
+  cover: "/uploads/2020/08/31/fast-draw.jpg"
+  name: ALG
 - company: Gauntlet Dark Legacy
   cover: "/uploads/2018/01/23/Gauntlet Dark Legacy.jpg"
   name: Atari Games
