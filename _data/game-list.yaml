@@ -1,7 +1,4 @@
 ---
-- company: Star Wars/Empire Strikes Back
-  cover: "/uploads/2020/09/06/ataristarwars.jpg"
-  name: Atari
 - company: Batman 66 Pinball
   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
   name: Stern Pinball
@@ -80,6 +77,9 @@
 - company: NFL Blitz 2000 / NBA Showtime
   cover: "/uploads/blitzshowtime_sideart.jpg"
   name: Midway Games
+- company: Star Wars/Empire Strikes Back
+  cover: "/uploads/2020/09/06/ataristarwars.jpg"
+  name: Atari
 - company: Teenage Mutant Ninja Turtles
   cover: "/uploads/tmnt_1987_grande.jpg"
   name: Konami
