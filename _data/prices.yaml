@@ -1,7 +1,6 @@
 ---
- pint-price: '$6'
- pitcher-price: '$20'
- domestic-price: '$20'
- craft-price: '$6'
- cocktail-price: '$12'
----
+pint-price: "$7"
+pitcher-price: "$23"
+domestic-price: "$23"
+craft-price: "$7"
+cocktail-price: "$7-12"
