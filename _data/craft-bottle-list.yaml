@@ -1,25 +1,20 @@
 ---
+- name: Sippin Pretty - Odell Brewing
 - name: Sierra Nevada Pale Ale
-- name: Sierra Nevada Otra Vez
 - name: Great Basin Icky IPA
 - name: Rogue Dead Guy Ale
-- name: Stone IPA
 - name: Widmer Brothers Hefeweizen
 - name: 'Schofferhofer Hefeweizen Grapefruit '
 - name: Kona Longboard Lager
 - name: Daura Damm Lager
 - name: Samuel Adams Boston Lager
 - name: Deschutes Black Butte Porter
-- name: Deschutes Obsidian Stout
+- name: Ballast Point Sculpin IPA
 - name: Montucky Cold Snacks
 - name: Belching Beaver Peanut Butter Milk Stout
-- name: Lead Dog Gnar Gnar Double IPA
-- name: Lead Dog Peanut Butter Stout
-- name: Lead Dog Razzle Dazzle Milkshake IPA
-- name: Prairie Blueberry Boyfriend Ale
 - name: Dogfish Head SeaQuench Ale
-- name: Blue Moon Belgian White Ale
-- name: Truly Colima Lime
+- name: The Finnish Long Drink
+- name: Truly Hard Seltzer
 - name: Sessions Lager
 - name: Modelo Especial
 - name: Modelo Negro
@@ -28,5 +23,3 @@
 - name: Strongbow Cider
 - name: Angry Orchard Cider
 - name: Stella Artois Cidre
-- name: St. Pauli Non-Alcoholic Beer
-- name: Pink Elephant Kombucha
