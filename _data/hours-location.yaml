@@ -1,12 +1,12 @@
 ---
 address:
-- line: 1413 SOUTH VIRGINIA STREET
+- line: 600 S CENTER ST
 - line: RENO, NEVADA
 hours:
-- line: Monday Closed
+- line: Monday 3-10PM
 - line: Tuesday Closed
-- line: Wednesday Closed
-- line: Thursday Closed
-- line: Friday Closed
-- line: Saturday Closed
-- line: Sunday Closed
+- line: Wednesday 3-10PM
+- line: Thursday 3-10PM
+- line: Friday 3-11PM
+- line: Saturday 11AM-11PM
+- line: Sunday 11AM-10PM

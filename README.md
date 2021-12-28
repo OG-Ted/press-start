@@ -1,7 +1,7 @@
 # pressstartreno.com
 
 Press Start Marketing Site
-by Peter Laxalt 2017 (laxaltandmciver.co) (peterlaxalt.dribbble.com)
+by Commence Studio (https://commence.studio)
 
 1. Be sure you have Jekyll installed.  Reference the official Jekyll [documentation](https://jekyllrb.com/docs/installation/) for getting setup.
 2. `git clone git@github.com:peterlaxalt/press-start.git`
