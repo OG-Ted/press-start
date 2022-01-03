@@ -1,19 +1,16 @@
 <div class="directions-overlay list-overlay">
   <h1>Find Us</h1>
   <div class="directions-content">
-    <img src="{{site.baseurl}}/assets/PS_building-animate.gif" width="304px" height="357px" />
+    <img src="assets/PS_building-animate.gif" width="304px" height="357px" />
     {% for line in site.data.hours-location.address %}
-      <span>
-        {{ line.line }}
-      </span>
+    <span> {{ line.line }} </span>
     {% endfor %}
   </div>
   <hr />
   <div class="directions-content">
     <span class="directions-content-sm">
-      {% for line in site.data.hours-location.hours %}
-        {{ line.line }}<br />
-    {% endfor %}
+      {% for line in site.data.hours-location.hours %} {{ line.line }}<br />
+      {% endfor %}
     </span>
   </div>
   <hr />
@@ -23,9 +20,12 @@
     </a>
   </div>
   <div class="directions-overlay-close list-overlay-close">
-    <a href="javascript:void(0)" class="btn btn-white" id="directions-overlay-close">
+    <a
+      href="javascript:void(0)"
+      class="btn btn-white"
+      id="directions-overlay-close"
+    >
       Go Back
     </a>
   </div>
-
 </div>
