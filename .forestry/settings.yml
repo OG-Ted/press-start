@@ -2,51 +2,50 @@
 new_page_extension: html
 auto_deploy: false
 admin_path: manage/
-webhook_url:
+webhook_url: 
 sections:
-  - type: heading
-    label: Drinks
-  - type: document
-    path: _data/prices.yaml
-    label: Drink Prices
-  - type: document
-    path: _data/on-tap-list.yaml
-    label: On Tap List
-  - type: document
-    path: _data/cocktail-list.yaml
-    label: Cocktail List
-  - type: document
-    path: _data/craft-bottle-list.yaml
-    label: Craft Bottle List
-  - type: document
-    path: _data/domestic-bottle-list.yaml
-    label: Domestic Bottle List
-  - type: document
-    path: _data/game-list.yaml
-    label: Game List
-  - type: heading
-    label: Core
-  - type: document
-    path: _data/social.yaml
-    label: Social Media
-  - type: document
-    path: _data/hours-location.yaml
-    label: Hours and Location
-  - type: document
-    path: _data/seo.yaml
-    label: SEO
+- type: heading
+  label: Drinks
+- type: document
+  path: _data/prices.yaml
+  label: Drink Prices
+- type: document
+  path: _data/on-tap-list.yaml
+  label: On Tap List
+- type: document
+  path: _data/cocktail-list.yaml
+  label: Cocktail List
+- type: document
+  path: _data/craft-bottle-list.yaml
+  label: Craft Bottle List
+- type: document
+  path: _data/domestic-bottle-list.yaml
+  label: Domestic Bottle List
+- type: document
+  path: _data/game-list.yaml
+  label: Game List
+- type: heading
+  label: Core
+- type: document
+  path: _data/social.yaml
+  label: Social Media
+- type: document
+  path: _data/hours-location.yaml
+  label: Hours and Location
+- type: document
+  path: _data/seo.yaml
+  label: SEO
 upload_dir: uploads
 public_path: "/uploads"
-front_matter_path: ""
+front_matter_path: ''
 use_front_matter_path: false
 file_template: ":year:/:month:/:day:/:filename:"
 build:
   preview_env:
-    - JEKYLL_ENV=staging
+  - JEKYLL_ENV=staging
   preview_output_directory: _site
   install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/build:latest
   mount_path: "/opt/buildhome/repo"
-  instant_preview_command:
-    bundle exec jekyll serve --drafts --unpublished --future
+  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     --port 8080 --host 0.0.0.0 -d _site
