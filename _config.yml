@@ -4,6 +4,7 @@ email: pete@laxaltandmciver.co
 baseurl: ""
 url: ""
 permalink: pretty
+destination: docs/
 sass:
   sass_dir: _sass
   style: compressed

@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  
+  <meta name="keywords" content="arcade, barcade, bar, craft, beer, vintage, nostalgia, electronic, fun, pixels, pacman, enjoyment, retro, bar arcade, reno, nevada, south, virginia, midtown, renovation">
+
+  
+  <title>Press Start Bar & Arcade</title>
+  <meta name="description" content="Reno's Raddest Bar & Arcade - serving craft beers, fine spirits, and Midtown's largest collection of lost favorite arcade games & pinball.">
+
+  
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="//" />
+  <meta property="og:title" content="Press Start Bar & Arcade" />
+  <meta property="og:description" content="Reno's Raddest Bar & Arcade - serving craft beers, fine spirits, and Midtown's largest collection of lost favorite arcade games & pinball." />
+  <meta property="og:image" content="/assets/og.gif" />
+  <meta property="og:image:width" content="600" />
+  <meta property="og:image:height" content="367" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:domain" value="http://localhost:4000" />
+  <meta name="twitter:title" value="" />
+  <meta name="twitter:description" value="Reno's Raddest Bar & Arcade - serving craft beers, fine spirits, and Midtown's largest collection of lost favorite arcade games & pinball." />
+  <meta name="twitter:image" content="/assets/og.gif" />
+  <meta name="twitter:url" value="//" />
+
+  
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+  
+  <script type="text/javascript" src="/js/jquery-1.8.2.min.js"></script>
+
+  <script type="text/javascript" src="/js/main.js"></script>
+
+  
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107235281-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+    gtag('config', 'UA-107235281-1');
+  </script>
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/manifest.json">
+  <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#f10006">
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+  <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#f10006">
+
+
+
+</head>
+
+<body id="pageBody">
+  <nav class="nav-mobile">
+
+  <div class="sm-col-fifth">
+    <a href="#left">
+      <img src="/assets/icon-arrow.svg" style="transform:rotate(-90deg);transform-origin:center center;"/>
+      <span class="nav-label">
+        Games
+      </span>
+    </a>
+  </div>
+
+  <div class="sm-col-fifth">
+    <a href="#right">
+      <img src="/assets/icon-arrow.svg" style="transform:rotate(90deg);transform-origin:center center;"/>
+      <span class="nav-label">
+        Drinks
+      </span>
+    </a>
+  </div>
+
+  <div class="sm-col-fifth nav-home">
+    <a href="#home">
+      <img src="/assets/icon-compass.svg" />
+    </a>
+  </div>
+
+  <div class="sm-col-fifth">
+    <a href="#top">
+      <img src="/assets/icon-arrow.svg" />
+      <span class="nav-label">
+        Play
+      </span>
+    </a>
+  </div>
+
+  <div class="sm-col-fifth">
+    <a href="#bottom">
+      <img src="/assets/icon-arrow.svg" style="transform:rotate(180deg);transform-origin:center center;"/>
+      <span class="nav-label">
+        About
+      </span>
+    </a>
+  </div>
+
+</nav>
+
+  <div class="branding">
+  <img src="/assets/logo.svg" />
+</div>
+
+<div class="social">
+  <a href="https://www.facebook.com/pressstartreno/" target="_blank">
+    <img src="/assets/icon-fb.svg" />
+  </a>
+  <a href="https://www.instagram.com/press_start_reno/" target="_blank">
+    <img src="/assets/icon-insta.svg" />
+  </a>
+  <a href="javascript:void(0)" class="directions-menu mobile-show">
+    <img src="/assets/icon-pin.svg" />
+  </a>
+</div>
+
+<div class="footer">
+  <div class="footer-inner">
+    <div class="foot-left">
+      © 2022 Press Start
+    </div>
+    <div class="foot-right directions-menu">
+      Hours & Location >
+    </div>
+  </div>
+</div>
+
+<div class="ps-guide">
+  <div class="ps-guide-inner">
+    <div class="ps-guide-left">
+      Space bar for home
+    </div>
+    <div class="ps-guide-right">
+      Use your arrow keys
+    </div>
+  </div>
+</div>
+
+  <div class="ps-frame ps-frame-top">
+</div>
+<div class="ps-frame ps-frame-right">
+</div>
+<div class="ps-frame ps-frame-bottom">
+</div>
+<div class="ps-frame ps-frame-left">
+</div>
+
+  <div class="game-container">
+  <canvas id="gameview"></canvas>
+  <a href="javascript:void(0)" onclick="exitGame()" class="close-game">
+    <div class="close-overlay" onclick="exitGame()">
+      <div class="close-x" onclick="exitGame()"></div>
+    </div>
+  </a>
+</div>
+ <main class="arcade-wrapper"> <nav class="nav-screen">
+  <a href="#left" class="arcade-nav arcade-nav-left" id="nav-left">
+    <img src="/assets/icon-arrow.svg" style="transform:rotate(-90deg);transform-origin:center center;"/>
+    <span class="nav-label">
+      Games
+    </span>
+  </a>
+
+  <a href="#right" class="arcade-nav arcade-nav-right" id="nav-right">
+    <img src="/assets/icon-arrow.svg" style="transform:rotate(90deg);transform-origin:center center;"/>
+    <span class="nav-label">
+      Drinks
+    </span>
+  </a>
+
+  <a href="#top" class="arcade-nav arcade-nav-top" id="nav-top">
+    <img src="/assets/icon-arrow.svg" />
+    <span class="nav-label">
+      Play
+    </span>
+  </a>
+
+  <a href="#bottom" class="arcade-nav arcade-nav-bottom" id="nav-bottom">
+    <span class="nav-label">
+      About
+    </span>
+    <img src="/assets/icon-arrow.svg" style="transform:rotate(180deg);transform-origin:center center;"/>
+  </a>
+
+  <a href="#home" onclick="spaceBarPressed();" class="arcade-nav arcade-nav-home hidden" id="nav-home">
+    <img src="/assets/icon-compass.svg" />
+    <span class="nav-label">
+      Home
+    </span>
+  </a>
+</nav>
+
+
+    <div class="arcade-container">
+      <div class="arcade-display" id="home">
+  <div class="arcade-content insert-coin" id="home-hook">
+    <div class="push-center-center">
+      <div class="col-two-third col-center">
+  <a href="#bottom">
+    <div class="coin-box"></div>
+    <h1 class="display-header">Insert Coin to Play</h1>
+  </a>
+  <p class="subhead">
+    Press Start is Reno’s raddest bar & arcade serving Midtown's largest rotating selection of arcade games, craft beer, and pinball.
+  </p>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="arcade-display" id="top">
+  <div class="arcade-content">
+    <div class="push-center-center">
+      <div class="col-half col-center game-box txt-center">
+  <img src="/assets/PS_joystick.gif" width="75px" />
+  <h1>Let's Play</h1>
+  <a href="javascript:void(0)" onclick="gameInit()" class="btn btn-white games-button">
+    Start
+  </a>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="arcade-display" id="left">
+  <div class="arcade-content">
+    <div class="push-center-center">
+      <div class="col-full col-center">
+  <img src="/assets/stay-rad.png" class="anim-pulse sm-img" />
+  <h1 class="display-header no-blink display-header-green-border">
+    See our current game selection
+  </h1>
+  <a href="#left" class="btn btn-third btn-white btn-fuschia" id="game-menu">
+    Start
+  </a>
+  <a href="#right" class="btn btn-third btn-white btn-fuschia" id="game-menu">
+    Pre-Beer
+  </a>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="arcade-display" id="right">
+  <div class="arcade-content">
+    <div class="push-center-center">
+      <div class="col-half col-center beer-box txt-center">
+  <img src="/assets/PS-beer.gif" width="75px" />
+  <h1 class="beer-time-header">Beer Time</h1>
+  <a href="#right" class="btn btn-white beer-time-button" id="drink-menu">
+    Start
+  </a>
+  <a href="#left" class="btn btn-white games-button games-button-hide">
+    Our Games
+  </a>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="arcade-display" id="bottom">
+  <div class="arcade-content">
+    <div class="push-center-center">
+      <div class="col-two-third col-center about-container">
+  <img src="/assets/coin-spin.gif" width="100px" class="sm-img" />
+  <h1 class="display-header no-blink display-header-green-border">
+    Welcome to Press Start
+  </h1>
+  <p class="subhead">
+    Reno's finest bar-cade. Serving cold craft beer and an always-changing selection of classic arcade games in Reno, Nevada. What do you need today?
+  </p>
+  <div class="btn-group">
+    <a href="#bottom" class="btn btn-third btn-white directions-menu">
+      Directions
+    </a>
+    <a href="#right" class="btn btn-third btn-white">
+      Beer
+    </a>
+    <a href="#left" class="btn btn-third btn-white">
+      Games
+    </a>
+  </div>
+
+</div>
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </main>
+
+  <div class="drink-overlay list-overlay">
+  <h1>Select Drink</h1>
+
+  <div class="drink-list">
+
+    <div class="row drink-category">
+      <h2 class="drink-category-header">
+        On Tap
+      </h2>
+      <h3 class="drink-subhead">
+        Pints / Pitchers
+      </h3>
+      <ul>
+        
+        <li class="drink-dat-beer">
+          Elysian Brewing Spacedust IPA
+        </li>
+        
+        <li class="drink-dat-beer">
+          Firestone Walker Mind Haze IPA
+        </li>
+        
+        <li class="drink-dat-beer">
+          Deschutes Fresh Squeezed IPA
+        </li>
+        
+        <li class="drink-dat-beer">
+          Firestone Walker 805
+        </li>
+        
+        <li class="drink-dat-beer">
+          Blue Moon Belgian White Ale
+        </li>
+        
+        <li class="drink-dat-beer">
+          Stella Artois
+        </li>
+        
+        <li class="drink-dat-beer">
+          Brewer's Cabinet Dirty Wookie
+        </li>
+        
+        <li class="drink-dat-beer">
+          Pabst Blue Ribbon
+        </li>
+        
+      </ul>
+    </div>
+
+    <div class="row drink-category">
+      <h2 class="drink-category-header">
+        Bottles
+      </h2>
+
+      <h3 class="drink-subhead">
+        Domestic
+      </h3>
+      <ul>
+        
+        <li class="drink-dat-beer">
+          Michelob Ultra Pure Gold (Organic)
+        </li>
+        
+        <li class="drink-dat-beer">
+          Coors Light
+        </li>
+        
+        <li class="drink-dat-beer">
+          Budweiser
+        </li>
+        
+        <li class="drink-dat-beer">
+          Bud Light
+        </li>
+        
+        <li class="drink-dat-beer">
+          Miller Light
+        </li>
+        
+        <li class="drink-dat-beer">
+          Coors Banquet
+        </li>
+        
+      </ul>
+
+      <h3 class="drink-subhead">
+        Craft & Import
+      </h3>
+      <ul>
+        
+        <li class="drink-dat-beer">
+          Little Sumpin - Lagunitas Brewing
+        </li>
+        
+        <li class="drink-dat-beer">
+          St. Pauli Girl NA
+        </li>
+        
+        <li class="drink-dat-beer">
+          Sippin Pretty - Odell Brewing
+        </li>
+        
+        <li class="drink-dat-beer">
+          Sierra Nevada Pale Ale
+        </li>
+        
+        <li class="drink-dat-beer">
+          Great Basin Icky IPA
+        </li>
+        
+        <li class="drink-dat-beer">
+          Rogue Dead Guy Ale
+        </li>
+        
+        <li class="drink-dat-beer">
+          Widmer Brothers Hefeweizen
+        </li>
+        
+        <li class="drink-dat-beer">
+          Schofferhofer Hefeweizen Grapefruit 
+        </li>
+        
+        <li class="drink-dat-beer">
+          Kona Longboard Lager
+        </li>
+        
+        <li class="drink-dat-beer">
+          Daura Damm Lager
+        </li>
+        
+        <li class="drink-dat-beer">
+          Samuel Adams Boston Lager
+        </li>
+        
+        <li class="drink-dat-beer">
+          Deschutes Black Butte Porter
+        </li>
+        
+        <li class="drink-dat-beer">
+          Ballast Point Sculpin IPA
+        </li>
+        
+        <li class="drink-dat-beer">
+          Montucky Cold Snacks
+        </li>
+        
+        <li class="drink-dat-beer">
+          Belching Beaver Peanut Butter Milk Stout
+        </li>
+        
+        <li class="drink-dat-beer">
+          Dogfish Head SeaQuench Ale
+        </li>
+        
+        <li class="drink-dat-beer">
+          The Finnish Long Drink
+        </li>
+        
+        <li class="drink-dat-beer">
+          Truly Hard Seltzer
+        </li>
+        
+        <li class="drink-dat-beer">
+          Sessions Lager
+        </li>
+        
+        <li class="drink-dat-beer">
+          Modelo Especial
+        </li>
+        
+        <li class="drink-dat-beer">
+          Modelo Negro
+        </li>
+        
+        <li class="drink-dat-beer">
+          Guinness
+        </li>
+        
+        <li class="drink-dat-beer">
+          Corona
+        </li>
+        
+        <li class="drink-dat-beer">
+          Strongbow Cider
+        </li>
+        
+        <li class="drink-dat-beer">
+          Angry Orchard Cider
+        </li>
+        
+        <li class="drink-dat-beer">
+          Stella Artois Cidre
+        </li>
+        
+      </ul>
+    </div>
+
+    <div class="row drink-category">
+      <h2 class="drink-category-header">
+        Cocktails
+      </h2>
+      <h3 class="drink-subhead">
+        Get Schwifty
+      </h3>
+      <ul>
+        
+        <li class="drink-dat-beer">
+          "Mariotini" Martini
+        </li>
+        
+        <li class="drink-dat-beer">
+          "Miss Pacman" Margarita
+        </li>
+        
+        <li class="drink-dat-beer">
+          "Pinky" Cosmo
+        </li>
+        
+        <li class="drink-dat-beer">
+          "Brain Invader" L.I.T.
+        </li>
+        
+        <li class="drink-dat-beer">
+          "Raiden" Kamikaze
+        </li>
+        
+        <li class="drink-dat-beer">
+          "Donkey Kong" Manhattan
+        </li>
+        
+        <li class="drink-dat-beer">
+          "Pong" Old Fashioned
+        </li>
+        
+        <li class="drink-dat-beer">
+          "Zelda" Lemondrop
+        </li>
+        
+        <li class="drink-dat-beer">
+          "Max Payne" Mojito
+        </li>
+        
+        <li class="drink-dat-beer">
+          "Metroid" Mai Tai
+        </li>
+        
+        <li class="drink-dat-beer">
+          "Berzerk" Bloody Mary
+        </li>
+        
+      </ul>
+
+      <h3 class="drink-subhead">
+        ♥ We offer a full bar of fine spirits 'n' stuff
+      </h3>
+
+    </div>
+
+  </div>
+
+  <div class="drink-overlay-close list-overlay-close">
+    <a href="javascript:void(0)" class="btn btn-white" id="drink-menu-close">
+      Water, please
+    </a>
+  </div>
+
+</div>
+
+  <div class="game-overlay list-overlay">
+  <h1>Our Games</h1>
+  <p class="game-subhead">
+    We specialize in "lost classics" and "classic" arcade games.
+  </p>
+
+  <div class="game-grid">
+    <!-- todo: fallback image for game cover -->
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2017/12/07/Batman-Pinball.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Batman 66 Pinball
+        </span>
+        Stern Pinball
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2019/12/01/c72f1fabeb0bc2138fa936a6c95638aaaacf5b2a.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Dialed In Pinball
+        </span>
+        Jersey Jack Pinball
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2018/01/22/Guardians Pinball.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Guardians of the Galaxy Pinball
+        </span>
+        Stern Pinball
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2017/10/05/medevil-madness.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Medieval Madness Pinball
+        </span>
+        Planetary Pinball
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/08/31/mystic.png"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Mystic Pinball
+        </span>
+        Bally
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2017/12/07/Star-Wars-Pinball.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Star Wars Pinball                                                  
+        </span>
+        Stern Pinball
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/9/06/stranger-things-premium-flyer-front_232x300.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Stranger Things Premium Pinball
+        </span>
+        Stern
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2019/12/01/9d764528fcc18ac1e737449576b424d55b8303fb.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Superman Pinball 
+        </span>
+        Atari
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/09/06/stern-pinball-inc-tmnt-pinball-title.png"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          TMNT Premium Pinball
+        </span>
+        Stern
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2017/10/05/twlight-zone.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Twilight Zone Pinball
+        </span>
+        Bally Pinball
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/08/31/375px-1943_arcadeside.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          1943: The Battle of Midway
+        </span>
+        Capcom
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2018/01/22/Area 51.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Area 51
+        </span>
+        Atari Games
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2018/01/23/Centipede.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Centipede
+        </span>
+        Atari
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/09/06/cmon-baby.png"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          C'mon Baby
+        </span>
+        ExPotato Co
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/6465DAYTONA_logo.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Daytona
+        </span>
+        Sega
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2019/05/08/WILLIAMSMULTIFLYER.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Defender / Joust / Splat / Bubbles / Stargate / Robotron: 2084
+        </span>
+        Williams 
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/09/06/dig-dug.png"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Dig Dug
+        </span>
+        Atari
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/08/31/pauline.png"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Donkey Kong Pauline Edition
+        </span>
+        Nintendo
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/08/31/towerofdoom.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Dungeons and Dragons: Tower of Doom
+        </span>
+        Capcom
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/08/31/fast-draw.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Fast Draw Showdown
+        </span>
+        ALG
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2018/01/23/Gauntlet Dark Legacy.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Gauntlet Dark Legacy
+        </span>
+        Atari Games
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2019/05/08/groove-coaster-bg.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Groove Coaster
+        </span>
+        Taito
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2019/12/01/Ghheader.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Guitar Hero Arcade
+        </span>
+        Raw Thrills / Konami / Activision
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2018/07/03/ice-cold-beer.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Ice Cold Beer
+        </span>
+        Taito
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/08/31/ikari-warriors-watermark.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Ikari Warriors
+        </span>
+        Tradewest
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/08/31/marvel_vs_capcom_2_arcade_game.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Marvel vs Capcom 2
+        </span>
+        Capcom
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2019/12/01/neogeo.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Metal Slug 3 / Samurai Showdown
+        </span>
+        Neo Geo
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2018/01/23/Mortal Kombat 2.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Mortal Kombat 2
+        </span>
+        Midway Games
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2018/01/19/mspac-galaga.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Ms Pacman / Galaga Combo
+        </span>
+        Namco
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/blitzshowtime_sideart.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          NFL Blitz 2000 / NBA Showtime
+        </span>
+        Midway Games
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/09/06/operationwolf.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Operation Wolf
+        </span>
+        Taito
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2017/12/07/Rampage-world-tour.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Rampage World Tour
+        </span>
+        Midway Games
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2018/07/02/The-Simpsons-1.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          The Simpsons
+        </span>
+        Konami
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/09/06/ataristarwars.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Star Wars/Empire Strikes Back
+        </span>
+        Atari
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/SF2.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Street Fighter II Champion Edition
+        </span>
+        Capcom
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2017/12/07/super-sprint-1.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Super Sprint
+        </span>
+        Atari
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/tmnt_1987_grande.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Teenage Mutant Ninja Turtles
+        </span>
+        Konami
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/08/30/terminator2arcade.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Terminator 2 
+        </span>
+        Midway
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2018/01/18/tetris-2.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Tetris
+        </span>
+        Atari Games
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2020/08/31/2596971-0000.png"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          Toobin
+        </span>
+        Atari
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2017/12/07/Wlaking-Dead-Video.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          The Walking Dead 
+        </span>
+        Raw Thrills
+      </div>
+    </div>
+    
+    <div class="game-card directions-menu">
+      <div class="game-cover">
+        <img src="/uploads/2018/07/02/Xmen.jpg"/>
+      </div>
+      <div class="game-title">
+        <span class="game-company">
+          X-Men
+        </span>
+        Konami
+      </div>
+    </div>
+    
+
+  </div>
+
+  <div class="game-overlay-close list-overlay-close">
+    <a href="javascript:void(0)" class="btn btn-white" id="game-menu-close">
+      Go back
+    </a>
+  </div>
+
+</div>
+
+  <div class="directions-overlay list-overlay">
+  <h1>Find Us</h1>
+  <div class="directions-content">
+    <img src="/assets/PS_building-animate.gif" width="304px" height="357px" />
+    
+      <span>
+        600 S CENTER ST
+      </span>
+    
+      <span>
+        RENO, NEVADA
+      </span>
+    
+  </div>
+  <hr />
+  <div class="directions-content">
+    <span class="directions-content-sm">
+      
+        Monday 3-10PM<br />
+    
+        Tuesday Closed<br />
+    
+        Wednesday 3-10PM<br />
+    
+        Thursday 3-10PM<br />
+    
+        Friday 3-11PM<br />
+    
+        Saturday 11AM-11PM<br />
+    
+        Sunday 11AM-10PM<br />
+    
+    </span>
+  </div>
+  <hr />
+  <div class="directions-content content-bump-bottom-4x">
+    <a href="https://www.facebook.com/pressstartreno/" class="link-focus" target="_blank">
+      Contact Us On Facebook
+    </a>
+  </div>
+  <div class="directions-overlay-close list-overlay-close">
+    <a href="javascript:void(0)" class="btn btn-white" id="directions-overlay-close">
+      Go Back
+    </a>
+  </div>
+
+</div>
+
+
+  
+  <script type="text/javascript" src="/js/game/Const.js"></script>
+  <script type="text/javascript" src="/js/game/SpaceShip.js"></script>
+  <script type="text/javascript" src="/js/game/CDetection.js"></script>
+  <script type="text/javascript" src="/js/game/Game.js"></script>
+</body>
+</html>
