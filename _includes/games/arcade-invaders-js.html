@@ -1,9 +1,20 @@
-
 <script type="text/javascript" src="js/director.min.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/games/space-invaders/javascripts/Const.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/games/space-invaders/javascripts/SpaceShip.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/games/space-invaders/javascripts/CDetection.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/games/space-invaders/javascripts/Game.js"></script>
+<script
+  type="text/javascript"
+  src="assets/games/space-invaders/javascripts/Const.js"
+></script>
+<script
+  type="text/javascript"
+  src="assets/games/space-invaders/javascripts/SpaceShip.js"
+></script>
+<script
+  type="text/javascript"
+  src="assets/games/space-invaders/javascripts/CDetection.js"
+></script>
+<script
+  type="text/javascript"
+  src="assets/games/space-invaders/javascripts/Game.js"
+></script>
 <script type="text/javascript">
   $(document).ready(function () {
     // create the game object
@@ -13,7 +24,7 @@
     var play = function () {
       window.game.start();
       gameKey();
-      $('#gameview').focus();
+      $("#gameview").focus();
     };
 
     var home = function () {
@@ -25,12 +36,12 @@
 
     // Route definitions
     var routes = {
-      '/': home,
-      '/play': play
+      "/": home,
+      "/play": play,
     };
 
     // Initialize the router
     var router = Router(routes);
-    router.init('/');
+    router.init("/");
   });
 </script>

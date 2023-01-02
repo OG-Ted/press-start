@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
-<body id="pageBody">
-  {% include nav-mobile.html %}
-  {% include outer.html %}
-  {% include frame.html %}
-  {% include game-container.html %} <main class="arcade-wrapper"> {% include nav.html %}
+  {% include head.html %}
+  <body id="pageBody">
+    {% include nav-mobile.html %} {% include outer.html %} {% include frame.html
+    %} {% include game-container.html %}
+    <main class="arcade-wrapper">
+      {% include nav.html %}
 
-    <div class="arcade-container">
-      {{ content }}
-    </div>
-  </main>
+      <div class="arcade-container">{{ content }}</div>
+    </main>
 
-  {% include drink-menu.html %}
-  {% include game-menu.html %}
-  {% include directions-menu.html %}
-
-  {% comment %}
-    add any arcade game includes below
-  {% endcomment %}
-  <script type="text/javascript" src="{{ site.baseurl }}/js/game/Const.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/js/game/SpaceShip.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/js/game/CDetection.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/js/game/Game.js"></script>
-</body>
+    {% include drink-menu.html %} {% include game-menu.html %} {% include
+    directions-menu.html %} {% comment %} add any arcade game includes below {%
+    endcomment %}
+    <script type="text/javascript" src="js/game/Const.js"></script>
+    <script type="text/javascript" src="js/game/SpaceShip.js"></script>
+    <script type="text/javascript" src="js/game/CDetection.js"></script>
+    <script type="text/javascript" src="js/game/Game.js"></script>
+  </body>
 </html>
