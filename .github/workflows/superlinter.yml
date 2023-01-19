@@ -1,9 +1,7 @@
-on: [push]
+name: Generate Files
 
-jobs: 
-  run_script:
-    runs-on: ubuntu-latest
-    name: Generate files
-    steps:
-      - name: Run Script
-        run: 'generate.js'
+on: push
+
+runs: 
+  using: 'node12'
+  main: 'generate.js'
