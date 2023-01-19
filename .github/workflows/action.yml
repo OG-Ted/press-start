@@ -8,5 +8,5 @@ jobs:
       - uses: actions/checkout@main
         name: Check out repository
       - name: Run Local Script
-        uses: ./.github/actions/generate.js
+        uses: ./.github/generate.js
         
