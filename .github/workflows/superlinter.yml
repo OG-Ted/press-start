@@ -3,8 +3,8 @@ name: Generate Files
 on: push
 
 jobs: 
-  super-lint:
-    name: Lint code base
+  build-node:
+    container: node:16
     runs-on: ubuntu-latest
     steps:
       - run: node generate.js
