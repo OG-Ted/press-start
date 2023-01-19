@@ -5,6 +5,7 @@
   "description": "",
   "main": "package.json",
   "author": "alishagarric <alisha@laxaltandmciver.co>",
+  "type": "module",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
@@ -20,10 +21,12 @@
     "@sanity/default-login": "^2.35.2",
     "@sanity/desk-tool": "^2.35.2",
     "@sanity/vision": "^3.1.2",
+    "js-yaml": "^4.1.0",
     "prop-types": "^15.7",
     "react": "^17.0",
     "react-dom": "^17.0",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {}
 }

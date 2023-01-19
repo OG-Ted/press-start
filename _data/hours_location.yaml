@@ -1,0 +1,12 @@
+- hours_location:
+    address:
+      - 600 S CENTER ST
+      - RENO, NEVADA
+    hours:
+      - Monday 3-10PM
+      - Tuesday Closed
+      - Wednesday 3-10PM
+      - Thursday 3-10PM
+      - Friday 3-11PM
+      - Saturday 11AM-11PM
+      - Sunday 11AM-10PM

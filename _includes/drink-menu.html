@@ -39,9 +39,9 @@
         Craft & Import
       </h3>
       <ul>
-        {% for drink in site.data.craft-bottle-list %}
+        {% for drink in site.data.craft_bottle_list[0].craft_bottles %}
         <li class="drink-dat-beer">
-          {{ drink.name }}
+          {{ drink }}
         </li>
         {% endfor %}
       </ul>
@@ -55,9 +55,9 @@
         Get Schwifty
       </h3>
       <ul>
-        {% for drink in site.data.cocktail-list %}
+        {% for drink in site.data.cocktail_list[0].cocktails %}
         <li class="drink-dat-beer">
-          {{ drink.name }}
+          {{ drink }}
         </li>
         {% endfor %}
       </ul>
