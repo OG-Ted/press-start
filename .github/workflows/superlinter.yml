@@ -7,5 +7,4 @@ jobs:
     name: Lint code base
     runs-on: ubuntu-latest
     steps:
-      -name: Checkout code
-        run: generate.js
+      - run: generate.js
