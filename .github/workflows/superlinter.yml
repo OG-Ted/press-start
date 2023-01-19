@@ -7,4 +7,4 @@ jobs:
     name: Lint code base
     runs-on: ubuntu-latest
     steps:
-      - run: node generate.js
+      - run: node studio/generate.js
