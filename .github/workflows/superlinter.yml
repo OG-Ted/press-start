@@ -6,4 +6,4 @@ jobs:
     name: Generate files
     steps:
       - name: Run Script
-        run: 'generate.js'
+        run: './.github/generate.js'
