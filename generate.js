@@ -1,9 +1,14 @@
+const core = require('@actions/core')
+const github =require ('@actions/github')
+
 // NodeJS-based GROQ queries that are persisted into the filesystem
 import sanityClient from "@sanity/client";
 import fs from "fs";
 import path from "path";
 import yaml from "js-yaml"
 
+try {
+  
 // @TODO: Update with your project's config
 const client = sanityClient({
   projectId: "aazzk7f9",
@@ -142,3 +147,6 @@ async function getData() {
 }
 
 getData();
+} catch (error) {
+  core.setFailed(error.message);
+}
