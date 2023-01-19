@@ -1,10 +1,9 @@
-name: Generate Files
-
-on: push
+on: [push]
 
 jobs: 
-  build-node:
-    container: node:16
+  run_script:
     runs-on: ubuntu-latest
+    name: Generate files
     steps:
-      - run: node generate.js
+      - name: Run Script
+        run: 'generate.js'
