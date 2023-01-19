@@ -7,4 +7,3 @@ jobs:
     steps:
       - name: Run Script
         uses: lmnts-dev/press-start
-        run: 'generate.js'
