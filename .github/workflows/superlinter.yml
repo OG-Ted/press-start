@@ -1,4 +1,4 @@
-name: Super-Linter
+name: Generate Files
 
 on: push
 
@@ -7,4 +7,4 @@ jobs:
     name: Lint code base
     runs-on: ubuntu-latest
     steps:
-      - run: node studio/generate.js
+      - run: node generate.js
