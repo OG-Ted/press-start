@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Generate files
     steps:
-      - uses: lmnts-dev/press-start/.github/actions/checkout0.9.1
+      - uses: lmnts-dev/press-start/.github/actions/checkout@v1
         name: Check out repository
         
