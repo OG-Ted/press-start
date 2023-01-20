@@ -1,5 +1,5 @@
-const core = require('@actions/core')
-const github =require ('@actions/github')
+// const core = require('@actions/core')
+// const github =require ('@actions/github')
 
 // NodeJS-based GROQ queries that are persisted into the filesystem
 const sanityClient = require("@sanity/client")
@@ -148,5 +148,5 @@ async function getData() {
 
 getData();
 } catch (error) {
-  core.setFailed(error.message);
+  console.log(error, 'error');
 }
