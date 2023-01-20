@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Generate files
     steps:
-      - uses: lmnts-dev/press-start/.github/actions/checkout@v3
+      - uses: lmnts-dev/press-start@v1
         name: Check out repository
+      - name: Test
+        run: echo "Hello"
         
