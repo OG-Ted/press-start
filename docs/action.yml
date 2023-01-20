@@ -1,6 +1,0 @@
-name: 'Generate Files'
-
-runs:
-  using: 'node12'
-  main: 'generate.js'
-        
