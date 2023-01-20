@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Generate files
     steps:
-      - uses: lmnts-dev/press-start
+      - uses: lmnts-dev/press-start@main
         name: Check out repository
       - name: Test
         run: echo "Hello"
