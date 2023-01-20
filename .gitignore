@@ -1,4 +1,8 @@
 _site
 .sass-cache
 .jekyll-metadata
+studio/node_modules
+studio/node_modules*
+studio/node_modules/*
+node_modules
 vendor/bundle
