@@ -2,7 +2,7 @@
 // const github =require ('@actions/github')
 
 // NodeJS-based GROQ queries that are persisted into the filesystem
-const sanityClient = require("/studio/node_modules/@sanity/client")
+const sanityClient = require("@sanity/client")
 const fs = require("fs")
 const path = require("path")
 const yaml = require("js-yaml")
