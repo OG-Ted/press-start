@@ -1,6 +1,6 @@
 name: 'Generate Files'
 
 runs:
-  using: 'node14'
+  using: 'node12'
   main: 'generate.js'
         
