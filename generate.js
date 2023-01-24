@@ -90,43 +90,6 @@ const promises = QUERIES.map(({ filename, query }) => {
         filename,
         JSON.stringify(data)
       );
- 
-      // 3. Convert JSON Data to Yaml
-      const doc = yaml.load(fs.readFileSync('game.json', 'utf8'));
-      let configYaml = yaml.dump(doc);
-      await fs.writeFileSync("_data/game.yaml", configYaml, "utf8");
-
-      const cocktailDoc = yaml.load(fs.readFileSync('cocktail_list.json', 'utf8'));
-      let configYaml2 = yaml.dump(cocktailDoc);
-      await fs.writeFileSync("_data/cocktail_list.yaml", configYaml2, "utf8");
-
-      const craftBottleDoc = yaml.load(fs.readFileSync('craft_bottle_list.json', 'utf8'));
-      let configYaml3 = yaml.dump(craftBottleDoc);
-      await fs.writeFileSync("_data/craft_bottle_list.yaml", configYaml3, "utf8");
-
-      const domesticBottleDoc = yaml.load(fs.readFileSync('domestic_bottle_list.json', 'utf8'));
-      let configYaml4 = yaml.dump(domesticBottleDoc);
-      await fs.writeFileSync("_data/domestic_bottle_list.yaml", configYaml4, "utf8")
-
-      const hoursLocationDoc = yaml.load(fs.readFileSync('hours_location.json', 'utf8'));
-      let configYaml5 = yaml.dump(hoursLocationDoc);
-      await fs.writeFileSync("_data/hours_location.yaml", configYaml5, "utf8")
-
-      const onTapListDoc = yaml.load(fs.readFileSync('on-tap-list.json', 'utf8'));
-      let configYaml6 = yaml.dump(onTapListDoc);
-      await fs.writeFileSync("_data/on_tap_list.yaml", configYaml6, "utf8")
-
-      const pricesDoc = yaml.load(fs.readFileSync('prices.json', 'utf8'));
-      let configYaml7 = yaml.dump(pricesDoc);
-      await fs.writeFileSync("_data/price.yaml", configYaml7, "utf8")
-
-      const seoDoc = yaml.load(fs.readFileSync('seo.json', 'utf8'));
-      let configYaml8 = yaml.dump(seoDoc);
-      await fs.writeFileSync("_data/seo-data.yaml", configYaml8, "utf8")
-
-      const socialDoc = yaml.load(fs.readFileSync('social.json', 'utf8'));
-      let configYaml9 = yaml.dump(socialDoc);
-      await fs.writeFileSync("_data/social-data.yaml", configYaml9, "utf8")
 
       resolve(true);
     } catch (error) {
@@ -137,6 +100,44 @@ const promises = QUERIES.map(({ filename, query }) => {
 });
 
 async function getData() {
+
+// Convert JSON Data to Yaml
+  const doc = yaml.load(fs.readFileSync('game.json', 'utf8'));
+  let configYaml = yaml.dump(doc);
+  await fs.writeFileSync("_data/game.yaml", configYaml, "utf8");
+
+  const cocktailDoc = yaml.load(fs.readFileSync('cocktail_list.json', 'utf8'));
+  let configYaml2 = yaml.dump(cocktailDoc);
+  await fs.writeFileSync("_data/cocktail_list.yaml", configYaml2, "utf8");
+
+  const craftBottleDoc = yaml.load(fs.readFileSync('craft_bottle_list.json', 'utf8'));
+  let configYaml3 = yaml.dump(craftBottleDoc);
+  await fs.writeFileSync("_data/craft_bottle_list.yaml", configYaml3, "utf8");
+
+  const domesticBottleDoc = yaml.load(fs.readFileSync('domestic_bottle_list.json', 'utf8'));
+  let configYaml4 = yaml.dump(domesticBottleDoc);
+  await fs.writeFileSync("_data/domestic_bottle_list.yaml", configYaml4, "utf8")
+
+  const hoursLocationDoc = yaml.load(fs.readFileSync('hours_location.json', 'utf8'));
+  let configYaml5 = yaml.dump(hoursLocationDoc);
+  await fs.writeFileSync("_data/hours_location.yaml", configYaml5, "utf8")
+
+  const onTapListDoc = yaml.load(fs.readFileSync('on-tap-list.json', 'utf8'));
+  let configYaml6 = yaml.dump(onTapListDoc);
+  await fs.writeFileSync("_data/on_tap_list.yaml", configYaml6, "utf8")
+
+  const pricesDoc = yaml.load(fs.readFileSync('prices.json', 'utf8'));
+  let configYaml7 = yaml.dump(pricesDoc);
+  await fs.writeFileSync("_data/price.yaml", configYaml7, "utf8")
+
+  const seoDoc = yaml.load(fs.readFileSync('seo.json', 'utf8'));
+  let configYaml8 = yaml.dump(seoDoc);
+  await fs.writeFileSync("_data/seo-data.yaml", configYaml8, "utf8")
+
+  const socialDoc = yaml.load(fs.readFileSync('social.json', 'utf8'));
+  let configYaml9 = yaml.dump(socialDoc);
+  await fs.writeFileSync("_data/social-data.yaml", configYaml9, "utf8");
+  
   await Promise.allSettled(promises);
 }
 
