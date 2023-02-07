@@ -211,6 +211,17 @@ $(document).ready(function() {
     $('#event-menu-close').on('click', function() {
          $(".event-overlay").removeClass('show-event-overlay');
     });
+  
+    // gallery overlay
+
+    $('#gallery-listings').on('click', function() {
+         $(".gallery-overlay").addClass('show-gallery-overlay');
+    });
+
+    $('#gallery-listings-close').on('click', function() {
+         $(".gallery-overlay").removeClass('show-gallery-overlay');
+    });
+
 
 
   // directions overlay

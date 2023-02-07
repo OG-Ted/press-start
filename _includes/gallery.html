@@ -1,0 +1,17 @@
+<div class="gallery-overlay list-overlay">
+  <div class="event-heading">
+    <h1>Gallery</h1>
+    <div class="gallery-overlay-close list-overlay-close">
+    <a href="javascript:void(0)" class="exit-btn" id="event-menu-close">
+      <img src="assets/icon-close.svg" />
+    </a>
+  </div>
+  <div class="gallery-grid">
+    {% for image in site.data.gallery-list %}
+    <div class="gallery-image directions-menu">
+      <img src="{{site.baseurl}}{{image.cover}}"/>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>
