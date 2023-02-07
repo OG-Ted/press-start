@@ -201,6 +201,17 @@ $(document).ready(function() {
     $('#game-menu-close').on('click', function() {
          $(".game-overlay").removeClass('show-game-overlay');
     });
+  
+    // events overlay
+
+    $('#event-listings').on('click', function() {
+         $(".event-overlay").addClass('show-event-overlay');
+    });
+
+    $('#event-menu-close').on('click', function() {
+         $(".event-overlay").removeClass('show-event-overlay');
+    });
+
 
   // directions overlay
 
