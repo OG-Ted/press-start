@@ -1,31 +1,46 @@
 <div class="directions-overlay list-overlay">
-  <h1>Find Us</h1>
-  <div class="directions-content">
-    <img src="assets/PS_building-animate.gif" width="304px" height="357px" />
-    {% for line in site.data.hours-location.address %}
-    <span> {{ line.line }} </span>
-    {% endfor %}
-  </div>
-  <hr />
-  <div class="directions-content">
-    <span class="directions-content-sm">
-      {% for line in site.data.hours-location.hours %} {{ line.line }}<br />
+  <div class="directions-overlay__container">
+    <div class="event-heading">
+      <h1>Find Us</h1>
+      <div class="gallery-overlay-close list-overlay-close">
+        <a href="javascript:void(0)" class="exit-btn" id="gallery-listings-close">
+          <img src="assets/icon-close.svg" />
+        </a>
+      </div>
+    </div>
+    <div class="directions-content">
+      <img src="assets/center-building-small.gif" width="338px" height="126px" />
+      {% for line in site.data.hours-location.address %}
+      <span> {{ line.line }} </span>
       {% endfor %}
-    </span>
-  </div>
-  <hr />
-  <div class="directions-content content-bump-bottom-4x">
-    <a href="{{site.data.social.facebook}}" class="link-focus" target="_blank">
-      Contact Us On Facebook
-    </a>
-  </div>
-  <div class="directions-overlay-close list-overlay-close">
-    <a
-      href="javascript:void(0)"
-      class="btn btn-white"
-      id="directions-overlay-close"
-    >
-      Go Back
-    </a>
+    </div>
+    <hr />
+    <div class="directions-content">
+      <p>
+        We’re open 7 days a week! Families and kids are welcome until 7PM everyday.
+      </p>
+      <span class="directions-content-sm">
+        {% for line in site.data.hours-location.hours %} {{ line.line }}<br />
+        {% endfor %}
+      </span>
+    </div>
+    <hr />
+    <div class="directions-content directions-content__btn">
+      <a href="{{site.data.social.facebook}}" class="link-focus" target="_blank">
+        Contact Us On Facebook
+      </a>
+      <a href="{{site.data.social.instagram}}" class="link-focus" target="_blank">
+        Contact Us On Instagram
+      </a>
+    </div>
+    <div class="directions-overlay-close list-overlay-close">
+      <a
+        href="javascript:void(0)"
+        class="btn btn-white"
+        id="directions-overlay-close"
+      >
+        Go Back
+      </a>
+    </div>
   </div>
 </div>
