@@ -255,10 +255,10 @@ body {
 
 .arcade-display{
   padding-top: 70px!important;
-  overflow-y: scroll;
+  overflow-y: hidden;
 
   @media (max-width:$base-md) {
-    overflow-y: hidden;
+    overflow-y: scroll;
   }
 }
 
