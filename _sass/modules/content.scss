@@ -809,7 +809,7 @@ h1 {
 }
 
 .notification-bar{
-  --notificationBarCharacterCount: 80ch;
+  --notificationBarCharacterCount: 75ch;
   --notificationBarSpeed: 10s;
     padding: 21px 0!important;
     z-index: 100000;
@@ -836,7 +836,10 @@ h1 {
     animation: notificationText var(--notificationBarSpeed) linear infinite;
     margin-bottom: 0;
     width: var(--notificationBarCharacterCount);
-    font-size: 15px;
+    font-size: 18px;
+    white-space: nowrap;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace!important;
     line-height: 28px;
     text-shadow: var(--notificationBarCharacterCount) 0 #fff,
       calc(var(--notificationBarCharacterCount) * 2) 0 #fff,
