@@ -28,9 +28,6 @@ nav.nav-screen {
       left:10px;
       top:50%;
       transform:translateY(-50%) scale(1);
-      &:hover {
-        transform:translateY(-50%) scale(1.5);
-      }
       @media (max-width:$base-sm) {
       }
     }
@@ -38,28 +35,19 @@ nav.nav-screen {
       right:10px;
       top:50%;
       transform:translateY(-50%) scale(1);
-      &:hover {
-        transform:translateY(-50%) scale(1.5);
-      }
     }
     &.arcade-nav-bottom {
       bottom:10px;
       left:50%;
       transform:translateX(-50%) scale(1);
-      &:hover {
-        transform:translateX(-50%) scale(1.5);
-      }
     }
     &.arcade-nav-top {
       top: 90px;
       left:50%;
       transform:translateX(-50%) scale(1);
-      &:hover {
-        transform:translateX(-50%) scale(1.5);
-      }
     }
     &.arcade-nav-home {
-      top:80px;
+      top:100px;
       left:10px;
       transform:scale(1);
       &:hover {

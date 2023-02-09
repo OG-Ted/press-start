@@ -274,7 +274,7 @@
   <a
     href="javascript:void(0)"
     onclick="gameInit()"
-    class="btn btn-white games-button"
+    class="btn btn-white"
   >
     Start
   </a>
@@ -347,9 +347,32 @@
       Gallery
     </a>
   </div>
-  <p class="subhead">
-    Check out all our upcoming events! Join us for pinball & arcade tournaments and compete for fun prizes!
+  <div class="prizes">
+    <p class="subhead">
+      Check out all our upcoming events! Join us for pinball & arcade tournaments and compete for fun prizes!
+    </p>
+    <a class="btn btn-third btn-white btn-green" id="events-menu">
+      View Events
+    </a>
+  </div>
+  <div class="planning">
+   <p class="subhead">
+  Planning a party of team building event? Send us a message on Instagram/Facebook, give a us call at <a href="tel:775-657-9981">775.657.9981</a>, or send us an email at <a href="mailtoinfo@renopressstart.com:">info@renopressstart.com</a>!
   </p>
+  </div>
+  <div class="games">
+      <p class="subhead">
+    We’re always changing up our arcade games and pinball machines. View our current games and drinks menu here!
+    </p>
+    <div class="btn-group">
+      <a href="#left" class="btn btn-white games-button btn-green games-button-hide" id="game-menu">
+        Games
+      </a>
+    <a href="#right" class="btn btn-third btn-white btn-green beer-time-button" id="drink-menu">
+      Drink Menu
+    </a>
+    </div>
+  </div>
 </div>
 
     </div>
@@ -361,8 +384,8 @@
     <div class="drink-overlay list-overlay">
  <div class="drink-heading">
     <h1>Select Drink</h1>
-    <div class="drink-overlay-close--x drink-overlay-close">
-      <a href="javascript:void(0)" class="exit-btn" id="gallery-listings-close">
+    <div class="drink-overlay-close--x">
+      <a href="javascript:void(0)" class="exit-btn" id="drink-menu-close-x">
         <img src="assets/icon-close.svg" />
       </a>
     </div>
@@ -635,7 +658,7 @@
   <div class="event-heading">
     <h1>Events</h1>
     <div class="event-overlay-close list-overlay-close">
-      <a href="javascript:void(0)" class="exit-btn" id="event-menu-close">
+      <a href="javascript:void(0)" class="exit-btn" id="events-overlay-close-x">
         <img src="assets/icon-close.svg" />
       </a>
     </div>
@@ -677,12 +700,18 @@
     </div>
     
   </div>
+
+    <div class="events-overlay-close list-overlay-close">
+    <a href="javascript:void(0)" class="btn btn-white" id="events-overlay-close">
+      Go back
+    </a>
+  </div>
 </div>
  <div class="gallery-overlay list-overlay">
   <div class="event-heading">
     <h1>Gallery</h1>
-    <div class="gallery-overlay-close list-overlay-close">
-      <a href="javascript:void(0)" class="exit-btn" id="gallery-listings-close">
+    <div class="gallery-overlay-close list-overlay-close-x">
+      <a href="javascript:void(0)" class="exit-btn" id="gallery-listings-close-x">
         <img src="assets/icon-close.svg" />
       </a>
     </div>
@@ -714,12 +743,18 @@
     </div>
      
   </div>
+
+  <div class="gallery-overlay-close list-overlay-close">
+    <a href="javascript:void(0)" class="btn btn-white" id="gallery-listings-close">
+      Go back
+    </a>
+  </div>
 </div>
  <div class="game-overlay list-overlay">
  <div class="game-heading">
     <h1>Our Games</h1>
-    <div class="game-overlay-close--x games-button">
-      <a href="javascript:void(0)" class="exit-btn" id="gallery-listings-close">
+    <div class="game-overlay-close--x list-overlay-close">
+      <a href="javascript:void(0)" class="exit-btn" id="game-menu-close-x">
         <img src="assets/icon-close.svg" />
       </a>
     </div>
@@ -1244,13 +1279,12 @@
     </a>
   </div>
 
-</div>
- <div class="directions-overlay list-overlay">
+</div> <div class="directions-overlay list-overlay">
   <div class="directions-overlay__container">
-    <div class="event-heading">
+    <div class="directions-heading">
       <h1>Find Us</h1>
-      <div class="gallery-overlay-close list-overlay-close">
-        <a href="javascript:void(0)" class="exit-btn" id="gallery-listings-close">
+      <div class="directions-overlay-close-x">
+        <a href="javascript:void(0)" class="exit-btn" id="directions-overlay-close-x">
           <img src="assets/icon-close.svg" />
         </a>
       </div>
@@ -1282,9 +1316,11 @@
     <hr />
     <div class="directions-content directions-content__btn">
       <a href="https://www.facebook.com/pressstartreno/" class="link-focus" target="_blank">
+        <img src="assets/icon-fb.svg">
         Contact Us On Facebook
       </a>
       <a href="https://www.instagram.com/press_start_reno/" class="link-focus" target="_blank">
+        <img src="assets/icon-insta.svg">
         Contact Us On Instagram
       </a>
     </div>
