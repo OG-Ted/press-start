@@ -37,7 +37,7 @@ nav.nav-screen {
       transform:translateY(-50%) scale(1);
     }
     &.arcade-nav-bottom {
-      bottom:10px;
+      bottom:20px;
       left:50%;
       transform:translateX(-50%) scale(1);
     }
@@ -48,7 +48,7 @@ nav.nav-screen {
     }
     &.arcade-nav-home {
       top:100px;
-      left:10px;
+      left:20px;
       transform:scale(1);
       &:hover {
         transform:scale(1.5);
