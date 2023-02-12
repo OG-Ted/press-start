@@ -256,10 +256,6 @@ body {
 .arcade-display{
   padding-top: 50px!important;
   overflow-y: hidden;
-
-  @media (max-width:$base-md) {
-    overflow-y: scroll;
-  }
 }
 
 .arcade-content{
@@ -330,6 +326,10 @@ body {
     background-color:$ps-bg-color-home;
     opacity:1;
     transition:all .5 $ps-transition-style;
+
+  @media (max-width:$base-md) {
+    overflow-y: scroll;
+    }
   }
   #left {
     position:absolute;
@@ -366,6 +366,9 @@ body {
     background-color:$ps-bg-color-bottom;
     &:target {
       transform:translateY(0);
+    }
+    @media (max-width:$base-md) {
+    overflow-y: scroll;
     }
   }
   #top {
