@@ -42,13 +42,13 @@ nav.nav-screen {
       transform:translateX(-50%) scale(1);
     }
     &.arcade-nav-top {
-      top: 70px;
+      top: 50px;
       left:50%;
       transform:translateX(-50%) scale(1);
     }
     &.arcade-nav-home {
-      top:100px;
-      left:20px;
+      top: 70px;
+      left: 0;
       transform:scale(1);
       &:hover {
         transform:scale(1.5);
