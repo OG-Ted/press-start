@@ -264,6 +264,13 @@ body {
   position:relative;
   color:$clr-cream;
   overflow-y:scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
   .push-center-center {
     position:absolute;
     left:50%;
@@ -312,6 +319,12 @@ body {
     right:0;
     bottom:0;
     top:0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
   #home, #left, #right, #bottom, #top {
     transition:all $ps-transition $ps-transition-style;
