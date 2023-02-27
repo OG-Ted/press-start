@@ -1,13 +1,13 @@
 ---
-- description: 40th Anniversary of Star Wars Arcade Games! Join us for fun prizes and Light Saber drink specials.
-  cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
-  name: STAR WARS TOURNAMENT NIGHT
-  date: 'JULY 21 2022'
-- description: FLIPPER FRENZY
-  cover: "/uploads/2019/12/01/c72f1fabeb0bc2138fa936a6c95638aaaacf5b2a.jpg"
-  name: Jersey Jack Pinball
-  date: 'FEBRUARY 14 2023'
-- description: TUESDAY PINBRAWL
-  cover: "/uploads/2018/01/22/Guardians Pinball.jpg"
-  name: Stern Pinball
-  date: 'Every Tuesday'
+# - description: 40th Anniversary of Star Wars Arcade Games! Join us for fun prizes and Light Saber drink specials.
+#   cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
+#   name: STAR WARS TOURNAMENT NIGHT
+#   date: 'JULY 21 2022'
+# - description: FLIPPER FRENZY
+#   cover: "/uploads/2019/12/01/c72f1fabeb0bc2138fa936a6c95638aaaacf5b2a.jpg"
+#   name: Jersey Jack Pinball
+#   date: 'FEBRUARY 14 2023'
+# - description: TUESDAY PINBRAWL
+#   cover: "/uploads/2018/01/22/Guardians Pinball.jpg"
+#   name: Stern Pinball
+#   date: 'Every Tuesday'
