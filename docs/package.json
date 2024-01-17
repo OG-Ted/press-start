@@ -1,10 +1,8 @@
 {
-  "dependencies": {
-    "tinacms": "^1.5.28"
-  },
   "devDependencies": {
     "@tinacms/cli": "^1.5.39",
-    "@types/node": "^20.11.0"
+    "@types/node": "^20.11.0",
+    "tinacms": "^1.5.28"
   },
   "scripts": {
     "dev": "tinacms dev -c \"bundle exec jekyll serve\"",
