@@ -5,7 +5,7 @@
     "tinacms": "^1.5.28"
   },
   "scripts": {
-    "dev": "npm tinacms dev -c \"bundle exec jekyll serve\"",
-    "build": " npm tinacms build && jekyll build"
+    "dev": "tinacms dev -c \"bundle exec jekyll serve\"",
+    "build": "tinacms build && jekyll build"
   }
 }
