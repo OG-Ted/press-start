@@ -6,6 +6,6 @@
   },
   "scripts": {
     "dev": "tinacms dev -c \"bundle exec jekyll serve\"",
-    "build": "tinacms build && jekyll build"
+    "build": "tinacms build && bundle exec jekyll build"
   }
 }
