@@ -11,9 +11,9 @@ export default defineConfig({
   branch,
 
   // Get this from tina.io
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
+  clientId: 'dc53b486-4ce4-44e2-b01e-1109732a8fac',
   // Get this from tina.io
-  token: process.env.TINA_TOKEN,
+  token: 'b2ed46a06df78b30319532e955f25fb730d1d3cb',
 
   client: { skip: true },
   build: {
@@ -21,9 +21,9 @@ export default defineConfig({
     publicFolder: "./",
   },
   media: {
-    tina: {
-      mediaRoot: "",
-      publicFolder: "./",
+  tina: {
+    mediaRoot: "uploads",
+    publicFolder: "assets",
     },
   },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
