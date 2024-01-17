@@ -1,6 +1,5 @@
----
-pint-price: "$7"
-pitcher-price: "$23"
-domestic-price: "$23"
-craft-price: "$7"
-cocktail-price: "$7-12"
+pint_price: $7
+pitcher_price: $23
+domestic_price: $23
+craft_price: $7
+cocktail_price: $7-12

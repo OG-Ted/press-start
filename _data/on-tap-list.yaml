@@ -1,9 +1,9 @@
----
-- name: Elysian Brewing Spacedust IPA
-- name: Firestone Walker Mind Haze IPA
-- name: Deschutes Fresh Squeezed IPA
-- name: Firestone Walker 805
-- name: Blue Moon Belgian White Ale
-- name: Stella Artois
-- name: Brewer's Cabinet Dirty Wookie
-- name: Pabst Blue Ribbon
+names:
+  - Pabst Blue Ribbon
+  - Brewer's Cabinet Dirty Wookie
+  - Stella Artois
+  - Blue Moon Belgian White Ale
+  - Firestone Walker 805
+  - Deschutes Fresh Squeezed IPA
+  - Firestone Walker Mind Haze IPA
+  - Elysian Brewing Spacedust IPA

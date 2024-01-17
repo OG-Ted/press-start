@@ -1,127 +1,127 @@
----
-- company: Batman 66 Pinball
-  cover: "/uploads/2017/12/07/Batman-Pinball.jpg"
-  name: Stern Pinball
-- company: Dialed In Pinball
-  cover: "/uploads/2019/12/01/c72f1fabeb0bc2138fa936a6c95638aaaacf5b2a.jpg"
-  name: Jersey Jack Pinball
-- company: Guardians of the Galaxy Pinball
-  cover: "/uploads/2018/01/22/Guardians Pinball.jpg"
-  name: Stern Pinball
-- company: Medieval Madness Pinball
-  cover: "/uploads/2017/10/05/medevil-madness.jpg"
-  name: Planetary Pinball
-- company: Mystic Pinball
-  cover: "/uploads/2020/08/31/mystic.png"
-  name: Bally
-- company: 'Star Wars Pinball                                                  '
-  cover: "/uploads/2017/12/07/Star-Wars-Pinball.jpg"
-  name: Stern Pinball
-- company: Stranger Things Premium Pinball
-  cover: "/uploads/2020/9/06/stranger-things-premium-flyer-front_232x300.jpg"
-  name: Stern
-- company: 'Superman Pinball '
-  cover: "/uploads/2019/12/01/9d764528fcc18ac1e737449576b424d55b8303fb.jpg"
-  name: Atari
-- company: TMNT Premium Pinball
-  cover: "/uploads/2020/09/06/stern-pinball-inc-tmnt-pinball-title.png"
-  name: Stern
-- company: Twilight Zone Pinball
-  cover: "/uploads/2017/10/05/twlight-zone.jpg"
-  name: Bally Pinball
-- company: '1943: The Battle of Midway'
-  cover: "/uploads/2020/08/31/375px-1943_arcadeside.jpg"
-  name: Capcom
-- company: Area 51
-  cover: "/uploads/2018/01/22/Area 51.jpg"
-  name: Atari Games
-- company: Centipede
-  cover: "/uploads/2018/01/23/Centipede.jpg"
-  name: Atari
-- company: C'mon Baby
-  cover: "/uploads/2020/09/06/cmon-baby.png"
-  name: ExPotato Co
-- company: Daytona
-  cover: "/uploads/6465DAYTONA_logo.jpg"
-  name: Sega
-- company: 'Defender / Joust / Splat / Bubbles / Stargate / Robotron: 2084'
-  cover: "/uploads/2019/05/08/WILLIAMSMULTIFLYER.jpg"
-  name: 'Williams '
-- company: Dig Dug
-  cover: "/uploads/2020/09/06/dig-dug.png"
-  name: Atari
-- company: Donkey Kong Pauline Edition
-  cover: "/uploads/2020/08/31/pauline.png"
-  name: Nintendo
-- company: 'Dungeons and Dragons: Tower of Doom'
-  cover: "/uploads/2020/08/31/towerofdoom.jpg"
-  name: Capcom
-- company: Fast Draw Showdown
-  cover: "/uploads/2020/08/31/fast-draw.jpg"
-  name: ALG
-- company: Gauntlet Dark Legacy
-  cover: "/uploads/2018/01/23/Gauntlet Dark Legacy.jpg"
-  name: Atari Games
-- company: Groove Coaster
-  cover: "/uploads/2019/05/08/groove-coaster-bg.jpg"
-  name: Taito
-- company: Guitar Hero Arcade
-  cover: "/uploads/2019/12/01/Ghheader.jpg"
-  name: Raw Thrills / Konami / Activision
-- company: Ice Cold Beer
-  cover: "/uploads/2018/07/03/ice-cold-beer.jpg"
-  name: Taito
-- company: Ikari Warriors
-  cover: "/uploads/2020/08/31/ikari-warriors-watermark.jpg"
-  name: Tradewest
-- company: Marvel vs Capcom 2
-  cover: "/uploads/2020/08/31/marvel_vs_capcom_2_arcade_game.jpg"
-  name: Capcom
-- company: Metal Slug 3 / Samurai Showdown
-  cover: "/uploads/2019/12/01/neogeo.jpg"
-  name: Neo Geo
-- company: Mortal Kombat 2
-  cover: "/uploads/2018/01/23/Mortal Kombat 2.jpg"
-  name: Midway Games
-- company: Ms Pacman / Galaga Combo
-  cover: "/uploads/2018/01/19/mspac-galaga.jpg"
-  name: Namco
-- company: NFL Blitz 2000 / NBA Showtime
-  cover: "/uploads/blitzshowtime_sideart.jpg"
-  name: Midway Games
-- company: Operation Wolf
-  cover: "/uploads/2020/09/06/operationwolf.jpg"
-  name: Taito
-- company: Rampage World Tour
-  cover: "/uploads/2017/12/07/Rampage-world-tour.jpg"
-  name: Midway Games
-- company: The Simpsons
-  cover: "/uploads/2018/07/02/The-Simpsons-1.jpg"
-  name: Konami
-- company: Star Wars/Empire Strikes Back
-  cover: "/uploads/2020/09/06/ataristarwars.jpg"
-  name: Atari
-- company: Street Fighter II Champion Edition
-  cover: "/uploads/SF2.jpg"
-  name: Capcom
-- company: Super Sprint
-  cover: "/uploads/2017/12/07/super-sprint-1.jpg"
-  name: Atari
-- company: Teenage Mutant Ninja Turtles
-  cover: "/uploads/tmnt_1987_grande.jpg"
-  name: Konami
-- company: 'Terminator 2 '
-  cover: "/uploads/2020/08/30/terminator2arcade.jpg"
-  name: Midway
-- company: Tetris
-  cover: "/uploads/2018/01/18/tetris-2.jpg"
-  name: Atari Games
-- company: Toobin
-  cover: "/uploads/2020/08/31/2596971-0000.png"
-  name: Atari
-- company: 'The Walking Dead '
-  cover: "/uploads/2017/12/07/Wlaking-Dead-Video.jpg"
-  name: Raw Thrills
-- company: X-Men
-  cover: "/uploads/2018/07/02/Xmen.jpg"
-  name: Konami
+games:
+  - name: Batman 666 Pinball
+    company: Stern Pinball
+    cover: /uploads/2017/12/07/Batman-Pinball.jpg
+  - name: Dialed In Pinball
+    company: Jersey Jack Pinball
+    cover: /uploads/2019/12/01/c72f1fabeb0bc2138fa936a6c95638aaaacf5b2a.jpg
+  - name: Guardians of the Galaxy Pinball
+    company: Stern Pinball
+    cover: /uploads/2018/01/22/Guardians Pinball.jpg
+  - name: Medieval Madness Pinball
+    company: Planetary Pinball
+    cover: /uploads/2017/10/05/medevil-madness.jpg
+  - name: Mystic Pinball
+    company: Bally
+    cover: /uploads/2020/08/31/mystic.png
+  - name: Star Wars Pinball
+    company: Stern Pinball
+    cover: /uploads/2017/12/07/Star-Wars-Pinball.jpg
+  - name: Stranger Things Premium Pinball
+    company: Stern
+    cover: /uploads/2020/9/06/stranger-things-premium-flyer-front_232x300.jpg
+  - name: Superman Pinball
+    company: Atari
+    cover: /uploads/2019/12/01/9d764528fcc18ac1e737449576b424d55b8303fb.jpg
+  - name: TMNT Premium Pinball
+    company: Stern
+    cover: /uploads/2020/09/06/stern-pinball-inc-tmnt-pinball-title.png
+  - name: Twilight Zone Pinball
+    company: Bally Pinball
+    cover: /uploads/2017/10/05/twlight-zone.jpg
+  - name: '1943: The Battle of Midway'
+    company: Capcom
+    cover: /uploads/2020/08/31/375px-1943_arcadeside.jpg
+  - name: Area 51
+    company: Atari Games
+    cover: /uploads/2018/01/22/Area 51.jpg
+  - name: Centipede
+    company: Atari
+    cover: /uploads/2018/01/23/Centipede.jpg
+  - name: C'mon Baby
+    company: ExPotato Co
+    cover: ' /uploads/2020/09/06/cmon-baby.png'
+  - name: Daytona
+    company: Sega
+    cover: /uploads/6465DAYTONA_logo.jpg
+  - name: 'Defender / Joust / Splat / Bubbles / Stargate / Robotron: 2084'
+    company: Williams
+    cover: /uploads/2019/05/08/WILLIAMSMULTIFLYER.jpg
+  - name: ' Dig Dug'
+    company: Atari
+    cover: /uploads/2020/09/06/dig-dug.png
+  - name: Donkey Kong Pauline Edition
+    company: Nintendo
+    cover: /uploads/2020/08/31/pauline.png
+  - name: 'Dungeons and Dragons: Tower of Doom'
+    company: Capcom
+    cover: /uploads/2020/08/31/towerofdoom.jpg
+  - name: Fast Draw Showdown
+    company: ALG
+    cover: /uploads/2020/08/31/fast-draw.jpg
+  - name: Gauntlet Dark Legacy
+    company: Atari Games
+    cover: /uploads/2018/01/23/Gauntlet Dark Legacy.jpg
+  - name: ' Groove Coaster'
+    company: Taito
+    cover: /uploads/2019/05/08/groove-coaster-bg.jpg
+  - name: Guitar Hero Arcade
+    company: Raw Thrills / Konami / Activision
+    cover: /uploads/2019/12/01/Ghheader.jpg
+  - name: Ice Cold Beer
+    company: Taito
+    cover: /uploads/2018/07/03/ice-cold-beer.jpg
+  - name: Ikari Warriors
+    company: Tradewest
+    cover: /uploads/2020/08/31/ikari-warriors-watermark.jpg
+  - name: Marvel vs Capcom 2
+    company: Capcom
+    cover: /uploads/2020/08/31/marvel_vs_capcom_2_arcade_game.jpg
+  - name: Metal Slug 3 / Samurai Showdown
+    company: Neo Geo
+    cover: /uploads/2019/12/01/neogeo.jpg
+  - name: Mortal Kombat 2
+    company: Midway Games
+    cover: /uploads/2018/01/23/Mortal Kombat 2.jpg
+  - name: Ms Pacman / Galaga Combo
+    company: Namco
+    cover: /uploads/2018/01/19/mspac-galaga.jpg
+  - name: NFL Blitz 2000 / NBA Showtime
+    company: Midway Games
+    cover: /uploads/blitzshowtime_sideart.jpg
+  - name: Operation Wolf
+    company: Taito
+    cover: /uploads/2020/09/06/operationwolf.jpg
+  - name: Rampage World Tour
+    company: Midway Games
+    cover: /uploads/2017/12/07/Rampage-world-tour.jpg
+  - name: The Simpsons
+    company: Konami
+    cover: /uploads/2018/07/02/The-Simpsons-1.jpg
+  - name: Star Wars/Empire Strikes Back
+    company: Capcom
+    cover: /uploads/2020/09/06/ataristarwars.jpg
+  - name: Street Fighter II Champion Edition
+    company: Capcom
+    cover: /uploads/SF2.jpg
+  - name: Super Sprint
+    company: Atari
+    cover: /uploads/2017/12/07/super-sprint-1.jpg
+  - name: Teenage Mutant Ninja Turtles
+    company: Konami
+    cover: /uploads/tmnt_1987_grande.jpg
+  - name: Terminator 2
+    company: Midway
+    cover: /uploads/2020/08/30/terminator2arcade.jpg
+  - name: Tetris
+    company: Atari Games
+    cover: /uploads/2018/01/18/tetris-2.jpg
+  - name: Toobin
+    company: Atari
+    cover: /uploads/2020/08/31/2596971-0000.png
+  - name: 'The Walking Dead '
+    company: Raw Thrills
+    cover: /uploads/2017/12/07/Wlaking-Dead-Video.jpg
+  - name: X-Men
+    company: Konami
+    cover: /uploads/2018/07/02/Xmen.jpg

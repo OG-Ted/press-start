@@ -11,9 +11,9 @@
         Pints / Pitchers
       </h3>
       <ul>
-        {% for drink in site.data.on-tap-list %}
+        {% for name in site.data.on-tap-list.names %}
         <li class="drink-dat-beer">
-          {{ drink.name }}
+          {{ name }}
         </li>
         {% endfor %}
       </ul>
@@ -28,9 +28,9 @@
         Domestic
       </h3>
       <ul>
-        {% for drink in site.data.domestic-bottle-list %}
+        {% for name in site.data.domestic-bottle-list.names %}
         <li class="drink-dat-beer">
-          {{ drink.name }}
+          {{ name }}
         </li>
         {% endfor %}
       </ul>
@@ -39,9 +39,9 @@
         Craft & Import
       </h3>
       <ul>
-        {% for drink in site.data.craft_bottle_list[0].craft_bottles %}
+        {% for name in site.data.craft-bottle-list.names %}
         <li class="drink-dat-beer">
-          {{ drink }}
+          {{ name }}
         </li>
         {% endfor %}
       </ul>
@@ -55,9 +55,9 @@
         Get Schwifty
       </h3>
       <ul>
-        {% for drink in site.data.cocktail_list[0].cocktails %}
+        {% for name in site.data.cocktail-list.names %}
         <li class="drink-dat-beer">
-          {{ drink }}
+          {{ name }}
         </li>
         {% endfor %}
       </ul>

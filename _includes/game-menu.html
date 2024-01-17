@@ -6,7 +6,7 @@
 
   <div class="game-grid">
     <!-- todo: fallback image for game cover -->
-    {% for game in site.data.game-list %}
+    {% for game in site.data.game-list.games  %}
     <div class="game-card directions-menu">
       <div class="game-cover">
         <img src="{{site.baseurl}}{{game.cover}}"/>

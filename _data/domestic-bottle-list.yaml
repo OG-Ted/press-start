@@ -1,7 +1,7 @@
----
-- name: Michelob Ultra Pure Gold (Organic)
-- name: Coors Light
-- name: Budweiser
-- name: Bud Light
-- name: Miller Light
-- name: Coors Banquet
+names:
+  - Michelob Ultra Pure Gold (Organic)
+  - Coors Light
+  - Budweiser
+  - Bud Light
+  - Miller Light
+  - Coors Banquet

@@ -1,27 +1,27 @@
----
-- name: Little Sumpin - Lagunitas Brewing
-- name: St. Pauli Girl NA
-- name: Sippin Pretty - Odell Brewing
-- name: Sierra Nevada Pale Ale
-- name: Great Basin Icky IPA
-- name: Rogue Dead Guy Ale
-- name: Widmer Brothers Hefeweizen
-- name: 'Schofferhofer Hefeweizen Grapefruit '
-- name: Kona Longboard Lager
-- name: Daura Damm Lager
-- name: Samuel Adams Boston Lager
-- name: Deschutes Black Butte Porter
-- name: Ballast Point Sculpin IPA
-- name: Montucky Cold Snacks
-- name: Belching Beaver Peanut Butter Milk Stout
-- name: Dogfish Head SeaQuench Ale
-- name: The Finnish Long Drink
-- name: Truly Hard Seltzer
-- name: Sessions Lager
-- name: Modelo Especial
-- name: Modelo Negro
-- name: Guinness
-- name: Corona
-- name: Strongbow Cider
-- name: Angry Orchard Cider
-- name: Stella Artois Cidre
+names:
+  - Little Sumpin - Lagunitas Brewing
+  - St. Pauli Girl NA
+  - Sippin Pretty - Odell Brewing
+  - Sierra Nevada Pale Ale
+  - Great Basin Icky IPA
+  - Rogue Dead Guy Ale
+  - Widmer Brothers Hefeweizen
+  - Schofferhofer Hefeweizen Grapefruit
+  - Kona Longboard Lager
+  - Daura Damm Lager
+  - Samuel Adams Boston Lager
+  - Deschutes Black Butte Porter
+  - Ballast Point Sculpin IPA
+  - Montucky Cold Snacks
+  - Belching Beaver Peanut Butter Milk Stout
+  - Dogfish Head SeaQuench Ale
+  - The Finnish Long Drink
+  - Truly Hard Seltzer
+  - Sessions Lager
+  - Modelo Especial
+  - Modelo Negro
+  - Guinness
+  - Corona
+  - Strongbow Cider
+  - Angry Orchard Cider
+  - Stella Artois Cider

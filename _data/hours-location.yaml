@@ -1,12 +1,11 @@
----
-address:
-- line: 600 S CENTER ST
-- line: RENO, NEVADA
 hours:
-- line: Monday 3-10PM
-- line: Tuesday Closed
-- line: Wednesday 3-10PM
-- line: Thursday 3-10PM
-- line: Friday 3-11PM
-- line: Saturday 11AM-11PM
-- line: Sunday 11AM-10PM
+  - line: Monday 3-10PM
+  - line: Tuesday Closed
+  - line: Wednesday 3-10PM
+  - line: Thursday 3-10PM
+  - line: Friday 3-11PM
+  - line: Saturday 11AM-11PM
+  - line: Sunday 11AM-10PM
+address:
+  - line: 600 S CENTER ST
+  - line: 'RENO, NEVADA'
