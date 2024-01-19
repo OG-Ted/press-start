@@ -1,6 +1,4 @@
 games:
-  - name: New Game
-    cover: /uploads/GnRSlashPoster_1024x1024.jpg
   - name: Batman 666 Pinball
     company: Stern Pinball
     cover: /uploads/Batman-Pinball.jpg
