@@ -20,8 +20,7 @@ games:
     cover: /uploads/../uploads/2017/12/07/Star-Wars-Pinball.jpg
   - name: Stranger Things Premium Pinball
     company: Stern
-    cover: >-
-      /uploads/../uploads/uploads/2020/09/06/stranger-things-premium-flyer-front_232x300.jpg
+    cover: /uploads/stranger-things-premium-flyer-front_232x300.jpg
   - name: Superman Pinball
     company: Atari
     cover: >-
@@ -43,7 +42,7 @@ games:
     cover: /uploads/../uploads/2018/01/23/Centipede.jpg
   - name: C'mon Baby
     company: ExPotato Co
-    cover: /uploads/uploads/cmon-baby.png
+    cover: /uploads/cmon-baby.png
   - name: Daytona
     company: Sega
     cover: /uploads/../uploads/6465DAYTONA_logo.jpg
