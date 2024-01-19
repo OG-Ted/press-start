@@ -8,7 +8,7 @@
         On Tap
       </h2>
       <h3 class="drink-subhead">
-        Pints / Pitchers
+        Pints {{site.data.prices.pint_price}} / Pitchers {{site.data.prices.pitcher_price}}
       </h3>
       <ul>
         {% for name in site.data.on-tap-list.names %}
@@ -21,11 +21,11 @@
 
     <div class="row drink-category">
       <h2 class="drink-category-header">
-        Bottles
+        Bottles 
       </h2>
 
       <h3 class="drink-subhead">
-        Domestic
+        Domestic {{site.data.prices.domestic_price}}
       </h3>
       <ul>
         {% for name in site.data.domestic-bottle-list.names %}
@@ -36,7 +36,7 @@
       </ul>
 
       <h3 class="drink-subhead">
-        Craft & Import
+        Craft & Import {{site.data.prices.craft_price}}
       </h3>
       <ul>
         {% for name in site.data.craft-bottle-list.names %}
@@ -49,10 +49,10 @@
 
     <div class="row drink-category">
       <h2 class="drink-category-header">
-        Cocktails
+        Cocktails 
       </h2>
       <h3 class="drink-subhead">
-        Get Schwifty
+        Get Schwifty {{site.data.prices.cocktail_price}}
       </h3>
       <ul>
         {% for name in site.data.cocktail-list.names %}
