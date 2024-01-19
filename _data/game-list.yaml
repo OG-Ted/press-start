@@ -43,7 +43,7 @@ games:
     cover: /uploads/../uploads/2018/01/23/Centipede.jpg
   - name: C'mon Baby
     company: ExPotato Co
-    cover: /uploads/../uploads /2020/09/06/cmon-baby.png
+    cover: /uploads/uploads/cmon-baby.png
   - name: Daytona
     company: Sega
     cover: /uploads/../uploads/6465DAYTONA_logo.jpg
