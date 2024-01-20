@@ -22,8 +22,7 @@ games:
     cover: /uploads/stranger-things-premium-flyer-front_232x300.jpg
   - name: Superman Pinball
     company: Atari
-    cover: >-
-      /uploads/assets/uploads/../uploads/2019/12/01/9d764528fcc18ac1e737449576b424d55b8303fb.jpg
+    cover: /uploads/9d764528fcc18ac1e737449576b424d55b8303fb.jpg
   - name: TMNT Premium Pinball
     company: Stern
     cover: >-
