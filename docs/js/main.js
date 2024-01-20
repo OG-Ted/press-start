@@ -76,7 +76,6 @@ function spaceBarPressed() {
   $("#home").css({
     "opacity": "1"
   });
-  window.scrollTo(0, 0);
   $("#nav-home").addClass('nudge');
   $("#nav-left").removeClass('nudge');
   $("#nav-right").removeClass('nudge');
@@ -171,10 +170,23 @@ $(document).ready(function() {
   });
 
 
+//Scroll to top
+  
+$(".arcade-nav-bottom").click(function(e) {
+  $('.arcade-content').animate({ scrollTop: 0 }, 0);
+});
+
+  $(".arcade-nav-home").click(function(e) {
+  $('.arcade-content').animate({ scrollTop: 0 }, 0);
+  });
+
+    $(".aboutMobile").click(function(e) {
+  $('.arcade-content').animate({ scrollTop: 0 }, 0);
+  });
+  
 // beer game
 
   $('.drink-dat-beer').on('click', function() {
-        $(".beer-box").addClass('drunk-1');
         $(".drink-overlay").removeClass('show-drink-overlay');
         $(".beer-time-header").html('Have Another?');
         $(".beer-time-button").html('One more');
@@ -182,7 +194,6 @@ $(document).ready(function() {
   });
 
   $('#drink-menu').on('click', function() {
-        // $(".beer-box").removeClass('drunk-1');
         $(".drink-overlay").addClass('show-drink-overlay');
   });
 
@@ -200,7 +211,8 @@ $(document).ready(function() {
 // game overlay
 
   $('.games-button').on('click', function() {
-        $(".game-overlay").addClass('show-game-overlay');
+    $(".game-overlay").addClass('show-game-overlay');
+      $('.game-overlay').animate({ scrollTop: 0 }, 0);
   });
 
   $('#game-menu-close').on('click', function() {
@@ -215,6 +227,7 @@ $(document).ready(function() {
 
   $('.gallery-listings-button').on('click', function() {
         $(".gallery-overlay").addClass('show-gallery-overlay');
+        $('.gallery-overlay').animate({ scrollTop: 0 }, 0);
   });
 
   $('#gallery-listings-close').on('click', function() {
@@ -228,8 +241,9 @@ $(document).ready(function() {
 // directions overlay
 
   $('.directions-menu').on('click', function() {
-        $(".directions-overlay").addClass('show-directions-overlay');
-        $(".game-overlay").removeClass('show-game-overlay');
+    $(".directions-overlay").addClass('show-directions-overlay');
+    $('.directions-overlay').animate({ scrollTop: 0 }, 0);
+    $(".game-overlay").removeClass('show-game-overlay');
   });
 
   $('#directions-overlay-close').on('click', function() {
@@ -243,7 +257,8 @@ $(document).ready(function() {
   // events overlay
 
   $('#events-menu').on('click', function() {
-        $(".events-overlay").addClass('show-events-overlay');
+    $(".events-overlay").addClass('show-events-overlay');
+    $('.events-overlay').animate({ scrollTop: 0 }, 0);
   });
 
   $('#events-overlay-close').on('click', function() {

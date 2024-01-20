@@ -244,7 +244,7 @@ $ps-arcade-bg:$clr-black;
 body {
   overflow:hidden;
   position:fixed;
-  background-color:$ps-arcade-wrapper-bg-1;
+  background-color:$ps-bg-color-home;
   // cursor: url(../assets/crosshair-cursor-2.png) 41 41, crosshair;
   color:$clr-cream;
   a, a:hover, a:visited, a:active {
@@ -254,7 +254,7 @@ body {
 }
 
 .arcade-display{
-  padding-top: 70px!important;
+  padding-top: 50px!important;
   overflow-y: hidden;
 
   @media (max-width:$base-md) {
@@ -456,28 +456,28 @@ body {
 }
 
 .ps-frame-top {
-  height:(100vh - $ps-height-lg)/2;
+  height:(100vh - $ps-height-lg)/2.5;
   width:100vw;
   top:70px;
   left:0;
 }
 
 .ps-frame-bottom {
-  height:(100vh - $ps-height-lg)/2;
+  height:(100vh - $ps-height-lg)/2.5;
   width:100vw;
   bottom:0;
   left:0;
 }
 
 .ps-frame-left {
-  width:(100vw - $ps-width-lg)/2;
+  width:(100vw - $ps-width-lg)/2.5;
   height:100vh;
   top:70px;
   left:0;
 }
 
 .ps-frame-right {
-  width:(100vw - $ps-width-lg)/2;
+  width:(100vw - $ps-width-lg)/2.5;
   height:100vh;
   top:70px;
   right:0;
@@ -487,7 +487,7 @@ body {
 
 .branding {
   position:fixed;
-  top:calc(((100vh - $ps-height-lg)/7) + 70px);
+  top:calc(((100vh - $ps-height-lg)/8) + 70px);
   left:50%;
   transform:translateX(-50%);
   display:inline-block;
@@ -497,13 +497,13 @@ body {
     transform:none;
   }
   img {
-    max-height:(100vh - $ps-height-lg)/4;
+    max-height:(100vh - $ps-height-lg)/5;
   }
 }
 
 .footer {
   position:fixed;
-  bottom:(100vh - $ps-height-lg)/3;
+  bottom:(100vh - $ps-height-lg)/4;
   left:0;
   width:100%;
   z-index:900;
@@ -545,7 +545,7 @@ body {
 
 .ps-guide {
   position:fixed;
-  top:calc(((100vh - $ps-height-lg)/3) + 70px);
+  top:calc(((100vh - $ps-height-lg)/4) + 70px);
   left:0;
   width:100%;
   z-index:900;
@@ -574,7 +574,7 @@ body {
 
 .social {
   position:fixed;
-  bottom:(100vh - $ps-height-lg)/4;
+  bottom:(100vh - $ps-height-lg)/10;
   left:50%;
   transform:translateX(-50%);
   display:inline-block;
@@ -651,7 +651,7 @@ h1 {
     border-bottom:4px solid $clr-ultra-ruby;
     animation: blink 1s infinite;
     padding:20px 0px;
-    font-size: 2.5em;
+    font-size: 1.75em;
     margin:20px;
     line-height: 1.5em;
     @media (max-width:$base-md) {
@@ -858,7 +858,7 @@ h1 {
 .drink-overlay-close--x, .directions-overlay-close-x{
   display: flex;
   justify-content: flex-end;
-  position: absolute;
+  position: fixed;
   top: 41px;
   bottom: 0;
   right: 70px;
@@ -1001,7 +1001,7 @@ h1 {
     .game-overlay-close--x{
       display: flex;
       justify-content: flex-end;
-      position: absolute;
+      position: fixed;
       top: 41px;
       bottom: 0;
       right: 70px;
@@ -1154,7 +1154,7 @@ h1 {
     .event-overlay-close-x{
       display: flex;
       justify-content: flex-end;
-      position: absolute;
+      position: fixed;
       top: 41px;
       bottom: 0;
       right: 70px;
@@ -1300,7 +1300,7 @@ h1 {
     .gallery-overlay-close-x{
       display: flex;
       justify-content: flex-end;
-      position: absolute;
+      position: fixed;
       top: 41px;
       bottom: 0;
       right: 70px;
