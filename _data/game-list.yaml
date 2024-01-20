@@ -10,7 +10,7 @@ games:
     cover: /assets/uploads/Guardians Pinball.jpg
   - name: Medieval Madness Pinball
     company: Planetary Pinball
-    cover: /assets/uploads/2017/10/05/medevil-madness.jpg
+    cover: /assets/uploads/medevil-madness.jpg
   - name: Mystic Pinball
     company: Bally
     cover: /assets/uploads/2020/08/31/mystic.png
