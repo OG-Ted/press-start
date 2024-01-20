@@ -142,7 +142,7 @@ textarea {
   text-transform:uppercase;
   font-size:14px;
   border-radius:999px;
-  padding: 20px 25px!important;
+  padding: 15px 25px!important;
   height: auto!important;
   line-height: initial!important;
 
@@ -271,7 +271,7 @@ body {
     transform:translate(-50%,-50%);
     text-align:center;
     max-width:$ps-width-lg;
-    max-height:$ps-height-lg;
+    max-height:90vh;
     width:100%;
     padding:$base/2;
     @media (max-width:$base-sm) {
@@ -459,14 +459,14 @@ body {
 }
 
 .ps-frame-top {
-  height:(100vh - $ps-height-lg)/2.85;
+  height:(100vh - $ps-height-lg)/3;
   width:100vw;
-  top:70px;
+  top:45px;
   left:0;
 }
 
 .ps-frame-bottom {
-  height:(100vh - $ps-height-lg)/2.85;
+  height:(100vh - $ps-height-lg)/3;
   width:100vw;
   bottom:0;
   left:0;
@@ -490,7 +490,7 @@ body {
 
 .branding {
   position:fixed;
-  top:calc(((100vh - $ps-height-lg)/8) + 70px);
+  top:calc(((100vh - $ps-height-lg)/8) + 40px);
   left:50%;
   transform:translateX(-50%);
   display:inline-block;
@@ -548,7 +548,7 @@ body {
 
 .ps-guide {
   position:fixed;
-  top:calc(((100vh - $ps-height-lg)/4) + 70px);
+  top:calc(((100vh - $ps-height-lg)/4) + 45px);
   left:0;
   width:100%;
   z-index:900;
@@ -600,7 +600,7 @@ body {
 
 #home {
   .col-center{
-    padding: 30px 0;
+    padding: 30px 0 100px 0;
   }
 
   .details{
@@ -705,7 +705,7 @@ h1 {
       }
     }
     @media (max-width:$base-sm) {
-      padding:$base/2;
+      padding:0 $base/2;
     }
   }
 }
@@ -713,7 +713,7 @@ h1 {
 .beer-box {
   border:4px solid $clr-ultra-yellow;
   text-transform:uppercase;
-  padding: 55px 87px!important;
+  padding: 45px 87px!important;
   display:inline-block;
   @media (max-width:$base-md) {
     padding:25px!important;
@@ -814,7 +814,7 @@ h1 {
 .notification-bar{
   --notificationBarCharacterCount: 75ch;
   --notificationBarSpeed: 10s;
-    padding: 21px 0!important;
+    padding: 10px 0!important;
     z-index: 100000;
     position: fixed;
     background: $clr-coral;
