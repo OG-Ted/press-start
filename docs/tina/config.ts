@@ -36,8 +36,8 @@ export default defineConfig({
         path: "_data",
         ui: {
           allowedActions: {
-            create: true,
-            delete: true,
+            create: false,
+            delete: false,
           },
         },
         match: {
@@ -78,8 +78,8 @@ export default defineConfig({
         format: "yaml",
         ui: {
           allowedActions: {
-            create: true,
-            delete: true,
+            create: false,
+            delete: false,
           },
         },
         match: {
@@ -101,8 +101,8 @@ export default defineConfig({
         path: "_data",
         ui: {
           allowedActions: {
-            create: true,
-            delete: true,
+            create: false,
+            delete: false,
           },
         },
         match: {
@@ -119,13 +119,35 @@ export default defineConfig({
       },
       {
         format: "yaml",
+        label: "Notification Bar",
+        name: "notification_bar",
+        path: "_data",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "notification-bar",
+        },
+        fields: [
+           {
+            name: "text",
+            label: "Text",
+            type: "string",
+          }
+        ],
+      },
+      {
+        format: "yaml",
         label: "Craft Bottle List",
         name: "craft_bottle_list",
         path: "_data",
         ui: {
           allowedActions: {
-            create: true,
-            delete: true,
+            create: false,
+            delete: false,
           },
         },
         match: {
