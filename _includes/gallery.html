@@ -1,8 +1,8 @@
 <div class="gallery-overlay list-overlay">
   <div class="event-heading">
     <h1>Gallery</h1>
-    <div class="gallery-overlay-close list-overlay-close">
-      <a href="javascript:void(0)" class="exit-btn" id="gallery-listings-close">
+    <div class="gallery-overlay-close list-overlay-close-x">
+      <a href="javascript:void(0)" class="exit-btn" id="gallery-listings-close-x">
         <img src="assets/icon-close.svg" />
       </a>
     </div>
@@ -13,5 +13,11 @@
       <img src="{{site.baseurl}}{{image.cover}}"/>
     </div>
     {% endfor %} 
+  </div>
+
+  <div class="gallery-overlay-close list-overlay-close">
+    <a href="javascript:void(0)" class="btn btn-white" id="gallery-listings-close">
+      Go back
+    </a>
   </div>
 </div>

@@ -181,9 +181,13 @@ $(document).ready(function() {
   });
 
   $('#drink-menu').on('click', function() {
-        $(".beer-box").removeClass('drunk-1');
+        // $(".beer-box").removeClass('drunk-1');
         $(".drink-overlay").addClass('show-drink-overlay');
   });
+
+  $('#drink-menu-close-x').on('click', function() {
+      $(".drink-overlay").removeClass('show-drink-overlay');
+});
 
   $('#drink-menu-close').on('click', function() {
         $(".drink-overlay").removeClass('show-drink-overlay');
@@ -202,6 +206,10 @@ $(document).ready(function() {
         $(".game-overlay").removeClass('show-game-overlay');
   });
 
+    $('#game-menu-close-x').on('click', function() {
+        $(".game-overlay").removeClass('show-game-overlay');
+  });
+
   // gallery overlay
 
   $('.gallery-listings-button').on('click', function() {
@@ -209,6 +217,10 @@ $(document).ready(function() {
   });
 
   $('#gallery-listings-close').on('click', function() {
+        $(".gallery-overlay").removeClass('show-gallery-overlay');
+  });
+
+   $('#gallery-listings-close-x').on('click', function() {
         $(".gallery-overlay").removeClass('show-gallery-overlay');
   });
 
@@ -221,6 +233,24 @@ $(document).ready(function() {
 
   $('#directions-overlay-close').on('click', function() {
         $(".directions-overlay").removeClass('show-directions-overlay');
+  });
+
+  $('#directions-overlay-close-x').on('click', function() {
+        $(".directions-overlay").removeClass('show-directions-overlay');
+  });
+
+  // events overlay
+
+  $('#events-menu').on('click', function() {
+        $(".events-overlay").addClass('show-events-overlay');
+  });
+
+  $('#events-overlay-close').on('click', function() {
+        $(".events-overlay").removeClass('show-events-overlay');
+  });
+
+  $('#events-overlay-close-x').on('click', function() {
+        $(".events-overlay").removeClass('show-events-overlay');
   });
 
 
