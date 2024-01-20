@@ -782,7 +782,7 @@ h1 {
   display:inline-block;
   @media (max-width:$base-sm) {
     border:none;
-    padding:0;
+    padding: 30px!important;
   }
   h1 {
     margin: 20px 0 92px 0;
