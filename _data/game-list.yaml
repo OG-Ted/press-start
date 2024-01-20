@@ -1,7 +1,7 @@
 games:
   - name: Batman 666 Pinball
     company: Stern Pinball
-    cover: ''
+    cover: /uploads/Batman-Pinball.jpg
   - name: Dialed In Pinball
     company: Jersey Jack Pinball
     cover: /uploads/assets/c72f1fabeb0bc2138fa936a6c95638aaaacf5b2a.jpg
