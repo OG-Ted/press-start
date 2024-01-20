@@ -426,7 +426,7 @@ body {
 .ps-frame-top {
   height:(100vh - $ps-height-lg)/2;
   width:100vw;
-  top:0;
+  top:70px;
   left:0;
 }
 
@@ -440,14 +440,14 @@ body {
 .ps-frame-left {
   width:(100vw - $ps-width-lg)/2;
   height:100vh;
-  top:0;
+  top:70px;
   left:0;
 }
 
 .ps-frame-right {
   width:(100vw - $ps-width-lg)/2;
   height:100vh;
-  top:0;
+  top:70px;
   right:0;
 }
 
@@ -455,7 +455,7 @@ body {
 
 .branding {
   position:fixed;
-  top:(100vh - $ps-height-lg)/7;
+  top:calc(((100vh - $ps-height-lg)/7) + 70px);
   left:50%;
   transform:translateX(-50%);
   display:inline-block;
@@ -734,6 +734,50 @@ h1 {
       background-color:$clr-ultra-green;
       border-color:$clr-ultra-green;
     }
+  }
+}
+
+.notification-bar{
+  --topSpacingRatio: 20 / 100;
+  --bottomSpacingRatio: 20 / 100;
+  --notificationBarCharacterCount: 70ch;
+  --notificationBarSpeed: 10s;
+    display: flex;
+    align-items: center;
+    padding-right: 21px 0!important;
+    z-index: 100000;
+    position: fixed;
+    background: $clr-coral;
+    height: 70px;
+
+    @keyframes notificationText {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  &__inner {
+    overflow: hidden;
+    width: 100vw;
+  }
+
+  &__text {
+    will-change: transform;
+    width: 100%;
+    animation: notificationText var(--notificationBarSpeed) linear infinite;
+    margin-bottom: 0;
+    width: var(--marqueeCharacterCount);
+    font-size: 15px;
+    line-height: 28px;
+    text-shadow: var(--notificationBarCharacterCount) 0 #fff,
+      calc(var(--notificationBarCharacterCount) * 2) 0 #fff,
+      calc(var(--notificationBarCharacterCount) * 3) 0 #fff,
+      calc(var(--notificationBarCharacterCount) * 4) 0 #fff,
+      calc(var(--notificationBarCharacterCount) * 5) 0 #fff,
+      calc(var(--notificationBarCharacterCount) * 6) 0 #fff;
   }
 }
 
