@@ -141,7 +141,7 @@
         src="assets/icon-arrow.svg"
         style="transform: rotate(180deg); transform-origin: center center"
       />
-      <span class="nav-label"> About </span>
+      <span class="nav-label about"> About </span>
     </a>
   </div>
 </nav>
@@ -239,12 +239,26 @@
     <div class="push-center-center">
       <div class="col-two-third col-center">
   <a href="#bottom">
-    <div class="coin-box"></div>
-    <h1 class="display-header">Welcome to Press Start</h1>
+    <!-- <div class="coin-box"></div> -->
+    <h1 class="display-header">The Best Time You've Ever Wasted</h1>
   </a>
   <p class="subhead">
-    Reno's finest bar-cade. Serving cold craft beer and an always-changing selection of classic arcade games in Reno, Nevada. What do you need today?
+    Press Start is Reno’s raddest bar & arcade serving Midtown's largest rotating selection of arcade games, draft beer, craft cocktails, and pinball.
   </p>
+  <div class="details">
+    <p>
+      We’re open 7 days a week! Families and kids are welcome until 7PM everyday.
+    </p>
+    <p>
+    Come check us out at 600 S Center Street!
+    </p>
+  </div>
+  <a class="btn btn-white btn-green directions-menu" id="game-menu">
+    Directions & Hours
+  </a>
+  <a class="btn btn-white btn-green" id="gallery-listings">
+    Gallery
+  </a>
 </div>
 
     </div>
@@ -256,11 +270,11 @@
     <div class="push-center-center">
       <div class="col-half col-center game-box txt-center">
   <img src="assets/PS_joystick.gif" width="75px" />
-  <h1>Let's Play</h1>
+  <h1>Play Now</h1>
   <a
     href="javascript:void(0)"
     onclick="gameInit()"
-    class="btn btn-white games-button"
+    class="btn btn-white"
   >
     Start
   </a>
@@ -278,11 +292,11 @@
   <h1 class="display-header no-blink display-header-green-border">
     See our current game selection
   </h1>
-  <a href="#left" class="btn btn-third btn-white btn-fuschia" id="game-menu">
+  <a href="#left" class="btn btn-third btn-white btn-fuschia games-button" id="game-menu">
     Start
   </a>
   <a href="#right" class="btn btn-third btn-white btn-fuschia" id="game-menu">
-    Pre-Beer
+    Drink Menu
   </a>
 </div>
 
@@ -295,13 +309,18 @@
     <div class="push-center-center">
       <div class="col-half col-center beer-box txt-center">
   <img src="assets/PS-beer.gif" width="75px" />
-  <h1 class="beer-time-header">Beer Time</h1>
-  <a href="#right" class="btn btn-white beer-time-button" id="drink-menu">
-    Start
-  </a>
-  <a href="#left" class="btn btn-white games-button games-button-hide">
-    Our Games
-  </a>
+  <h1 class="beer-time-header">Drink Menu</h1>
+   <p class="subhead">
+    $5 Draft Beers every Wednesday!
+  </p>
+  <div class="beer-time-btns-container">
+    <a href="#right" class="btn btn-white beer-time-button" id="drink-menu">
+      Select Drink
+    </a>
+    <a href="#left" class="btn btn-white games-button games-button-hide" id="game-menu">
+      Our Games
+    </a>
+  </div>
 </div>
 
     </div>
@@ -312,7 +331,7 @@
   <div class="arcade-content">
     <div class="push-center-center">
       <div class="col-two-third col-center about-container">
-  <img src="assets/coin-spin.gif" width="100px" class="sm-img" />
+  <img src="assets/coin-spin.gif" width="140px" class="sm-img" />
   <h1 class="display-header no-blink display-header-green-border">
     Welcome to Press Start
   </h1>
@@ -321,12 +340,16 @@
     selection of classic arcade games in Reno, Nevada. What do you need today?
   </p>
   <div class="btn-group">
-    <a href="#bottom" class="btn btn-third btn-white directions-menu">
-      Directions
+    <a class="btn btn-third btn-white btn-green directions-menu" id="game-menu">
+      Directions & Hours
     </a>
-    <a href="#right" class="btn btn-third btn-white"> Beer </a>
-    <a href="#left" class="btn btn-third btn-white"> Games </a>
+    <a class="btn btn-third btn-white btn-green gallery-listings-button">
+      Gallery
+    </a>
   </div>
+  <p class="subhead">
+    Check out all our upcoming events! Join us for pinball & arcade tournaments and compete for fun prizes!
+  </p>
 </div>
 
     </div>
@@ -336,8 +359,14 @@
     </main>
 
     <div class="drink-overlay list-overlay">
-  <h1>Select Drink</h1>
-
+ <div class="drink-heading">
+    <h1>Select Drink</h1>
+    <div class="drink-overlay-close--x drink-overlay-close">
+      <a href="javascript:void(0)" class="exit-btn" id="gallery-listings-close">
+        <img src="assets/icon-close.svg" />
+      </a>
+    </div>
+  </div>
   <div class="drink-list">
 
     <div class="row drink-category">
@@ -597,20 +626,20 @@
 
   <div class="drink-overlay-close list-overlay-close">
     <a href="javascript:void(0)" class="btn btn-white" id="drink-menu-close">
-      Water, please
+      Go Back
     </a>
   </div>
 
 </div>
  <div class="event-overlay list-overlay">
   <div class="event-heading">
-  <h1>Events</h1>
-  <div class="event-overlay-close list-overlay-close">
-  <a href="javascript:void(0)" class="exit-btn" id="event-menu-close">
-    <img src="assets/icon-close.svg" />
-  </a>
-</div>
-</div>
+    <h1>Events</h1>
+    <div class="event-overlay-close list-overlay-close">
+      <a href="javascript:void(0)" class="exit-btn" id="event-menu-close">
+        <img src="assets/icon-close.svg" />
+      </a>
+    </div>
+  </div> 
   <div class="event-grid">
     <!-- todo: fallback image for game cover -->
     
@@ -653,41 +682,48 @@
   <div class="event-heading">
     <h1>Gallery</h1>
     <div class="gallery-overlay-close list-overlay-close">
-    <a href="javascript:void(0)" class="exit-btn" id="event-menu-close">
-      <img src="assets/icon-close.svg" />
-    </a>
+      <a href="javascript:void(0)" class="exit-btn" id="gallery-listings-close">
+        <img src="assets/icon-close.svg" />
+      </a>
+    </div>
   </div>
   <div class="gallery-grid">
     
-    <div class="gallery-image directions-menu">
+    <div class="gallery-image">
       <img src="/uploads/2017/12/07/Batman-Pinball.jpg"/>
     </div>
     
-    <div class="gallery-image directions-menu">
+    <div class="gallery-image">
       <img src="/uploads/2019/12/01/c72f1fabeb0bc2138fa936a6c95638aaaacf5b2a.jpg"/>
     </div>
     
-    <div class="gallery-image directions-menu">
+    <div class="gallery-image">
       <img src="/uploads/2018/01/22/Guardians Pinball.jpg"/>
     </div>
     
-    <div class="gallery-image directions-menu">
+    <div class="gallery-image">
       <img src="/uploads/2017/10/05/medevil-madness.jpg"/>
     </div>
     
-    <div class="gallery-image directions-menu">
+    <div class="gallery-image">
       <img src="/uploads/2020/08/31/mystic.png"/>
     </div>
     
-    <div class="gallery-image directions-menu">
+    <div class="gallery-image">
       <img src="/uploads/2017/12/07/Star-Wars-Pinball.jpg"/>
     </div>
-    
-
+     
   </div>
 </div>
  <div class="game-overlay list-overlay">
-  <h1>Our Games</h1>
+ <div class="game-heading">
+    <h1>Our Games</h1>
+    <div class="game-overlay-close--x games-button">
+      <a href="javascript:void(0)" class="exit-btn" id="gallery-listings-close">
+        <img src="assets/icon-close.svg" />
+      </a>
+    </div>
+  </div>
   <p class="game-subhead">
     We specialize in "lost classics" and "classic" arcade games.
   </p>
@@ -1210,42 +1246,57 @@
 
 </div>
  <div class="directions-overlay list-overlay">
-  <h1>Find Us</h1>
-  <div class="directions-content">
-    <img src="assets/PS_building-animate.gif" width="304px" height="357px" />
-    
-    <span> 600 S CENTER ST </span>
-    
-    <span> RENO, NEVADA </span>
-    
-  </div>
-  <hr />
-  <div class="directions-content">
-    <span class="directions-content-sm">
-       Monday 3-10PM<br />
-       Tuesday Closed<br />
-       Wednesday 3-10PM<br />
-       Thursday 3-10PM<br />
-       Friday 3-11PM<br />
-       Saturday 11AM-11PM<br />
-       Sunday 11AM-10PM<br />
+  <div class="directions-overlay__container">
+    <div class="event-heading">
+      <h1>Find Us</h1>
+      <div class="gallery-overlay-close list-overlay-close">
+        <a href="javascript:void(0)" class="exit-btn" id="gallery-listings-close">
+          <img src="assets/icon-close.svg" />
+        </a>
+      </div>
+    </div>
+    <div class="directions-content">
+      <img src="assets/center-building-small.gif" width="338px" height="126px" />
       
-    </span>
-  </div>
-  <hr />
-  <div class="directions-content content-bump-bottom-4x">
-    <a href="https://www.facebook.com/pressstartreno/" class="link-focus" target="_blank">
-      Contact Us On Facebook
-    </a>
-  </div>
-  <div class="directions-overlay-close list-overlay-close">
-    <a
-      href="javascript:void(0)"
-      class="btn btn-white"
-      id="directions-overlay-close"
-    >
-      Go Back
-    </a>
+      <span> 600 S CENTER ST </span>
+      
+      <span> RENO, NEVADA </span>
+      
+    </div>
+    <hr />
+    <div class="directions-content">
+      <p>
+        We’re open 7 days a week! Families and kids are welcome until 7PM everyday.
+      </p>
+      <span class="directions-content-sm">
+         Monday 3-10PM<br />
+         Tuesday Closed<br />
+         Wednesday 3-10PM<br />
+         Thursday 3-10PM<br />
+         Friday 3-11PM<br />
+         Saturday 11AM-11PM<br />
+         Sunday 11AM-10PM<br />
+        
+      </span>
+    </div>
+    <hr />
+    <div class="directions-content directions-content__btn">
+      <a href="https://www.facebook.com/pressstartreno/" class="link-focus" target="_blank">
+        Contact Us On Facebook
+      </a>
+      <a href="https://www.instagram.com/press_start_reno/" class="link-focus" target="_blank">
+        Contact Us On Instagram
+      </a>
+    </div>
+    <div class="directions-overlay-close list-overlay-close">
+      <a
+        href="javascript:void(0)"
+        class="btn btn-white"
+        id="directions-overlay-close"
+      >
+        Go Back
+      </a>
+    </div>
   </div>
 </div>
  

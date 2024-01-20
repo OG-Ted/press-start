@@ -140,30 +140,43 @@ textarea {
 
 .btn, button {
   text-transform:uppercase;
-  font-size:12px;
+  font-size:16px;
   border-radius:999px;
+  padding: 20px 25px!important;
+  height: auto!important;
+  line-height: initial!important;
 }
 
 .btn-white {
   height:50px;
   line-height:50px;
   padding:0 20px;
-  border:3px solid $clr-cream;
+  border:5px solid $clr-cream;
   background-color:rgba($clr-ultra-green,0);
   transition:all 0s ease;
   color:$clr-cream;
   &.btn-fuschia {
-    border:3px solid $clr-ultra-pink;
+    border:5px solid $clr-ultra-pink;
     background-color: $clr-black;
     &:hover {
       background-color:$clr-ultra-pink;
-      border:3px solid $clr-ultra-pink;
+      border:5px solid $clr-ultra-pink;
+      color:$clr-black !important;
+    }
+  }
+   &.btn-green {
+    border:5px solid $clr-ultra-green;
+    background-color: $clr-black;
+    padding: 0 25px;
+    &:hover {
+      background-color:$clr-ultra-green;
+      border:5px solid $clr-ultra-green;
       color:$clr-black !important;
     }
   }
   &:hover {
     background-color:$clr-ultra-green;
-    border:3px solid $clr-ultra-green;
+    border:5px solid $clr-ultra-green;
     color:$clr-black !important;
   }
 }
@@ -175,11 +188,12 @@ textarea {
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items:center;
   flex-wrap:wrap;
+
   .btn-third {
-    width:30%;
+    width:fit-content;
     @media (max-width:$base-md) {
       width:80%;
       margin:20px 20px 0px 20px;
@@ -202,11 +216,11 @@ a.page-anchor {
 // arcade display
 // #####################################
 
-$ps-height-lg:80vh;
+$ps-height-lg:90vh;
 $ps-width-lg:90vw;
-$ps-height-md:80vh;
+$ps-height-md:90vh;
 $ps-width-md:80vw;
-$ps-height-sm:80vh;
+$ps-height-sm:90vh;
 $ps-width-sm:80vw;
 $ps-transition:1s;
 $ps-transition-style:ease-in;
@@ -233,7 +247,11 @@ body {
   }
 }
 
-.arcade-content,{
+.arcade-display{
+  padding-top: 70px!important;
+}
+
+.arcade-content{
   width:$ps-width-lg;
   height:$ps-height-lg;
   position:relative;
@@ -259,6 +277,9 @@ body {
         padding-bottom:$base;
         padding-top:$base/2;
       }
+    }
+    .subhead{
+      line-height: 28px;
     }
   }
   a {
@@ -513,7 +534,7 @@ body {
 
 .ps-guide {
   position:fixed;
-  top:(100vh - $ps-height-lg)/3;
+  top:calc(((100vh - $ps-height-lg)/3) + 70px);
   left:0;
   width:100%;
   z-index:900;
@@ -564,22 +585,39 @@ body {
 // home screen
 
 #home {
-  .insert-coin {
-    cursor: url(../assets/coin-cursor.png) 43 43, auto;
-  }
-  .coin-box {
-    width:30px;
-    height:100px;
-    border:8px solid $clr-cream;
-    margin: 0 auto;
-    transition:all .5s ease;
-    border-radius:0px;
-    display:inline-block;
-    &:hover {
-      width:100px;
-      border:8px solid $clr-ultra-green;
+  // .insert-coin {
+  //   cursor: url(../assets/coin-cursor.png) 43 43, auto;
+  // }
+  // .coin-box {
+  //   width:30px;
+  //   height:100px;
+  //   border:8px solid $clr-cream;
+  //   margin: 0 auto;
+  //   transition:all .5s ease;
+  //   border-radius:0px;
+  //   display:inline-block;
+  //   &:hover {
+  //     width:100px;
+  //     border:8px solid $clr-ultra-green;
+  //   }
+  // }
+
+  .details{
+    margin: 28px 0 31px 0;
+    line-height: 28px;
+
+    p:first-of-type{
+      margin-bottom: 31px;
     }
   }
+
+  .subhead{
+    border-bottom: 4px solid $clr-ultra-ruby;
+    padding-bottom: 20px;
+    margin: 0 20px;
+    line-height: 28px;
+  }
+
   a {
     cursor: url(../assets/coin-cursor.png) 43 43, auto;
     &:hover, &:visited, &:active {
@@ -622,7 +660,9 @@ h1 {
     border-bottom:4px solid $clr-ultra-ruby;
     animation: blink 1s infinite;
     padding:20px 0px;
+    font-size: 2.5em;
     margin:20px;
+    line-height: 1.5em;
     @media (max-width:$base-sm) {
       font-size:18px;
       line-height:1.3;
@@ -660,7 +700,7 @@ h1 {
     padding:$base;
     .btn {
       margin-bottom:20px;
-      width:100%;
+      width: fit-content;
       display:block;
     }
     @media (max-width:$base-sm) {
@@ -672,21 +712,39 @@ h1 {
 .beer-box {
   border:4px solid $clr-ultra-yellow;
   text-transform:uppercase;
-  padding:20px;
+  padding: 55px 87px!important;
   display:inline-block;
   @media (max-width:$base-sm) {
     border:none;
     padding:0;
   }
   h1 {
-    margin:20px 0px;
-    text-shadow: 2px 2px 0 $clr-ultra-blue;
-    color:$clr-ultra-yellow;
+    margin:28px 0px;
+    color:$clr-cream;
     @media (max-width:$base-sm) {
       font-size:29px;
       line-height:1.3;
     }
   }
+
+  .beer-time-btns-container{
+    display: flex;
+    justify-content: center;
+
+    a{
+      margin-bottom: 0;
+      margin-top: 32px;
+
+      &:first-of-type{
+        margin-right: 10px;
+      }
+      
+      &:last-of-type{
+        margin-left: 10px;
+      }
+    }
+  }
+
   .btn {
     padding-left:20px;
     padding-right:20px;
@@ -706,15 +764,14 @@ h1 {
 .game-box {
   border:4px solid $clr-ultra-purple;
   text-transform:uppercase;
-  padding:20px;
+  padding: 49px 74px!important;
   display:inline-block;
   @media (max-width:$base-sm) {
     border:none;
     padding:0;
   }
   h1 {
-    margin:20px 0px;
-    text-shadow: 2px 2px 0 $clr-ultra-purple;
+    margin: 20px 0 92px 0;
     color:$clr-cream;
     @media (max-width:$base-sm) {
       font-size:29px;
@@ -781,11 +838,16 @@ h1 {
   }
 }
 
+.directions-overlay__container{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 .list-overlay {
   &.drink-overlay {
     position:fixed;
     z-index:999;
-    top:0;
+    top: 70px;
     left:0;
     right:0;
     bottom:0;
@@ -809,8 +871,7 @@ h1 {
     }
     h1 {
       margin:20px 0px;
-      text-shadow: 6px 6px 0 $clr-ultra-blue;
-      color:$clr-ultra-yellow;
+      color:$clr-cream;
       font-size:72px;
       padding:40px 0px;
       text-align:center;
@@ -842,6 +903,7 @@ h1 {
         text-transform:uppercase;
         width:90%;
         font-weight:normal;
+        line-height: 28px;
         letter-spacing:2px;
         margin:$base/3 auto;
         padding-left:10px;
@@ -869,7 +931,7 @@ h1 {
   &.game-overlay{
     position:fixed;
     z-index:999;
-    top:0;
+    top: 70px;
     left:0;
     right:0;
     bottom:0;
@@ -891,13 +953,37 @@ h1 {
     &.show-game-overlay {
       display:block !important;
     }
+
+    .game-overlay-close--x{
+      display: flex;
+      justify-content: flex-end;
+      position: absolute;
+      top: 41px;
+      bottom: 0;
+      right: 70px;
+      height: fit-content;
+
+      @media (max-width:$base-sm) {
+        top: 20px;
+        right: 20px;
+        
+        img{
+          max-width: 50px;
+        }
+      }
+    }
+
+    .game-heading{
+      position: relative;
+    }
+
     h1 {
-      margin:20px 0px 0px 0px;
-      text-shadow: 6px 6px 0 $clr-ultra-ruby;
-      color:$clr-ultra-green;
+      margin: 20px auto 34px;
+      color: #FFFFFF;
       font-size:72px;
       padding:40px 20px 0px 20px;
       text-align:center;
+      max-width: 700px;
       text-transform:uppercase;
       @media (max-width:$base-sm) {
         font-size:29px;
@@ -905,11 +991,16 @@ h1 {
       }
     }
     .game-subhead {
-      padding:20px 20px 20px 20px;
-      border-bottom: 4px solid $clr-ultra-green;
-      max-width:1024px;
+      padding: 34px 20px 20px 20px;
+      border-top: 3px solid $clr-yellow;
+      max-width:700px;
       width:90%;
+      line-height: 28px;
       margin:0 auto 40px auto;
+    }
+
+    .games-heading{
+      position: relative;
     }
     .game-grid {
       max-width:1024px;
@@ -970,7 +1061,7 @@ h1 {
   &.event-overlay{
     position:fixed;
     z-index:999;
-    top:0;
+    top: 70px;
     left:0;
     right:0;
     bottom:0;
@@ -979,6 +1070,11 @@ h1 {
     display:none;
     max-height:100vh;
     overflow:auto;
+
+    .event-heading{
+      position: relative;
+    }
+
     div[class^="col-"], div[class*=" col-"] {
       float:left;
       position:relative;
@@ -1010,10 +1106,6 @@ h1 {
       }
     }
 
-    .event-heading{
-      position: relative;
-    }
-
     h1 {
       margin:20px 0px 0px 0px;
       text-shadow: 6px 6px 0 $clr-ultra-green;
@@ -1031,6 +1123,7 @@ h1 {
       padding:20px 20px 20px 20px;
       border-bottom: 4px solid $clr-ultra-green;
       max-width:1024px;
+      line-height: 28px;
       width:90%;
       margin:0 auto 40px auto;
     }
@@ -1090,7 +1183,7 @@ h1 {
   &.gallery-overlay{
     position:fixed;
     z-index:999;
-    top:0;
+    top: 70px;
     left:0;
     right:0;
     bottom:0;
@@ -1136,7 +1229,7 @@ h1 {
     }
 
     h1 {
-      margin:20px 0px 31px 0px;
+      margin:26px 0px 31px 0px;
       text-shadow: 6px 6px 0 $clr-ultra-blue;
       color:$clr-ultra-green;
       font-size:72px;
@@ -1187,7 +1280,7 @@ h1 {
   &.directions-overlay {
     position:fixed;
     z-index:999;
-    top:0;
+    top: 70px;
     left:0;
     right:0;
     bottom:0;
@@ -1198,6 +1291,7 @@ h1 {
     max-height:100vh;
     overflow:auto;
     padding-bottom:$base*3;
+
     div[class^="col-"], div[class*=" col-"] {
       float:left;
       position:relative;
@@ -1215,7 +1309,7 @@ h1 {
       color:$clr-ultra-yellow;
       font-size:72px;
       padding:40px 0px;
-      border-bottom: 4px solid $clr-cream;
+      border-bottom: 4px solid $clr-ultra-yellow;
       max-width:1024px;
       width:90%;
       margin:20px auto;
@@ -1230,8 +1324,20 @@ h1 {
       padding:0 $base/2;
       img {
         margin-bottom:20px;
+        margin-top: 22px;
       }
-       span {
+
+      &__btn{
+        display: flex;
+        flex-direction: column;
+      }
+
+      p{
+        line-height: 28px!important;
+        font-size: 18px!important;
+        margin-bottom: 16px!important;
+      }
+       span, p {
          text-align:center;
          display:block;
          color:$clr-cream;
@@ -1265,7 +1371,6 @@ h1 {
          text-decoration:none;
          padding-bottom:5px;
          margin-bottom:$base/3;
-         border-bottom:4px solid $clr-ultra-ruby;
          @media (max-width:$base-sm) {
            font-size: 16px;
            letter-spacing: 3.47px;
@@ -1328,9 +1433,10 @@ h1 {
         }
       }
     }
+
     &.game-overlay-close {
       .btn {
-        max-width:1024px;
+        max-width:420px;
         width:100%;
         margin:0 auto;
         width:90%;
@@ -1455,6 +1561,25 @@ h1 {
 }
 
 .about-container {
+  max-width: 741px;
+
+  .subhead{
+    margin-top: 24px;
+    line-height: 28px;
+  }
+
+  .btn-group{
+    border-bottom: 4px solid $clr-ultra-yellow;
+    padding-bottom: 43px;
+
+    a:first-of-type{
+      margin-right: 15px;
+    }
+
+    a:last-of-type{
+      margin-left: 15px;
+    }
+  }
   @media (max-width:676px) {
     padding-bottom:$base*2;
   }

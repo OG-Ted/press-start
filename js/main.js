@@ -131,166 +131,153 @@ function exitGame () {
 
 $(document).ready(function() {
 
-    $('#pageBody').keydown(navigationKeyHandler);
+  $('#pageBody').keydown(navigationKeyHandler);
 
-    // if user hits page directly, correct the arrow displays
-    if (location.hash) {
-      switch(location.hash) {
-        case '#top':
-          $("#nav-top").addClass('hidden');
-          break;
-        case '#bottom':
-          $("#nav-bottom").addClass('hidden');
-          break;
-        case '#left':
-          $("#nav-left").addClass('hidden');
-          break;
-        case '#right':
-          $("#nav-right").addClass('hidden');
-          break;
-      }
+  // if user hits page directly, correct the arrow displays
+  if (location.hash) {
+    switch(location.hash) {
+      case '#top':
+        $("#nav-top").addClass('hidden');
+        break;
+      case '#bottom':
+        $("#nav-bottom").addClass('hidden');
+        break;
+      case '#left':
+        $("#nav-left").addClass('hidden');
+        break;
+      case '#right':
+        $("#nav-right").addClass('hidden');
+        break;
     }
+  }
 
-    $(".game-container").addClass('hidden');
+  $(".game-container").addClass('hidden');
 
-    $('#nav-left').on('click', function() {
-         leftArrowPressed();
-    });
-    $('#nav-right').on('click', function() {
-         rightArrowPressed();
-    });
-    $('#nav-top').on('click', function() {
-          downArrowPressed();
-    });
-    $('#nav-bottom').on('click', function() {
-         upArrowPressed();
-    });
-    $('#nav-home').on('click', function() {
-         spaceBarPressed();
-    });
+  $('#nav-left').on('click', function() {
+        leftArrowPressed();
+  });
+  $('#nav-right').on('click', function() {
+        rightArrowPressed();
+  });
+  $('#nav-top').on('click', function() {
+        downArrowPressed();
+  });
+  $('#nav-bottom').on('click', function() {
+        upArrowPressed();
+  });
+  $('#nav-home').on('click', function() {
+        spaceBarPressed();
+  });
 
 
 // beer game
 
-    $('.drink-dat-beer').on('click', function() {
-         $(".beer-box").addClass('drunk-1');
-         $(".drink-overlay").removeClass('show-drink-overlay');
-         $(".beer-time-header").html('Have Another?');
-         $(".beer-time-button").html('One more');
-         $(".games-button").removeClass('games-button-hide');
-    });
+  $('.drink-dat-beer').on('click', function() {
+        $(".beer-box").addClass('drunk-1');
+        $(".drink-overlay").removeClass('show-drink-overlay');
+        $(".beer-time-header").html('Have Another?');
+        $(".beer-time-button").html('One more');
+        $(".games-button").removeClass('games-button-hide');
+  });
 
-    $('#drink-menu').on('click', function() {
-         $(".beer-box").removeClass('drunk-1');
-         $(".drink-overlay").addClass('show-drink-overlay');
-    });
+  $('#drink-menu').on('click', function() {
+        $(".beer-box").removeClass('drunk-1');
+        $(".drink-overlay").addClass('show-drink-overlay');
+  });
 
-    $('#drink-menu-close').on('click', function() {
-         $(".drink-overlay").removeClass('show-drink-overlay');
-         $(".beer-time-header").html('Pace Yourself');
-         $(".beer-time-button").html('Maybe one');
-         $(".games-button").removeClass('games-button-hide');
-    });
+  $('#drink-menu-close').on('click', function() {
+        $(".drink-overlay").removeClass('show-drink-overlay');
+        $(".beer-time-header").html('Pace Yourself');
+        $(".beer-time-button").html('Maybe one');
+        $(".games-button").removeClass('games-button-hide');
+  });
 
-  // game overlay
+// game overlay
 
-    $('#game-menu').on('click', function() {
-         $(".game-overlay").addClass('show-game-overlay');
-    });
+  $('.games-button').on('click', function() {
+        $(".game-overlay").addClass('show-game-overlay');
+  });
 
-    $('#game-menu-close').on('click', function() {
-         $(".game-overlay").removeClass('show-game-overlay');
-    });
-  
-    // events overlay
+  $('#game-menu-close').on('click', function() {
+        $(".game-overlay").removeClass('show-game-overlay');
+  });
 
-    $('#event-listings').on('click', function() {
-         $(".event-overlay").addClass('show-event-overlay');
-    });
+  // gallery overlay
 
-    $('#event-menu-close').on('click', function() {
-         $(".event-overlay").removeClass('show-event-overlay');
-    });
-  
-    // gallery overlay
+  $('.gallery-listings-button').on('click', function() {
+        $(".gallery-overlay").addClass('show-gallery-overlay');
+  });
 
-    $('#gallery-listings').on('click', function() {
-         $(".gallery-overlay").addClass('show-gallery-overlay');
-    });
+  $('#gallery-listings-close').on('click', function() {
+        $(".gallery-overlay").removeClass('show-gallery-overlay');
+  });
 
-    $('#gallery-listings-close').on('click', function() {
-         $(".gallery-overlay").removeClass('show-gallery-overlay');
-    });
+// directions overlay
 
+  $('.directions-menu').on('click', function() {
+        $(".directions-overlay").addClass('show-directions-overlay');
+        $(".game-overlay").removeClass('show-game-overlay');
+  });
 
-
-  // directions overlay
-
-    $('.directions-menu').on('click', function() {
-         $(".directions-overlay").addClass('show-directions-overlay');
-         $(".game-overlay").removeClass('show-game-overlay');
-    });
-
-    $('#directions-overlay-close').on('click', function() {
-         $(".directions-overlay").removeClass('show-directions-overlay');
-    });
+  $('#directions-overlay-close').on('click', function() {
+        $(".directions-overlay").removeClass('show-directions-overlay');
+  });
 
 
-    // PRESS START ARACADE:
+  // PRESS START ARACADE:
 
-    // 1. arcade overlay: space invaders
-    // create the game object
-    window.game = new SI.Game();
+  // 1. arcade overlay: space invaders
+  // create the game object
+  window.game = new SI.Game();
 
-    window.onhashchange = function () {
-      if (location.hash != '#top') {
+  window.onhashchange = function () {
+    if (location.hash != '#top') {
 
-        window.game.stop();
-        $(".game-container").addClass('hidden');
+      window.game.stop();
+      $(".game-container").addClass('hidden');
 
-        // rebind navigation keys if they aren't bound already
-        if (! document.keydown) {
-          $('#pageBody').keydown(navigationKeyHandler);
-        }
+      // rebind navigation keys if they aren't bound already
+      if (! document.keydown) {
+        $('#pageBody').keydown(navigationKeyHandler);
       }
+    }
 
-      switch(location.hash) {
-        case '#top':
-          $("#nav-top").addClass('hidden');
-          $("#nav-bottom").removeClass('hidden');
-          $("#nav-left").removeClass('hidden');
-          $("#nav-right").removeClass('hidden');
-          $("#nav-home").removeClass('hidden');
-          break;
-        case '#bottom':
-          $("#nav-bottom").addClass('hidden');
-          $("#nav-top").removeClass('hidden');
-          $("#nav-left").removeClass('hidden');
-          $("#nav-right").removeClass('hidden');
-          $("#nav-home").removeClass('hidden');
-          break;
-        case '#left':
-          $("#nav-left").addClass('hidden');
-          $("#nav-bottom").removeClass('hidden');
-          $("#nav-top").removeClass('hidden');
-          $("#nav-right").removeClass('hidden');
-          $("#nav-home").removeClass('hidden');
-          break;
-        case '#right':
-          $("#nav-right").addClass('hidden');
-          $("#nav-bottom").removeClass('hidden');
-          $("#nav-left").removeClass('hidden');
-          $("#nav-top").removeClass('hidden');
-          $("#nav-home").removeClass('hidden');
-          break;
-        case '#home':
-          $("#nav-home").addClass('hidden');
-          $("#nav-bottom").removeClass('hidden');
-          $("#nav-left").removeClass('hidden');
-          $("#nav-top").removeClass('hidden');
-          $("#nav-right").removeClass('hidden');
-          break;
-      }
+    switch(location.hash) {
+      case '#top':
+        $("#nav-top").addClass('hidden');
+        $("#nav-bottom").removeClass('hidden');
+        $("#nav-left").removeClass('hidden');
+        $("#nav-right").removeClass('hidden');
+        $("#nav-home").removeClass('hidden');
+        break;
+      case '#bottom':
+        $("#nav-bottom").addClass('hidden');
+        $("#nav-top").removeClass('hidden');
+        $("#nav-left").removeClass('hidden');
+        $("#nav-right").removeClass('hidden');
+        $("#nav-home").removeClass('hidden');
+        break;
+      case '#left':
+        $("#nav-left").addClass('hidden');
+        $("#nav-bottom").removeClass('hidden');
+        $("#nav-top").removeClass('hidden');
+        $("#nav-right").removeClass('hidden');
+        $("#nav-home").removeClass('hidden');
+        break;
+      case '#right':
+        $("#nav-right").addClass('hidden');
+        $("#nav-bottom").removeClass('hidden');
+        $("#nav-left").removeClass('hidden');
+        $("#nav-top").removeClass('hidden');
+        $("#nav-home").removeClass('hidden');
+        break;
+      case '#home':
+        $("#nav-home").addClass('hidden');
+        $("#nav-bottom").removeClass('hidden');
+        $("#nav-left").removeClass('hidden');
+        $("#nav-top").removeClass('hidden');
+        $("#nav-right").removeClass('hidden');
+        break;
+    }
   }
-
 });
