@@ -1,13 +1,13 @@
 games:
   - name: Batman 666 Pinball
     company: Stern Pinball
-    cover: /uploads/Batman-Pinball.jpg
+    cover: /assets/uploads/Batman-Pinball.jpg
   - name: Dialed In Pinball
     company: Jersey Jack Pinball
-    cover: /uploads/c72f1fabeb0bc2138fa936a6c95638aaaacf5b2a.jpg
+    cover: /assets/uploads/c72f1fabeb0bc2138fa936a6c95638aaaacf5b2a.jpg
   - name: Guardians of the Galaxy Pinball
     company: Stern Pinball
-    cover: /uploads/../uploads/2018/01/22/Guardians Pinball.jpg
+    cover: /assets/uploads/Guardians Pinball.jpg
   - name: Medieval Madness Pinball
     company: Planetary Pinball
     cover: /uploads/../uploads/2017/10/05/medevil-madness.jpg
