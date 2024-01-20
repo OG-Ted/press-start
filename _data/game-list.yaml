@@ -16,7 +16,7 @@ games:
     cover: /uploads/mystic.png
   - name: Star Wars Pinball
     company: Stern Pinball
-    cover: /uploads/assets/uploads/../uploads/2017/12/07/Star-Wars-Pinball.jpg
+    cover: /uploads/Star-Wars-Pinball.jpg
   - name: Stranger Things Premium Pinball
     company: Stern
     cover: /uploads/assets/uploads/stranger-things-premium-flyer-front_232x300.jpg
