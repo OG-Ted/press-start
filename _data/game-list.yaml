@@ -28,7 +28,7 @@ games:
     cover: /uploads/stern-pinball-inc-tmnt-pinball-title.png
   - name: Twilight Zone Pinball
     company: Bally Pinball
-    cover: /uploads/assets/uploads/../uploads/2017/10/05/twlight-zone.jpg
+    cover: /uploads/twlight-zone.jpg
   - name: '1943: The Battle of Midway'
     company: Capcom
     cover: /uploads/assets/uploads/../uploads/2020/08/31/375px-1943_arcadeside.jpg
