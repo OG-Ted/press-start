@@ -25,8 +25,7 @@ games:
     cover: /uploads/9d764528fcc18ac1e737449576b424d55b8303fb.jpg
   - name: TMNT Premium Pinball
     company: Stern
-    cover: >-
-      /uploads/assets/uploads/../uploads/2020/09/06/stern-pinball-inc-tmnt-pinball-title.png
+    cover: /uploads/stern-pinball-inc-tmnt-pinball-title.png
   - name: Twilight Zone Pinball
     company: Bally Pinball
     cover: /uploads/assets/uploads/../uploads/2017/10/05/twlight-zone.jpg
