@@ -76,6 +76,7 @@ function spaceBarPressed() {
   $("#home").css({
     "opacity": "1"
   });
+  window.scrollTo(0, 0);
   $("#nav-home").addClass('nudge');
   $("#nav-left").removeClass('nudge');
   $("#nav-right").removeClass('nudge');
