@@ -8,9 +8,9 @@
     </div>
   </div>
   <div class="gallery-grid">
-    {% for image in site.data.gallery-list %}
+    {% for image in site.data.gallery-list.image %}
     <div class="gallery-image">
-      <img src="{{site.baseurl}}{{image.cover}}"/>
+      <img src="{{image}}"/>
     </div>
     {% endfor %} 
   </div>

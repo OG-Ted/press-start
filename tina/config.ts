@@ -330,6 +330,82 @@ export default defineConfig({
           },
         ],
       },
+      {
+        format: "yaml",
+        label: "Gallery",
+        name: "gallery",
+        path: "_data",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "gallery-list",
+        },
+        fields: [
+          {
+            name: "image",
+            label: "Image",
+            type: "image",
+            list: true
+          }
+        ],
+      },
+      {
+        format: "yaml",
+        label: "Events",
+        name: "events",
+        path: "_data",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "event-list",
+        },
+        fields: [
+          {
+            type: "object",
+            list: true,
+            name: "events",
+            label: "Events",
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.name}`}
+              },
+              defaultItem: {
+                name: "Event"
+              }
+            },
+            fields: [
+              {
+                name: "name",
+                label: "Name",
+                type: "string"
+              },
+              {
+                name: "description",
+                label: "Description",
+                type: "string",
+              },
+              {
+                name: "cover",
+                label: "Cover",
+                type: "image",
+              },
+              {
+                name: "date",
+                label: "Date",
+                type: "datetime"
+              }
+            ]
+          },  
+        ],
+      }
     ],
   },
 });
