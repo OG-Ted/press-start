@@ -474,7 +474,7 @@ body {
 .ps-frame-top {
   height:(100vh - $ps-height-lg)/3;
   width:100vw;
-  top:45px;
+  top:0;
   left:0;
 }
 
@@ -488,14 +488,14 @@ body {
 .ps-frame-left {
   width:(100vw - $ps-width-lg)/2.85;
   height:100vh;
-  top:70px;
+  top:0;
   left:0;
 }
 
 .ps-frame-right {
   width:(100vw - $ps-width-lg)/2.85;
   height:100vh;
-  top:70px;
+  top:0;
   right:0;
 }
 
@@ -503,7 +503,7 @@ body {
 
 .branding {
   position:fixed;
-  top:calc(((100vh - $ps-height-lg)/8) + 40px);
+  top:2vh;
   left:50%;
   transform:translateX(-50%);
   display:inline-block;
@@ -561,7 +561,7 @@ body {
 
 .ps-guide {
   position:fixed;
-  top:calc(((100vh - $ps-height-lg)/4) + 45px);
+  top:3vh;
   left:0;
   width:100%;
   z-index:900;
@@ -597,7 +597,7 @@ body {
   z-index:900;
   @media (max-width:$base-sm) {
     bottom:auto;
-    top:calc(((100vh - $ps-height-lg)/7) + 70px);
+    top: calc(1.5vh + 0px);
     right:(100vw - $ps-width-lg)/2;
     transform:none;
     text-align:right;
