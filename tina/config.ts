@@ -141,6 +141,38 @@ export default defineConfig({
       // },
       {
         format: "yaml",
+        label: "Homepage Text",
+        name: "homepage_text",
+        path: "_data",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "homepage-text",
+        },
+        fields: [
+          {
+            name: "first",
+            label: "First Sentence",
+            type: "string",
+          },
+          {
+            name: "second",
+            label: "Second Sentence",
+            type: "string",
+          },
+          {
+            name: "third",
+            label: "Third Sentence",
+            type: "string",
+          },
+        ],
+      },
+      {
+        format: "yaml",
         label: "Craft Bottle List",
         name: "craft_bottle_list",
         path: "_data",

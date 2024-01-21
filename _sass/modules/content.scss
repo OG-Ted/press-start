@@ -483,6 +483,9 @@ body {
   width:100vw;
   bottom:0;
   left:0;
+  @media (max-width:$base-sm) {
+    height: 8vh;
+  }
 }
 
 .ps-frame-left {
