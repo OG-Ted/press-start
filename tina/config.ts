@@ -117,28 +117,28 @@ export default defineConfig({
           }
         ],
       },
-      {
-        format: "yaml",
-        label: "Notification Bar",
-        name: "notification_bar",
-        path: "_data",
-        ui: {
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
-        },
-        match: {
-          include: "notification-bar",
-        },
-        fields: [
-           {
-            name: "text",
-            label: "Text",
-            type: "string",
-          }
-        ],
-      },
+      // {
+      //   format: "yaml",
+      //   label: "Notification Bar",
+      //   name: "notification_bar",
+      //   path: "_data",
+      //   ui: {
+      //     allowedActions: {
+      //       create: false,
+      //       delete: false,
+      //     },
+      //   },
+      //   match: {
+      //     include: "notification-bar",
+      //   },
+      //   fields: [
+      //      {
+      //       name: "text",
+      //       label: "Text",
+      //       type: "string",
+      //     }
+      //   ],
+      // },
       {
         format: "yaml",
         label: "Craft Bottle List",
