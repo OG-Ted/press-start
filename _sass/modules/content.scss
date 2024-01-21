@@ -256,6 +256,10 @@ body {
 .arcade-display{
   padding-top: 50px!important;
   overflow-y: hidden;
+
+  @media (max-width:$base-md) {
+    padding-top: 0!important;
+  }
 }
 
 .arcade-content{
@@ -375,7 +379,7 @@ body {
     bottom:0;
     transform:translateY($ps-height-lg);
     width:$ps-width-lg;
-    height:$ps-height-lg;
+    height:100vh;
     background-color:$ps-bg-color-bottom;
     &:target {
       transform:translateY(0);
@@ -484,7 +488,7 @@ body {
   bottom:0;
   left:0;
   @media (max-width:$base-sm) {
-    height: 8vh;
+    height: 9vh;
   }
 }
 
