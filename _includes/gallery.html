@@ -1,0 +1,23 @@
+<div class="gallery-overlay list-overlay">
+  <div class="event-heading">
+    <h1>Gallery</h1>
+    <div class="gallery-overlay-close-x list-overlay-close">
+      <a href="javascript:void(0)" class="exit-btn" id="gallery-listings-close-x">
+        <img src="assets/icon-close.svg" />
+      </a>
+    </div>
+  </div>
+  <div class="gallery-grid">
+    {% for image in site.data.gallery-list.image %}
+    <div class="gallery-image">
+      <img src="{{image}}"/>
+    </div>
+    {% endfor %} 
+  </div>
+
+  <div class="gallery-overlay-close list-overlay-close">
+    <a href="javascript:void(0)" class="btn btn-white" id="gallery-listings-close">
+      Go back
+    </a>
+  </div>
+</div>

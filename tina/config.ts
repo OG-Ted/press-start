@@ -36,8 +36,8 @@ export default defineConfig({
         path: "_data",
         ui: {
           allowedActions: {
-            create: true,
-            delete: true,
+            create: false,
+            delete: false,
           },
         },
         match: {
@@ -78,8 +78,8 @@ export default defineConfig({
         format: "yaml",
         ui: {
           allowedActions: {
-            create: true,
-            delete: true,
+            create: false,
+            delete: false,
           },
         },
         match: {
@@ -101,8 +101,8 @@ export default defineConfig({
         path: "_data",
         ui: {
           allowedActions: {
-            create: true,
-            delete: true,
+            create: false,
+            delete: false,
           },
         },
         match: {
@@ -117,6 +117,60 @@ export default defineConfig({
           }
         ],
       },
+      // {
+      //   format: "yaml",
+      //   label: "Notification Bar",
+      //   name: "notification_bar",
+      //   path: "_data",
+      //   ui: {
+      //     allowedActions: {
+      //       create: false,
+      //       delete: false,
+      //     },
+      //   },
+      //   match: {
+      //     include: "notification-bar",
+      //   },
+      //   fields: [
+      //      {
+      //       name: "text",
+      //       label: "Text",
+      //       type: "string",
+      //     }
+      //   ],
+      // },
+      {
+        format: "yaml",
+        label: "Homepage Text",
+        name: "homepage_text",
+        path: "_data",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "homepage-text",
+        },
+        fields: [
+          {
+            name: "first",
+            label: "First Sentence",
+            type: "string",
+          },
+          {
+            name: "second",
+            label: "Second Sentence",
+            type: "string",
+          },
+          {
+            name: "third",
+            label: "Third Sentence",
+            type: "string",
+          },
+        ],
+      },
       {
         format: "yaml",
         label: "Craft Bottle List",
@@ -124,8 +178,8 @@ export default defineConfig({
         path: "_data",
         ui: {
           allowedActions: {
-            create: true,
-            delete: true,
+            create: false,
+            delete: false,
           },
         },
         match: {
@@ -330,6 +384,82 @@ export default defineConfig({
           },
         ],
       },
+      {
+        format: "yaml",
+        label: "Gallery",
+        name: "gallery",
+        path: "_data",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "gallery-list",
+        },
+        fields: [
+          {
+            name: "image",
+            label: "Image",
+            type: "image",
+            list: true
+          }
+        ],
+      },
+      {
+        format: "yaml",
+        label: "Events",
+        name: "events",
+        path: "_data",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "event-list",
+        },
+        fields: [
+          {
+            type: "object",
+            list: true,
+            name: "events",
+            label: "Events",
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.name}`}
+              },
+              defaultItem: {
+                name: "Event"
+              }
+            },
+            fields: [
+              {
+                name: "name",
+                label: "Name",
+                type: "string"
+              },
+              {
+                name: "description",
+                label: "Description",
+                type: "string",
+              },
+              {
+                name: "cover",
+                label: "Cover",
+                type: "image",
+              },
+              {
+                name: "date",
+                label: "Date",
+                type: "datetime"
+              }
+            ]
+          },  
+        ],
+      }
     ],
   },
 });

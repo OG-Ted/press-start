@@ -1,0 +1,31 @@
+<div class="events-overlay list-overlay">
+  <div class="event-heading">
+    <h1>Events</h1>
+    <div class="event-overlay-close-x list-overlay-close">
+      <a href="javascript:void(0)" class="exit-btn" id="events-overlay-close-x">
+        <img src="assets/icon-close.svg" />
+      </a>
+    </div>
+  </div> 
+  <div class="event-grid">
+    <!-- todo: fallback image for game cover -->
+    {% for event in site.data.event-list.events %}
+    <div class="event-listing directions-menu">
+      <h2 class="event-title">{{event.name}}</h2>
+      <p class="event-date">{{event.date}}</p>
+        <p class="event-description">
+          {{event.description}}
+        </p>
+      <div class="event-cover">
+        <img src="{{site.baseurl}}{{event.cover}}"/>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+    <div class="events-overlay-close list-overlay-close">
+    <a href="javascript:void(0)" class="btn btn-white" id="events-overlay-close">
+      Go back
+    </a>
+  </div>
+</div>
