@@ -11,9 +11,9 @@ export default defineConfig({
   branch,
 
   // Get this from tina.io
-  clientId: 'dc53b486-4ce4-44e2-b01e-1109732a8fac',
+  clientId: '18d40a2c-9601-46d0-ab1b-7271f9b22c38',
   // Get this from tina.io
-  token: 'b2ed46a06df78b30319532e955f25fb730d1d3cb',
+  token: '8537525d198566a81d6223ba2d349971e7bfd8d8',
 
   client: { skip: true },
   build: {
