@@ -1,10 +1,4 @@
 games:
-  - name: Batman 666 Pinball
-    company: Stern Pinball
-    cover: /assets/uploads/Batman-Pinball.jpg
-  - name: Dialed In Pinball
-    company: Jersey Jack Pinball
-    cover: /assets/uploads/c72f1fabeb0bc2138fa936a6c95638aaaacf5b2a.jpg
   - name: Guardians of the Galaxy Pinball
     company: Stern Pinball
     cover: /assets/uploads/Guardians Pinball.jpg
@@ -23,9 +17,6 @@ games:
   - name: Superman Pinball
     company: Atari
     cover: /assets/uploads/9d764528fcc18ac1e737449576b424d55b8303fb.jpg
-  - name: TMNT Premium Pinball
-    company: Stern
-    cover: /assets/uploads/stern-pinball-inc-tmnt-pinball-title.png
   - name: Twilight Zone Pinball
     company: Bally Pinball
     cover: /assets/uploads/twlight-zone.jpg
@@ -35,12 +26,6 @@ games:
   - name: Area 51
     company: Atari Games
     cover: /assets/uploads/Area 51.jpg
-  - name: Centipede
-    company: Atari
-    cover: /assets/uploads/Centipede.jpg
-  - name: C'mon Baby
-    company: ExPotato Co
-    cover: /assets/uploads/cmon-baby.png
   - name: Daytona
     company: Sega
     cover: /assets/uploads/6465DAYTONA_logo.jpg
@@ -53,45 +38,24 @@ games:
   - name: Donkey Kong Pauline Edition
     company: Nintendo
     cover: /assets/uploads/pauline.png
-  - name: 'Dungeons and Dragons: Tower of Doom'
-    company: Capcom
-    cover: /assets/uploads/towerofdoom.jpg
-  - name: Fast Draw Showdown
-    company: ALG
-    cover: /assets/uploads/fast-draw.jpg
   - name: Gauntlet Dark Legacy
     company: Atari Games
     cover: /assets/uploads/Gauntlet Dark Legacy.jpg
-  - name: ' Groove Coaster'
-    company: Taito
-    cover: /assets/uploads/groove-coaster-bg.jpg
   - name: Guitar Hero Arcade
     company: Raw Thrills / Konami / Activision
     cover: /assets/uploads/Ghheader.jpg
   - name: Ice Cold Beer
     company: Taito
     cover: /assets/uploads/ice-cold-beer.jpg
-  - name: Ikari Warriors
-    company: Tradewest
-    cover: /assets/uploads/ikari-warriors-watermark.jpg
   - name: Marvel vs Capcom 2
     company: Capcom
     cover: /assets/uploads/marvel_vs_capcom_2_arcade_game.jpg
-  - name: Metal Slug 3 / Samurai Showdown
-    company: Neo Geo
-    cover: /assets/uploads/neogeo.jpg
   - name: Mortal Kombat 2
     company: Midway Games
     cover: /assets/uploads/Mortal Kombat 2.jpg
   - name: Ms Pacman / Galaga Combo
     company: Namco
     cover: /assets/uploads/mspac-galaga.jpg
-  - name: NFL Blitz 2000 / NBA Showtime
-    company: Midway Games
-    cover: /assets/uploads/blitzshowtime_sideart.jpg
-  - name: Operation Wolf
-    company: Taito
-    cover: /assets/uploads/operationwolf.jpg
   - name: Rampage World Tour
     company: Midway Games
     cover: /assets/uploads/Rampage-world-tour.jpg
@@ -104,24 +68,9 @@ games:
   - name: Street Fighter II Champion Edition
     company: Capcom
     cover: /assets/uploads/SF2.jpg
-  - name: Super Sprint
-    company: Atari
-    cover: /assets/uploads/super-sprint-1.jpg
   - name: Teenage Mutant Ninja Turtles
     company: Konami
     cover: /assets/uploads/tmnt_1987_grande.jpg
-  - name: Terminator 2
-    company: Midway
-    cover: /assets/uploads/terminator2arcade.jpg
   - name: Tetris
     company: Atari Games
     cover: /assets/uploads/tetris-2.jpg
-  - name: Toobin
-    company: Atari
-    cover: /assets/uploads/2596971-0000.png
-  - name: 'The Walking Dead '
-    company: Raw Thrills
-    cover: /assets/uploads/Wlaking-Dead-Video.jpg
-  - name: X-Men
-    company: Konami
-    cover: /assets/uploads/Xmen.jpg
