@@ -1,1 +1,5 @@
-{}
+events:
+  - name: 24 Hour Pinball Tournament
+    description: More info at www.renopinball.com
+    cover: /assets/uploads/nightmare-flyer.png
+    date: 2024-11-02T07:00:00.000Z
