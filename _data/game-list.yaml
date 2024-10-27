@@ -32,9 +32,6 @@ games:
   - name: 'Defender / Joust / Splat / Bubbles / Stargate / Robotron: 2084'
     company: Williams
     cover: /assets/uploads/WILLIAMSMULTIFLYER.jpg
-  - name: ' Dig Dug'
-    company: Atari
-    cover: /assets/uploads/dig-dug.png
   - name: Donkey Kong Pauline Edition
     company: Nintendo
     cover: /assets/uploads/pauline.png
