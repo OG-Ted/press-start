@@ -1,6 +1,4 @@
 games:
-  - name: Afterburner
-    company: Sega
   - name: Guardians of the Galaxy Pinball
     company: Stern Pinball
     cover: /assets/uploads/Guardians Pinball.jpg
