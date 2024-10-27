@@ -1,13 +1,13 @@
 games:
+  - name: Deadpool Pinball
+    company: Stern
+    cover: /assets/uploads/deadpool.jpg
   - name: Guardians of the Galaxy Pinball
     company: Stern Pinball
     cover: /assets/uploads/Guardians Pinball.jpg
   - name: Medieval Madness Pinball
     company: Planetary Pinball
     cover: /assets/uploads/medevil-madness.jpg
-  - name: Mystic Pinball
-    company: Bally
-    cover: /assets/uploads/mystic.png
   - name: Star Wars Pinball
     company: Stern Pinball
     cover: /assets/uploads/Star-Wars-Pinball.jpg
