@@ -1,4 +1,7 @@
 games:
+  - name: Jurassic Park Premium
+    company: Stern
+    cover: /assets/uploads/Jurassic_Park_Premium_Pinball.png
   - name: Cyclone Pinball
     company: Williams
     cover: /assets/uploads/cyclone_pinball1.jpg
