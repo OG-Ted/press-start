@@ -1,4 +1,7 @@
 games:
+  - name: Cyclone
+    company: Williams
+    cover: /assets/uploads/cyclone_pinball1.jpg
   - name: Deadpool Pinball
     company: Stern
     cover: /assets/uploads/deadpool.jpg
