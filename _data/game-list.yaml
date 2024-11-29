@@ -1,4 +1,7 @@
 games:
+  - name: Venom Premium
+    company: Stern
+    cover: /assets/uploads/VenomPremium.png
   - name: Attack From Mars LE
     company: Chicago Gaming
     cover: /assets/uploads/Attack_from_Mars_LE_Chicago_Gaming.jpg
