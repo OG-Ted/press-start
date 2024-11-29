@@ -1,7 +1,4 @@
 games:
-  - name: 'X-Men '
-    company: Konami
-    cover: /assets/uploads/x-men-cabinet.jpg
   - name: Addams Family
     company: Bally
     cover: /assets/uploads/Addams Family.png
@@ -107,3 +104,6 @@ games:
   - name: Tetris
     company: Atari Games
     cover: /assets/uploads/tetris-2.jpg
+  - name: 'X-Men '
+    company: Konami
+    cover: /assets/uploads/x-men-cabinet.jpg
