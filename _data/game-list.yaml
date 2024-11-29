@@ -1,7 +1,4 @@
 games:
-  - name: Surf Champ
-    company: Gottlieb
-    cover: /assets/uploads/Surf Champ.png
   - name: Attack From Mars LE
     company: Chicago Gaming
     cover: /assets/uploads/Attack_from_Mars_LE_Chicago_Gaming.jpg
@@ -35,6 +32,9 @@ games:
   - name: Superman Pinball
     company: Atari
     cover: /assets/uploads/9d764528fcc18ac1e737449576b424d55b8303fb.jpg
+  - name: Surf Champ
+    company: Gottlieb
+    cover: /assets/uploads/Surf Champ.png
   - name: Twilight Zone Pinball
     company: Bally Pinball
     cover: /assets/uploads/twlight-zone.jpg
