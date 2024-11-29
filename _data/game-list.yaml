@@ -1,7 +1,7 @@
 games:
-  - name: 'Godzilla Premium '
-    company: Stern
-    cover: /assets/uploads/Godzillapremium1.png
+  - name: 'Highspeed '
+    company: Williams
+    cover: /assets/uploads/High Speed.png
   - name: Attack From Mars LE
     company: Chicago Gaming
     cover: /assets/uploads/Attack_from_Mars_LE_Chicago_Gaming.jpg
@@ -11,6 +11,9 @@ games:
   - name: Deadpool Pinball
     company: Stern
     cover: /assets/uploads/deadpool.jpg
+  - name: 'Godzilla Premium '
+    company: Stern
+    cover: /assets/uploads/Godzillapremium1.png
   - name: Guardians of the Galaxy Pinball
     company: Stern Pinball
     cover: /assets/uploads/Guardians Pinball.jpg
