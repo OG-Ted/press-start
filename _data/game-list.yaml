@@ -1,7 +1,4 @@
 games:
-  - name: Super Mario Bros
-    company: Nintendo
-    cover: /assets/uploads/SMB.jpg
   - name: Addams Family
     company: Bally
     cover: /assets/uploads/Addams Family.png
@@ -104,6 +101,9 @@ games:
   - name: Super Chexx
     company: ICE
     cover: /assets/uploads/super chexx.png
+  - name: Super Mario Bros
+    company: Nintendo
+    cover: /assets/uploads/SMB.jpg
   - name: Tapper
     company: Bally Midway
     cover: /assets/uploads/Tapper.jpg
