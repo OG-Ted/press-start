@@ -1,4 +1,7 @@
 games:
+  - name: Tron
+    company: Bally Midway
+    cover: /assets/uploads/tron.jpg
   - name: Addams Family
     company: Bally
     cover: /assets/uploads/Addams Family.png
