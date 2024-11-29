@@ -1,7 +1,4 @@
 games:
-  - name: Super Chexx
-    company: ICE
-    cover: /assets/uploads/super chexx.png
   - name: Addams Family
     company: Bally
     cover: /assets/uploads/Addams Family.png
@@ -101,6 +98,9 @@ games:
   - name: Street Fighter II Champion Edition
     company: Capcom
     cover: /assets/uploads/SF2.jpg
+  - name: Super Chexx
+    company: ICE
+    cover: /assets/uploads/super chexx.png
   - name: Tapper
     company: Bally Midway
     cover: /assets/uploads/Tapper.jpg
