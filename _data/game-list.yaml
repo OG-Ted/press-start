@@ -1,4 +1,7 @@
 games:
+  - name: Super Chexx
+    company: ICE
+    cover: /assets/uploads/super chexx.png
   - name: Addams Family
     company: Bally
     cover: /assets/uploads/Addams Family.png
