@@ -1,7 +1,4 @@
 games:
-  - name: '720'
-    company: Atari
-    cover: /assets/uploads/720-1.jpg
   - name: Addams Family
     company: Bally
     cover: /assets/uploads/Addams Family.png
@@ -53,6 +50,9 @@ games:
   - name: Venom Premium
     company: Stern
     cover: /assets/uploads/VenomPremium.png
+  - name: '720'
+    company: Atari
+    cover: /assets/uploads/720-1.jpg
   - name: '1943: The Battle of Midway'
     company: Capcom
     cover: /assets/uploads/375px-1943_arcadeside.jpg
