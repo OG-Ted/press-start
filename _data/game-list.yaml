@@ -1,4 +1,7 @@
 games:
+  - name: The Walking Dead Premium
+    company: Stern
+    cover: /assets/uploads/TWD.png
   - name: Attack From Mars LE
     company: Chicago Gaming
     cover: /assets/uploads/Attack_from_Mars_LE_Chicago_Gaming.jpg
