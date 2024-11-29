@@ -1,4 +1,7 @@
 games:
+  - name: Killer Queen
+    company: BumbleBear Games
+    cover: /assets/uploads/Killer Queen.jpg
   - name: Addams Family
     company: Bally
     cover: /assets/uploads/Addams Family.png
