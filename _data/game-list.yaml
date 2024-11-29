@@ -1,4 +1,7 @@
 games:
+  - name: Tapper
+    company: Bally Midway
+    cover: /assets/uploads/Tapper.jpg
   - name: Addams Family
     company: Bally
     cover: /assets/uploads/Addams Family.png
