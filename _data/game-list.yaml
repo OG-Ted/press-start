@@ -1,4 +1,7 @@
 games:
+  - name: 'X-Men '
+    company: Konami
+    cover: /assets/uploads/x-men-cabinet.jpg
   - name: Addams Family
     company: Bally
     cover: /assets/uploads/Addams Family.png
