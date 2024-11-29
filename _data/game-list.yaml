@@ -1,7 +1,4 @@
 games:
-  - name: Killer Queen
-    company: BumbleBear Games
-    cover: /assets/uploads/Killer Queen.jpg
   - name: Addams Family
     company: Bally
     cover: /assets/uploads/Addams Family.png
@@ -74,6 +71,9 @@ games:
   - name: Ice Cold Beer
     company: Taito
     cover: /assets/uploads/ice-cold-beer.jpg
+  - name: Killer Queen
+    company: BumbleBear Games
+    cover: /assets/uploads/Killer Queen.jpg
   - name: Marvel vs Capcom 2
     company: Capcom
     cover: /assets/uploads/marvel_vs_capcom_2_arcade_game.jpg
