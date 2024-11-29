@@ -1,7 +1,4 @@
 games:
-  - name: Tapper
-    company: Bally Midway
-    cover: /assets/uploads/Tapper.jpg
   - name: Addams Family
     company: Bally
     cover: /assets/uploads/Addams Family.png
@@ -98,6 +95,9 @@ games:
   - name: Street Fighter II Champion Edition
     company: Capcom
     cover: /assets/uploads/SF2.jpg
+  - name: Tapper
+    company: Bally Midway
+    cover: /assets/uploads/Tapper.jpg
   - name: Teenage Mutant Ninja Turtles
     company: Konami
     cover: /assets/uploads/tmnt_1987_grande.jpg
