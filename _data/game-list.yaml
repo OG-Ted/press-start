@@ -1,4 +1,7 @@
 games:
+  - name: '720'
+    company: Atari
+    cover: /assets/uploads/720-1.jpg
   - name: Addams Family
     company: Bally
     cover: /assets/uploads/Addams Family.png
