@@ -1,4 +1,7 @@
 games:
+  - name: Super Mario Bros
+    company: Nintendo
+    cover: /assets/uploads/SMB.jpg
   - name: Addams Family
     company: Bally
     cover: /assets/uploads/Addams Family.png
