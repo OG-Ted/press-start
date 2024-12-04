@@ -1,4 +1,6 @@
 events:
+  - name: 'Private Event: Dec 10, 2024 5PM to 9PM'
+    description: Yelp Button Bash
   - name: 'Private Event: Dec 4, 2024 6PM to 9PM'
     description: Closed to the public
     cover: /assets/uploads/Press Start Private Event.webp
