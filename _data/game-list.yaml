@@ -1,4 +1,7 @@
 games:
+  - name: Afterburner
+    company: Sega
+    cover: /assets/uploads/AB.jpg
   - name: The Big Lebowski Pinball
     company: Dutch Pinball
     cover: /assets/uploads/Big Lebowski.png
