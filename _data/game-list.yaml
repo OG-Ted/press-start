@@ -1,7 +1,4 @@
 games:
-  - name: Pac Man Battle Royale
-    company: Namco
-    cover: /assets/uploads/Pac-Man-Battle-Royale-Cabinet-web.webp
   - name: The Big Lebowski Pinball
     company: Dutch Pinball
     cover: /assets/uploads/Big Lebowski.png
@@ -92,6 +89,9 @@ games:
   - name: Ms Pacman / Galaga Combo
     company: Namco
     cover: /assets/uploads/mspac-galaga.jpg
+  - name: Pac Man Battle Royale
+    company: Namco
+    cover: /assets/uploads/Pac-Man-Battle-Royale-Cabinet-web.webp
   - name: Rampage World Tour
     company: Midway Games
     cover: /assets/uploads/Rampage-world-tour.jpg
