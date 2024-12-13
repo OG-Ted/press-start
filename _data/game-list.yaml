@@ -1,4 +1,7 @@
 games:
+  - name: Killer Queen
+    company: BumbleBear Games
+    cover: /assets/uploads/kq.jpg
   - name: The Big Lebowski Pinball
     company: Dutch Pinball
     cover: /assets/uploads/Big Lebowski.png
