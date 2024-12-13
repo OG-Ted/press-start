@@ -1,7 +1,4 @@
 games:
-  - name: Afterburner
-    company: Sega
-    cover: /assets/uploads/AB.jpg
   - name: The Big Lebowski Pinball
     company: Dutch Pinball
     cover: /assets/uploads/Big Lebowski.png
@@ -62,6 +59,9 @@ games:
   - name: '1943: The Battle of Midway'
     company: Capcom
     cover: /assets/uploads/375px-1943_arcadeside.jpg
+  - name: Afterburner
+    company: Sega
+    cover: /assets/uploads/AB.jpg
   - name: Area 51
     company: Atari Games
     cover: /assets/uploads/Area 51.jpg
