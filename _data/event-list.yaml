@@ -1,9 +1,5 @@
 events:
-  - name: 'Private Event: Dec 4, 2024 6PM to 9PM'
-    description: Closed to the public
-    cover: /assets/uploads/Press Start Private Event.webp
-  - name: 'Private Event: Dec 10, 2024 5PM to 9PM'
-    description: Yelp Button Bash
-    cover: /assets/uploads/Commence2023-PressStart-BestTimeWasted-6498.jpg
-  - name: 'Private Event: Dec 12, 2024 5PM to 9PM'
-    description: Private Holiday Party
+  - name: 'PInball Tournament '
+    description: '$5 Entry Sign up at 5:30 '
+    cover: /assets/uploads/IMG_5211.jpg
+    date: 2024-12-17T08:00:00.000Z
