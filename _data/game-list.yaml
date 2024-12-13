@@ -47,7 +47,7 @@ games:
   - name: Twilight Zone Pinball
     company: Bally Pinball
     cover: /assets/uploads/twlight-zone.jpg
-  - name: Venom Premium
+  - name: Venom Premium Pinball
     company: Stern
     cover: /assets/uploads/VenomPremium.png
   - name: '720'
