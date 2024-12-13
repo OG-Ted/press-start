@@ -1,4 +1,7 @@
 games:
+  - name: Pac Man Battle Royale
+    company: Namco
+    cover: /assets/uploads/Pac-Man-Battle-Royale-Cabinet-web.webp
   - name: The Big Lebowski Pinball
     company: Dutch Pinball
     cover: /assets/uploads/Big Lebowski.png
