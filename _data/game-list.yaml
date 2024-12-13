@@ -1,7 +1,4 @@
 games:
-  - name: Air FX Air Hockey Table
-    company: ICE
-    cover: /assets/uploads/air hockey.jpg
   - name: The Big Lebowski Pinball
     company: Dutch Pinball
     cover: /assets/uploads/Big Lebowski.png
@@ -65,6 +62,9 @@ games:
   - name: Afterburner
     company: Sega
     cover: /assets/uploads/AB.jpg
+  - name: Air FX Air Hockey Table
+    company: ICE
+    cover: /assets/uploads/air hockey.jpg
   - name: Area 51
     company: Atari Games
     cover: /assets/uploads/Area 51.jpg
