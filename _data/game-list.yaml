@@ -2,7 +2,7 @@ games:
   - name: Addams Family Pinball
     company: Bally
     cover: /assets/uploads/Addams Family.png
-  - name: Attack From Mars LE
+  - name: Attack From Mars LE Pinball
     company: Chicago Gaming
     cover: /assets/uploads/Attack_from_Mars_LE_Chicago_Gaming.jpg
   - name: Corvette
