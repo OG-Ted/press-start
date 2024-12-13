@@ -1,4 +1,7 @@
 games:
+  - name: Basketball
+    company: Smart
+    cover: /assets/uploads/basketball.jpg
   - name: The Big Lebowski Pinball
     company: Dutch Pinball
     cover: /assets/uploads/Big Lebowski.png
