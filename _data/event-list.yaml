@@ -1,5 +1,6 @@
 events:
-  - name: 'PInball Tournament '
-    description: '$5 Entry Sign up at 5:30 '
-    cover: /assets/uploads/IMG_5211.jpg
-    date: 2024-12-17T08:00:00.000Z
+  - name: NYE Bubbles
+    description: >-
+      Come have a glass of bubbly with us as we ring in the New Year with bleeps
+      and bloops!
+    date: 2024-12-31T08:00:00.000Z
