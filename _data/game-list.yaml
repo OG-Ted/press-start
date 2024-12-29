@@ -1,4 +1,7 @@
 games:
+  - name: John Wick Premium Pinball
+    company: Stern
+    cover: /assets/uploads/John WIck Premium.jpg
   - name: The Big Lebowski Pinball
     company: Dutch Pinball
     cover: /assets/uploads/Big Lebowski.png
@@ -50,9 +53,6 @@ games:
   - name: Twilight Zone Pinball
     company: Bally Pinball
     cover: /assets/uploads/twlight-zone.jpg
-  - name: Venom Premium Pinball
-    company: Stern
-    cover: /assets/uploads/VenomPremium.png
   - name: '720'
     company: Atari
     cover: /assets/uploads/720-1.jpg
