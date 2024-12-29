@@ -1,7 +1,4 @@
 games:
-  - name: John Wick Premium Pinball
-    company: Stern
-    cover: /assets/uploads/John WIck Premium.jpg
   - name: The Big Lebowski Pinball
     company: Dutch Pinball
     cover: /assets/uploads/Big Lebowski.png
@@ -29,6 +26,9 @@ games:
   - name: High Speed Pinball
     company: Williams
     cover: /assets/uploads/High Speed.png
+  - name: John Wick Premium Pinball
+    company: Stern
+    cover: /assets/uploads/John WIck Premium.jpg
   - name: Jurassic Park Premium Pinball
     company: Stern
     cover: /assets/uploads/JPPremium2.jpg
