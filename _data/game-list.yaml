@@ -35,15 +35,15 @@ games:
   - name: Medieval Madness Pinball
     company: Planetary Pinball
     cover: /assets/uploads/medevil-madness.jpg
-  - name: Star Wars Pinball
-    company: Stern Pinball
-    cover: /assets/uploads/Star-Wars-Pinball.jpg
   - name: Star Trek
     company: Stern
     cover: /assets/uploads/star trek premium.png
-  - name: Superman Pinball
-    company: Atari
-    cover: /assets/uploads/9d764528fcc18ac1e737449576b424d55b8303fb.jpg
+  - name: Star Wars Pinball
+    company: Stern Pinball
+    cover: /assets/uploads/Star-Wars-Pinball.jpg
+  - name: Black Hole
+    company: Gottlieb
+    cover: /assets/uploads/Black Hole.png
   - name: Surf Champ Pinball
     company: Gottlieb
     cover: /assets/uploads/Surf Champ.png
