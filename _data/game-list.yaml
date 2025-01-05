@@ -44,9 +44,9 @@ games:
   - name: Star Wars Pinball
     company: Stern Pinball
     cover: /assets/uploads/Star-Wars-Pinball.jpg
-  - name: Surf Champ Pinball
-    company: Gottlieb
-    cover: /assets/uploads/Surf Champ.png
+  - name: Eight Ball
+    company: Bally
+    cover: /assets/uploads/Eight Ball.png
   - name: The Walking Dead Premium Pinball
     company: Stern
     cover: /assets/uploads/TWD.png
