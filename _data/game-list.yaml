@@ -8,6 +8,9 @@ games:
   - name: Attack From Mars LE Pinball
     company: Chicago Gaming
     cover: /assets/uploads/Attack_from_Mars_LE_Chicago_Gaming.jpg
+  - name: Black Hole
+    company: Gottlieb
+    cover: /assets/uploads/Black Hole.png
   - name: Corvette Pinball
     company: Bally
     cover: /assets/uploads/Corvette.png
@@ -41,9 +44,6 @@ games:
   - name: Star Wars Pinball
     company: Stern Pinball
     cover: /assets/uploads/Star-Wars-Pinball.jpg
-  - name: Black Hole
-    company: Gottlieb
-    cover: /assets/uploads/Black Hole.png
   - name: Surf Champ Pinball
     company: Gottlieb
     cover: /assets/uploads/Surf Champ.png
