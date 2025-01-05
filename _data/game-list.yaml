@@ -20,6 +20,9 @@ games:
   - name: Deadpool Pinball
     company: Stern
     cover: /assets/uploads/deadpool.jpg
+  - name: Eight Ball
+    company: Bally
+    cover: /assets/uploads/Eight Ball.png
   - name: Godzilla Premium Pinball
     company: Stern
     cover: /assets/uploads/Godzillapremium1.png
@@ -44,9 +47,6 @@ games:
   - name: Star Wars Pinball
     company: Stern Pinball
     cover: /assets/uploads/Star-Wars-Pinball.jpg
-  - name: Eight Ball
-    company: Bally
-    cover: /assets/uploads/Eight Ball.png
   - name: The Walking Dead Premium Pinball
     company: Stern
     cover: /assets/uploads/TWD.png
