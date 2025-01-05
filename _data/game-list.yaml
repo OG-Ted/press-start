@@ -38,9 +38,9 @@ games:
   - name: Star Wars Pinball
     company: Stern Pinball
     cover: /assets/uploads/Star-Wars-Pinball.jpg
-  - name: Stranger Things Premium Pinball
+  - name: Star Trek
     company: Stern
-    cover: /assets/uploads/stranger-things-premium-flyer-front_232x300.jpg
+    cover: /assets/uploads/star trek premium.png
   - name: Superman Pinball
     company: Atari
     cover: /assets/uploads/9d764528fcc18ac1e737449576b424d55b8303fb.jpg
