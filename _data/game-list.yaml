@@ -1,7 +1,4 @@
 games:
-  - name: Cactus Canyon Remake LE
-    company: Chicago Gaming
-    cover: /assets/uploads/ccrle.png
   - name: Addams Family Pinball
     company: Bally
     cover: /assets/uploads/Addams Family.png
@@ -11,6 +8,9 @@ games:
   - name: Black Hole
     company: Gottlieb
     cover: /assets/uploads/Black Hole.png
+  - name: Cactus Canyon Remake LE
+    company: Chicago Gaming
+    cover: /assets/uploads/ccrle.png
   - name: Corvette Pinball
     company: Bally
     cover: /assets/uploads/Corvette.png
