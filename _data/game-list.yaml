@@ -23,9 +23,6 @@ games:
   - name: Godzilla Premium Pinball
     company: Stern
     cover: /assets/uploads/Godzillapremium1.png
-  - name: Guardians of the Galaxy Pinball
-    company: Stern Pinball
-    cover: /assets/uploads/Guardians Pinball.jpg
   - name: High Speed Pinball
     company: Williams
     cover: /assets/uploads/High Speed.png
@@ -44,9 +41,6 @@ games:
   - name: Star Wars Pinball
     company: Stern Pinball
     cover: /assets/uploads/Star-Wars-Pinball.jpg
-  - name: The Walking Dead Premium Pinball
-    company: Stern
-    cover: /assets/uploads/TWD.png
   - name: Twilight Zone Pinball
     company: Bally Pinball
     cover: /assets/uploads/twlight-zone.jpg
