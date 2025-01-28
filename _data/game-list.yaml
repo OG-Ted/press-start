@@ -1,7 +1,4 @@
 games:
-  - name: Pulp Fiction Pinball
-    company: Chicago Gaming
-    cover: /assets/uploads/pulp fiction.png
   - name: Addams Family Pinball
     company: Bally
     cover: /assets/uploads/Addams Family.png
@@ -41,6 +38,9 @@ games:
   - name: Medieval Madness Pinball
     company: Planetary Pinball
     cover: /assets/uploads/medevil-madness.jpg
+  - name: Pulp Fiction Pinball
+    company: Chicago Gaming
+    cover: /assets/uploads/pulp fiction.png
   - name: Star Trek
     company: Stern
     cover: /assets/uploads/star trek premium.png
