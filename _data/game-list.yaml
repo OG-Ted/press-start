@@ -1,4 +1,7 @@
 games:
+  - name: Pulp Fiction Pinball
+    company: Chicago Gaming
+    cover: /assets/uploads/pulp fiction.png
   - name: Addams Family Pinball
     company: Bally
     cover: /assets/uploads/Addams Family.png
