@@ -1,1 +1,4 @@
-{}
+events:
+  - name: Closed for Private Party 12pm-5pm
+    description: Press Start is hosting a private event on saturday 2/8 from 12pm-5pm
+    date: 2025-02-08T08:00:00.000Z
