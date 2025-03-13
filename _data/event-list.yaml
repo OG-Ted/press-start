@@ -1,4 +1,6 @@
 events:
-  - name: Closed for Private Party 12pm-5pm
-    description: Press Start is hosting a private event on saturday 2/8 from 12pm-5pm
-    date: 2025-02-08T08:00:00.000Z
+  - name: 'Saturday Pinball Tournament '
+    description: >-
+      IFPA PInball Tournament Registration at 1130am. $15 entry also buys entry
+      for chance to win a pinball machine!
+    date: 2025-03-15T07:00:00.000Z
