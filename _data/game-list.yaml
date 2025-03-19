@@ -20,9 +20,9 @@ games:
   - name: Deadpool Pinball
     company: Stern
     cover: /assets/uploads/deadpool.jpg
-  - name: Eight Ball
+  - name: Old Chicago
     company: Bally
-    cover: /assets/uploads/Eight Ball.png
+    cover: /assets/uploads/odchicago.png
   - name: Godzilla Premium Pinball
     company: Stern
     cover: /assets/uploads/Godzillapremium1.png
