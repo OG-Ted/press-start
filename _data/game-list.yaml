@@ -33,7 +33,7 @@ games:
     company: Stern
     cover: /assets/uploads/John WIck Premium.jpg
   - name: Dungeons and Dragons Premium Pinball
-    company: Stern
+    company: 'Stern '
     cover: ''
   - name: Medieval Madness Pinball
     company: Planetary Pinball
