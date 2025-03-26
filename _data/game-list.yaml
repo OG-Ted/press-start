@@ -32,9 +32,9 @@ games:
   - name: John Wick Premium Pinball
     company: Stern
     cover: /assets/uploads/John WIck Premium.jpg
-  - name: Jurassic Park Premium Pinball
+  - name: Dungeons and Dragons Premium Pinball
     company: Stern
-    cover: /assets/uploads/JPPremium2.jpg
+    cover: ''
   - name: Medieval Madness Pinball
     company: Planetary Pinball
     cover: /assets/uploads/medevil-madness.jpg
