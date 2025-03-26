@@ -20,9 +20,9 @@ games:
   - name: Deadpool Pinball
     company: Stern
     cover: /assets/uploads/deadpool.jpg
-  - name: Old Chicago
-    company: Bally
-    cover: /assets/uploads/odchicago.png
+  - name: Dungeons and Dragons Premium Pinball
+    company: 'Stern '
+    cover: ''
   - name: Godzilla Premium Pinball
     company: Stern
     cover: /assets/uploads/Godzillapremium1.png
@@ -32,18 +32,18 @@ games:
   - name: John Wick Premium Pinball
     company: Stern
     cover: /assets/uploads/John WIck Premium.jpg
-  - name: Dungeons and Dragons Premium Pinball
-    company: 'Stern '
-    cover: ''
   - name: Medieval Madness Pinball
     company: Planetary Pinball
     cover: /assets/uploads/medevil-madness.jpg
+  - name: Old Chicago
+    company: Bally
+    cover: /assets/uploads/odchicago.png
   - name: Pulp Fiction Pinball
     company: Chicago Gaming
     cover: /assets/uploads/pulp fiction.png
-  - name: Star Trek
+  - name: James Bond Premium
     company: Stern
-    cover: /assets/uploads/star trek premium.png
+    cover: /assets/uploads/bond.jfif
   - name: Star Wars Pinball
     company: Stern Pinball
     cover: /assets/uploads/Star-Wars-Pinball.jpg
