@@ -29,6 +29,9 @@ games:
   - name: High Speed Pinball
     company: Williams
     cover: /assets/uploads/High Speed.png
+  - name: James Bond Premium
+    company: Stern
+    cover: /assets/uploads/bond.jfif
   - name: John Wick Premium Pinball
     company: Stern
     cover: /assets/uploads/John WIck Premium.jpg
@@ -41,9 +44,6 @@ games:
   - name: Pulp Fiction Pinball
     company: Chicago Gaming
     cover: /assets/uploads/pulp fiction.png
-  - name: James Bond Premium
-    company: Stern
-    cover: /assets/uploads/bond.jfif
   - name: Star Wars Pinball
     company: Stern Pinball
     cover: /assets/uploads/Star-Wars-Pinball.jpg
