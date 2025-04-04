@@ -1,6 +1,7 @@
 events:
-  - name: Private Party
+  - name: 4/5/2025 Private Party
     description: >-
       Closed to the public for a private event from 12pm to 4pm on Saturday
       4/5/2025
     date: 2025-04-05T07:00:00.000Z
+  - name: Event
