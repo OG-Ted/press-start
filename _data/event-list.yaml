@@ -4,4 +4,6 @@ events:
       Closed to the public for a private event from 6pm to 10pm on Saturday
       4/9/2025
     date: 2025-04-09T07:00:00.000Z
-  - name: Event
+  - name: Private event 4/5/2025
+    description: Closed for private event 4/5/2025 from 12pm to 4pm
+    date: 2025-04-05T07:00:00.000Z
